@@ -1,0 +1,327 @@
+[
+  {
+    "name": "Credicor",
+    "price": 57,
+    "tags": []
+  },
+  {
+    "name": "Ecoline",
+    "price": 36,
+    "tags": [
+      "plant"
+    ]
+  },
+  {
+    "name": "Helion",
+    "price": 42,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Mining Guild",
+    "price": 30,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Interplanetary Cinematics",
+    "price": 30,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Inventrix",
+    "price": 45,
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "name": "Phobolog",
+    "price": 23,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Tharsis Republic",
+    "price": 40,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Thorgate",
+    "price": 48,
+    "tags": [
+      "power"
+    ]
+  },
+  {
+    "name": "United Nations Mars Initiative",
+    "price": 40,
+    "tags": [
+      "earth"
+    ]
+  },
+  {
+    "name": "Teractor",
+    "price": 60,
+    "tags": [
+      "earth"
+    ]
+  },
+  {
+    "name": "Saturn Systems",
+    "price": 42,
+    "tags": [
+      "jovian"
+    ]
+  },
+  {
+    "name": "Aphrodite",
+    "price": 47,
+    "tags": [
+      "plant",
+      "venus"
+    ]
+  },
+  {
+    "name": "1/3 CEL ES TIC",
+    "price": 42,
+    "tags": [
+      "venus"
+    ],
+    "vp": "1/3"
+  },
+  {
+    "name": "MA Nutech",
+    "price": 35,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Morning STAR INC",
+    "price": 50,
+    "tags": [
+      "venus"
+    ]
+  },
+  {
+    "name": "Viron",
+    "price": 48,
+    "tags": [
+      "microbe"
+    ]
+  },
+  {
+    "name": "㨐",
+    "price": 44,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Point LUNA",
+    "price": 38,
+    "tags": [
+      "space",
+      "earth"
+    ]
+  },
+  {
+    "name": "Robinson Industries",
+    "price": 47,
+    "tags": []
+  },
+  {
+    "name": "Valley Trust",
+    "price": 37,
+    "tags": [
+      "earth"
+    ]
+  },
+  {
+    "name": "VIT O R",
+    "price": 45,
+    "tags": [
+      "earth"
+    ],
+    "vp": "?"
+  },
+  {
+    "name": "Aridor Colony",
+    "price": 40,
+    "tags": []
+  },
+  {
+    "name": "Arklight",
+    "price": 45,
+    "tags": [
+      "animal"
+    ],
+    "vp": "1/2"
+  },
+  {
+    "name": "POL Yphemos",
+    "price": 50,
+    "tags": []
+  },
+  {
+    "name": "Poseidon",
+    "price": 45,
+    "tags": []
+  },
+  {
+    "name": "Storm Craft Incor Porated",
+    "price": 48,
+    "tags": [
+      "jovian"
+    ]
+  },
+  {
+    "name": "Lakefront Resorts",
+    "price": 54,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Pristar",
+    "price": 53,
+    "tags": [],
+    "vp": "1/"
+  },
+  {
+    "name": "Septem Tribus",
+    "price": 36,
+    "tags": [
+      "wild"
+    ]
+  },
+  {
+    "name": "Terralabs Research",
+    "price": 14,
+    "tags": [
+      "science",
+      "earth"
+    ]
+  },
+  {
+    "name": "Utopia Invest",
+    "price": 40,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Factorum",
+    "price": 37,
+    "tags": [
+      "building",
+      "power"
+    ]
+  },
+  {
+    "name": "Mons Insurance",
+    "price": 48,
+    "tags": []
+  },
+  {
+    "name": "PHIL A RES",
+    "price": 47,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Arcadian Communities",
+    "price": 40,
+    "tags": []
+  },
+  {
+    "name": "Recyclon",
+    "price": 38,
+    "tags": [
+      "building",
+      "microbe"
+    ]
+  },
+  {
+    "name": "SPLI C E Tactical Genomics",
+    "price": 44,
+    "tags": [
+      "microbe"
+    ]
+  },
+  {
+    "name": "Astrodrill",
+    "price": 35,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Pharmacy Union",
+    "price": 54,
+    "tags": [
+      "microbe"
+    ]
+  },
+  {
+    "name": "Eco Tec",
+    "price": 42,
+    "tags": [
+      "plant",
+      "microbe"
+    ]
+  },
+  {
+    "name": "Tycho",
+    "price": 42,
+    "tags": [
+      "science",
+      "power"
+    ]
+  },
+  {
+    "name": "Kuiper Cooperative",
+    "price": 33,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Spire",
+    "price": 50,
+    "tags": [
+      "earth",
+      "city"
+    ]
+  },
+  {
+    "name": "Sagitta",
+    "price": 31,
+    "tags": []
+  },
+  {
+    "name": "Palladin Shipping",
+    "price": 36,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Nirgal Enterprises",
+    "price": 30,
+    "tags": [
+      "building",
+      "power",
+      "plant"
+    ]
+  }
+]

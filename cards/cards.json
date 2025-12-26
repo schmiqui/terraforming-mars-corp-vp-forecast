@@ -1,0 +1,3020 @@
+[
+  {
+    "name": "Colonizer Training Camp",
+    "price": 8,
+    "tags": [
+      "building",
+      "jovian"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Asteroid Mining Consortium",
+    "price": 13,
+    "tags": [
+      "jovian"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Deep Well Heating",
+    "price": 13,
+    "tags": [
+      "building",
+      "power"
+    ]
+  },
+  {
+    "name": "Cloud Seeding",
+    "price": 11,
+    "tags": []
+  },
+  {
+    "name": "Search for Life",
+    "price": 3,
+    "tags": [
+      "science"
+    ],
+    "vp": "3/"
+  },
+  {
+    "name": "Inventors' Guild",
+    "price": 9,
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "name": "Martian Rails",
+    "price": 13,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Capital",
+    "price": 26,
+    "tags": [
+      "building",
+      "city"
+    ],
+    "vp": "1/"
+  },
+  {
+    "name": "Asteroid",
+    "price": 14,
+    "tags": [
+      "event",
+      "space"
+    ]
+  },
+  {
+    "name": "Comet",
+    "price": 21,
+    "tags": [
+      "event",
+      "space"
+    ]
+  },
+  {
+    "name": "Big Asteroid",
+    "price": 27,
+    "tags": [
+      "event",
+      "space"
+    ]
+  },
+  {
+    "name": "Water Import from Europa",
+    "price": 25,
+    "tags": [
+      "space",
+      "jovian"
+    ],
+    "vp": "1/"
+  },
+  {
+    "name": "Space Elevator",
+    "price": 27,
+    "tags": [
+      "space",
+      "building"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Development Center",
+    "price": 11,
+    "tags": [
+      "building",
+      "science"
+    ]
+  },
+  {
+    "name": "Equatorial Magnetizer",
+    "price": 11,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Domed Crater",
+    "price": 24,
+    "tags": [
+      "building",
+      "city"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Noctis City",
+    "price": 18,
+    "tags": [
+      "building",
+      "city"
+    ]
+  },
+  {
+    "name": "Methane from Titan",
+    "price": 28,
+    "tags": [
+      "space",
+      "jovian"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Imported Hydrogen",
+    "price": 16,
+    "tags": [
+      "event",
+      "space",
+      "earth"
+    ]
+  },
+  {
+    "name": "Research Outpost",
+    "price": 18,
+    "tags": [
+      "building",
+      "city",
+      "science"
+    ]
+  },
+  {
+    "name": "Phobos Space Haven",
+    "price": 25,
+    "tags": [
+      "space",
+      "city"
+    ],
+    "vp": 3
+  },
+  {
+    "name": "Black Polar Dust",
+    "price": 15,
+    "tags": []
+  },
+  {
+    "name": "Arctic Algae",
+    "price": 12,
+    "tags": [
+      "plant"
+    ]
+  },
+  {
+    "name": "Predators",
+    "price": 14,
+    "tags": [
+      "animal"
+    ],
+    "vp": "1/"
+  },
+  {
+    "name": "Space Station",
+    "price": 10,
+    "tags": [
+      "space"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Eos Chasma National Park",
+    "price": 16,
+    "tags": [
+      "building",
+      "plant"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Interstellar Colony Ship",
+    "price": 24,
+    "tags": [
+      "event",
+      "space",
+      "earth"
+    ],
+    "vp": 4
+  },
+  {
+    "name": "Security Fleet",
+    "price": 12,
+    "tags": [
+      "space"
+    ],
+    "vp": "1/"
+  },
+  {
+    "name": "Cupola City",
+    "price": 16,
+    "tags": [
+      "building",
+      "city"
+    ]
+  },
+  {
+    "name": "Lunar Beam",
+    "price": 13,
+    "tags": [
+      "power",
+      "earth"
+    ]
+  },
+  {
+    "name": "Optimal Aerobraking",
+    "price": 7,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Underground city",
+    "price": 18,
+    "tags": [
+      "building",
+      "city"
+    ]
+  },
+  {
+    "name": "Regolith Eaters",
+    "price": 13,
+    "tags": [
+      "microbe",
+      "science"
+    ]
+  },
+  {
+    "name": "GHG Producing Bacteria",
+    "price": 8,
+    "tags": [
+      "microbe",
+      "science"
+    ]
+  },
+  {
+    "name": "Ants",
+    "price": 9,
+    "tags": [
+      "microbe"
+    ],
+    "vp": "1/2"
+  },
+  {
+    "name": "Release of Inert Gases",
+    "price": 14,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Nitrogen-Rich Asteroid",
+    "price": 31,
+    "tags": [
+      "event",
+      "space"
+    ]
+  },
+  {
+    "name": "Rover Construction",
+    "price": 8,
+    "tags": [
+      "building"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Deimos Down",
+    "price": 31,
+    "tags": [
+      "event",
+      "space"
+    ]
+  },
+  {
+    "name": "Asteroid Mining",
+    "price": 30,
+    "tags": [
+      "space",
+      "jovian"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Food Factory",
+    "price": 12,
+    "tags": [
+      "building"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Archaebacteria",
+    "price": 6,
+    "tags": [
+      "microbe"
+    ]
+  },
+  {
+    "name": "Carbonate Processing",
+    "price": 6,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Natural Preserve",
+    "price": 9,
+    "tags": [
+      "building",
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Nuclear Power",
+    "price": 10,
+    "tags": [
+      "building",
+      "power"
+    ]
+  },
+  {
+    "name": "Lightning Harvest",
+    "price": 8,
+    "tags": [
+      "power"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Algae",
+    "price": 10,
+    "tags": [
+      "plant"
+    ]
+  },
+  {
+    "name": "Adapted Lichen",
+    "price": 9,
+    "tags": [
+      "plant"
+    ]
+  },
+  {
+    "name": "Tardigrades",
+    "price": 4,
+    "tags": [
+      "microbe"
+    ],
+    "vp": "1/4"
+  },
+  {
+    "name": "Virus",
+    "price": 1,
+    "tags": [
+      "event",
+      "microbe"
+    ]
+  },
+  {
+    "name": "Miranda Resort",
+    "price": 12,
+    "tags": [
+      "space",
+      "jovian"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Fish",
+    "price": 9,
+    "tags": [
+      "animal"
+    ],
+    "vp": "1/"
+  },
+  {
+    "name": "Lake Marineris",
+    "price": 18,
+    "tags": [],
+    "vp": 2
+  },
+  {
+    "name": "Small Animals",
+    "price": 6,
+    "tags": [
+      "animal"
+    ],
+    "vp": "1/2"
+  },
+  {
+    "name": "Kelp Farming",
+    "price": 17,
+    "tags": [
+      "plant"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Mine",
+    "price": 4,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Vesta Shipyard",
+    "price": 15,
+    "tags": [
+      "space",
+      "jovian"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Beam from a Thorium Asteroid",
+    "price": 32,
+    "tags": [
+      "power",
+      "space",
+      "jovian"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Mangrove",
+    "price": 12,
+    "tags": [
+      "plant"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Trees",
+    "price": 13,
+    "tags": [
+      "plant"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Great Escarpment Consortium",
+    "price": 6,
+    "tags": []
+  },
+  {
+    "name": "Mineral Deposit",
+    "price": 5,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Mining Expedition",
+    "price": 12,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Mining Area",
+    "price": 4,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Building Industries",
+    "price": 6,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Land Claim",
+    "price": 1,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Mining Rights",
+    "price": 9,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Sponsors",
+    "price": 6,
+    "tags": [
+      "earth"
+    ]
+  },
+  {
+    "name": "Electro Catapult",
+    "price": 17,
+    "tags": [
+      "building"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Earth Catapult",
+    "price": 23,
+    "tags": [
+      "earth"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Advanced Alloys",
+    "price": 9,
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "name": "Birds",
+    "price": 10,
+    "tags": [
+      "animal"
+    ],
+    "vp": "1/"
+  },
+  {
+    "name": "Mars University",
+    "price": 8,
+    "tags": [
+      "building",
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Viral Enhancers",
+    "price": 9,
+    "tags": [
+      "microbe",
+      "science"
+    ]
+  },
+  {
+    "name": "Towing a Comet",
+    "price": 23,
+    "tags": [
+      "event",
+      "space"
+    ]
+  },
+  {
+    "name": "Space Mirrors",
+    "price": 3,
+    "tags": [
+      "space",
+      "power"
+    ]
+  },
+  {
+    "name": "Solar Wind Power",
+    "price": 11,
+    "tags": [
+      "power",
+      "space",
+      "science"
+    ]
+  },
+  {
+    "name": "Ice Asteroid",
+    "price": 23,
+    "tags": [
+      "event",
+      "space"
+    ]
+  },
+  {
+    "name": "Quantum Extractor",
+    "price": 13,
+    "tags": [
+      "power",
+      "science"
+    ]
+  },
+  {
+    "name": "Giant Ice Asteroid",
+    "price": 36,
+    "tags": [
+      "event",
+      "space"
+    ]
+  },
+  {
+    "name": "Ganymede Colony",
+    "price": 20,
+    "tags": [
+      "city",
+      "space",
+      "jovian"
+    ],
+    "vp": "1/"
+  },
+  {
+    "name": "Callisto Penal Mines",
+    "price": 24,
+    "tags": [
+      "space",
+      "jovian"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Giant Space Mirror",
+    "price": 17,
+    "tags": [
+      "space",
+      "power"
+    ]
+  },
+  {
+    "name": "Trans-Neptune Probe",
+    "price": 6,
+    "tags": [
+      "space",
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Commercial District",
+    "price": 16,
+    "tags": [
+      "building"
+    ],
+    "vp": "1/"
+  },
+  {
+    "name": "Robotic Workforce",
+    "price": 9,
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "name": "Grass",
+    "price": 11,
+    "tags": [
+      "plant"
+    ]
+  },
+  {
+    "name": "Heather",
+    "price": 6,
+    "tags": [
+      "plant"
+    ]
+  },
+  {
+    "name": "Peroxide Power",
+    "price": 7,
+    "tags": [
+      "building",
+      "power"
+    ]
+  },
+  {
+    "name": "Research",
+    "price": 11,
+    "tags": [
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Gene Repair",
+    "price": 12,
+    "tags": [
+      "science"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Io Mining Industries",
+    "price": 41,
+    "tags": [
+      "space",
+      "jovian"
+    ],
+    "vp": "1/"
+  },
+  {
+    "name": "Bushes",
+    "price": 10,
+    "tags": [
+      "plant"
+    ]
+  },
+  {
+    "name": "Mass Converter",
+    "price": 8,
+    "tags": [
+      "power",
+      "science"
+    ]
+  },
+  {
+    "name": "Physics Complex",
+    "price": 12,
+    "tags": [
+      "building",
+      "science"
+    ],
+    "vp": "2/"
+  },
+  {
+    "name": "Greenhouses",
+    "price": 6,
+    "tags": [
+      "building",
+      "plant"
+    ]
+  },
+  {
+    "name": "Nuclear Zone",
+    "price": 10,
+    "tags": [
+      "earth"
+    ],
+    "vp": -2
+  },
+  {
+    "name": "Tropical Resort",
+    "price": 13,
+    "tags": [
+      "building"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Toll Station",
+    "price": 12,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Fueled Generators",
+    "price": 1,
+    "tags": [
+      "building",
+      "power"
+    ]
+  },
+  {
+    "name": "Ironworks",
+    "price": 11,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Power Grid",
+    "price": 18,
+    "tags": [
+      "power"
+    ]
+  },
+  {
+    "name": "Steelworks",
+    "price": 15,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Ore Processor",
+    "price": 13,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Earth Office",
+    "price": 1,
+    "tags": [
+      "earth"
+    ]
+  },
+  {
+    "name": "Acquired Company",
+    "price": 10,
+    "tags": [
+      "earth"
+    ]
+  },
+  {
+    "name": "Media Archives",
+    "price": 8,
+    "tags": [
+      "earth"
+    ]
+  },
+  {
+    "name": "Open City",
+    "price": 23,
+    "tags": [
+      "building",
+      "city"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Media Group",
+    "price": 6,
+    "tags": [
+      "earth"
+    ]
+  },
+  {
+    "name": "Business Network",
+    "price": 4,
+    "tags": [
+      "earth"
+    ]
+  },
+  {
+    "name": "Business Contacts",
+    "price": 7,
+    "tags": [
+      "event",
+      "earth"
+    ]
+  },
+  {
+    "name": "Bribed Committee",
+    "price": 7,
+    "tags": [
+      "event",
+      "earth"
+    ],
+    "vp": -2
+  },
+  {
+    "name": "Solar Power",
+    "price": 11,
+    "tags": [
+      "building",
+      "power"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Breathing Filters",
+    "price": 11,
+    "tags": [
+      "science"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Artificial Photosynthesis",
+    "price": 12,
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "name": "Artificial Lake",
+    "price": 15,
+    "tags": [
+      "building"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Geothermal Power",
+    "price": 11,
+    "tags": [
+      "building",
+      "power"
+    ]
+  },
+  {
+    "name": "Farming",
+    "price": 16,
+    "tags": [
+      "plant"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Dust Seals",
+    "price": 2,
+    "tags": [],
+    "vp": 1
+  },
+  {
+    "name": "Urbanized Area",
+    "price": 10,
+    "tags": [
+      "building",
+      "city"
+    ]
+  },
+  {
+    "name": "Sabotage",
+    "price": 1,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Moss",
+    "price": 4,
+    "tags": [
+      "plant"
+    ]
+  },
+  {
+    "name": "Industrial Center",
+    "price": 4,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Hired Raiders",
+    "price": 1,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Hackers",
+    "price": 3,
+    "tags": [],
+    "vp": -1
+  },
+  {
+    "name": "GHG Factories",
+    "price": 11,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Subterranean Reservoir",
+    "price": 11,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Ecological Zone",
+    "price": 12,
+    "tags": [
+      "plant",
+      "animal"
+    ],
+    "vp": "1/2"
+  },
+  {
+    "name": "Zeppelins",
+    "price": 13,
+    "tags": [],
+    "vp": 1
+  },
+  {
+    "name": "Worms",
+    "price": 8,
+    "tags": [
+      "microbe"
+    ]
+  },
+  {
+    "name": "Decomposers",
+    "price": 5,
+    "tags": [
+      "microbe"
+    ],
+    "vp": "1/3"
+  },
+  {
+    "name": "Fusion Power",
+    "price": 14,
+    "tags": [
+      "building",
+      "power",
+      "science"
+    ]
+  },
+  {
+    "name": "Symbiotic Fungus",
+    "price": 4,
+    "tags": [
+      "microbe"
+    ]
+  },
+  {
+    "name": "Extreme-Cold Fungus",
+    "price": 13,
+    "tags": [
+      "microbe"
+    ]
+  },
+  {
+    "name": "Advanced Ecosystems",
+    "price": 11,
+    "tags": [
+      "animal",
+      "microbe",
+      "plant"
+    ],
+    "vp": 3
+  },
+  {
+    "name": "Great Dam",
+    "price": 12,
+    "tags": [
+      "building",
+      "power"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Cartel",
+    "price": 8,
+    "tags": [
+      "earth"
+    ]
+  },
+  {
+    "name": "Strip Mine",
+    "price": 25,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Wave Power",
+    "price": 8,
+    "tags": [
+      "power"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Lava Flows",
+    "price": 18,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Power Plant",
+    "price": 4,
+    "tags": [
+      "building",
+      "power"
+    ]
+  },
+  {
+    "name": "Mohole Area",
+    "price": 20,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Large Convoy",
+    "price": 36,
+    "tags": [
+      "event",
+      "space",
+      "earth"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Titanium Mine",
+    "price": 7,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Tectonic Stress Power",
+    "price": 18,
+    "tags": [
+      "building",
+      "power"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Nitrophilic Moss",
+    "price": 8,
+    "tags": [
+      "plant"
+    ]
+  },
+  {
+    "name": "Herbivores",
+    "price": 12,
+    "tags": [
+      "animal"
+    ],
+    "vp": "1/2"
+  },
+  {
+    "name": "Insects",
+    "price": 9,
+    "tags": [
+      "microbe"
+    ]
+  },
+  {
+    "name": "CEO's Favorite Project",
+    "price": 1,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Anti-gravity Technology",
+    "price": 14,
+    "tags": [
+      "science"
+    ],
+    "vp": 3
+  },
+  {
+    "name": "Investment Loan",
+    "price": 3,
+    "tags": [
+      "event",
+      "earth"
+    ]
+  },
+  {
+    "name": "Insulation",
+    "price": 2,
+    "tags": []
+  },
+  {
+    "name": "Adaptation Technology",
+    "price": 12,
+    "tags": [
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Caretaker Contract",
+    "price": 3,
+    "tags": []
+  },
+  {
+    "name": "Designed Microorganisms",
+    "price": 16,
+    "tags": [
+      "microbe",
+      "science"
+    ]
+  },
+  {
+    "name": "Standard Technology",
+    "price": 6,
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "name": "Nitrite Reducing Bacteria",
+    "price": 11,
+    "tags": [
+      "microbe"
+    ]
+  },
+  {
+    "name": "Industrial Microbes",
+    "price": 12,
+    "tags": [
+      "building",
+      "microbe"
+    ]
+  },
+  {
+    "name": "Lichen",
+    "price": 7,
+    "tags": [
+      "plant"
+    ]
+  },
+  {
+    "name": "Power Supply Consortium",
+    "price": 5,
+    "tags": [
+      "power"
+    ]
+  },
+  {
+    "name": "Convoy From Europa",
+    "price": 15,
+    "tags": [
+      "event",
+      "space"
+    ]
+  },
+  {
+    "name": "Imported GHG",
+    "price": 7,
+    "tags": [
+      "event",
+      "space",
+      "earth"
+    ]
+  },
+  {
+    "name": "Imported Nitrogen",
+    "price": 23,
+    "tags": [
+      "event",
+      "space",
+      "earth"
+    ]
+  },
+  {
+    "name": "Micro-Mills",
+    "price": 3,
+    "tags": []
+  },
+  {
+    "name": "Magnetic Field Generators",
+    "price": 20,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Shuttles",
+    "price": 10,
+    "tags": [
+      "space"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Import of Advanced GHG",
+    "price": 9,
+    "tags": [
+      "event",
+      "space",
+      "earth"
+    ]
+  },
+  {
+    "name": "Windmills",
+    "price": 6,
+    "tags": [
+      "building",
+      "power"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Tundra Farming",
+    "price": 16,
+    "tags": [
+      "plant"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Aerobraked Ammonia Asteroid",
+    "price": 26,
+    "tags": [
+      "event",
+      "space"
+    ]
+  },
+  {
+    "name": "Magnetic Field Dome",
+    "price": 5,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Pets",
+    "price": 10,
+    "tags": [
+      "animal",
+      "earth"
+    ],
+    "vp": "1/2"
+  },
+  {
+    "name": "Protected Habitats",
+    "price": 5,
+    "tags": []
+  },
+  {
+    "name": "Protected Valley",
+    "price": 23,
+    "tags": [
+      "building",
+      "plant"
+    ]
+  },
+  {
+    "name": "Satellites",
+    "price": 10,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Noctis Farming",
+    "price": 10,
+    "tags": [
+      "plant",
+      "building"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Water Splitting Plant",
+    "price": 12,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Heat Trappers",
+    "price": 6,
+    "tags": [
+      "building",
+      "power"
+    ],
+    "vp": -1
+  },
+  {
+    "name": "Soil Factory",
+    "price": 9,
+    "tags": [
+      "building"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Fuel Factory",
+    "price": 6,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Ice Cap Melting",
+    "price": 5,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Corporate Stronghold",
+    "price": 11,
+    "tags": [
+      "building",
+      "city"
+    ],
+    "vp": -2
+  },
+  {
+    "name": "Biomass Combustors",
+    "price": 4,
+    "tags": [
+      "building",
+      "power"
+    ],
+    "vp": -1
+  },
+  {
+    "name": "Livestock",
+    "price": 13,
+    "tags": [
+      "animal"
+    ],
+    "vp": "1/"
+  },
+  {
+    "name": "Olympus Conference",
+    "price": 10,
+    "tags": [
+      "building",
+      "earth",
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Rad-Suits",
+    "price": 6,
+    "tags": [],
+    "vp": 1
+  },
+  {
+    "name": "Aquifer Pumping",
+    "price": 18,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Flooding",
+    "price": 7,
+    "tags": [
+      "event"
+    ],
+    "vp": -1
+  },
+  {
+    "name": "Energy Saving",
+    "price": 15,
+    "tags": [
+      "power"
+    ]
+  },
+  {
+    "name": "Local Heat Trapping",
+    "price": 1,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Permafrost Extraction",
+    "price": 8,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Invention Contest",
+    "price": 2,
+    "tags": [
+      "event",
+      "science"
+    ]
+  },
+  {
+    "name": "Plantation",
+    "price": 15,
+    "tags": [
+      "plant"
+    ]
+  },
+  {
+    "name": "Power Infrastructure",
+    "price": 4,
+    "tags": [
+      "building",
+      "power"
+    ]
+  },
+  {
+    "name": "Indentured Workers",
+    "price": 0,
+    "tags": [
+      "event"
+    ],
+    "vp": -1
+  },
+  {
+    "name": "Lagrange Observatory",
+    "price": 9,
+    "tags": [
+      "space",
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Terraforming Ganymede",
+    "price": 33,
+    "tags": [
+      "space",
+      "jovian"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Immigration Shuttles",
+    "price": 31,
+    "tags": [
+      "space",
+      "earth"
+    ],
+    "vp": "1/3"
+  },
+  {
+    "name": "Restricted Area",
+    "price": 11,
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "name": "Immigrant City",
+    "price": 13,
+    "tags": [
+      "building",
+      "city"
+    ]
+  },
+  {
+    "name": "Energy Tapping",
+    "price": 3,
+    "tags": [
+      "power"
+    ],
+    "vp": -1
+  },
+  {
+    "name": "Underground Detonations",
+    "price": 6,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Soletta",
+    "price": 35,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Technology Demonstration",
+    "price": 5,
+    "tags": [
+      "event",
+      "space",
+      "science"
+    ]
+  },
+  {
+    "name": "Rad-Chem Factory",
+    "price": 8,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Special Design",
+    "price": 4,
+    "tags": [
+      "event",
+      "science"
+    ]
+  },
+  {
+    "name": "Medical Lab",
+    "price": 13,
+    "tags": [
+      "building",
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "AI Central",
+    "price": 21,
+    "tags": [
+      "building",
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Small Asteroid",
+    "price": 10,
+    "tags": [
+      "event",
+      "space"
+    ]
+  },
+  {
+    "name": "Self-replicating robots",
+    "price": 7,
+    "tags": []
+  },
+  {
+    "name": "Snow Algae",
+    "price": 12,
+    "tags": [
+      "plant"
+    ]
+  },
+  {
+    "name": "Penguins",
+    "price": 7,
+    "tags": [
+      "animal"
+    ],
+    "vp": "1/"
+  },
+  {
+    "name": "Aerial Mappers",
+    "price": 11,
+    "tags": [
+      "venus"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Aerosport Tournament",
+    "price": 7,
+    "tags": [
+      "event"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Air-Scrapping Expedition",
+    "price": 13,
+    "tags": [
+      "event",
+      "venus"
+    ]
+  },
+  {
+    "name": "Atalanta Planitia Lab",
+    "price": 10,
+    "tags": [
+      "science",
+      "venus"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Atmoscoop",
+    "price": 22,
+    "tags": [
+      "space",
+      "jovian"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Comet for Venus",
+    "price": 11,
+    "tags": [
+      "event",
+      "space"
+    ]
+  },
+  {
+    "name": "Corroder Suits",
+    "price": 8,
+    "tags": [
+      "venus"
+    ]
+  },
+  {
+    "name": "Dawn City",
+    "price": 15,
+    "tags": [
+      "city",
+      "space"
+    ],
+    "vp": 3
+  },
+  {
+    "name": "Deuterium Export",
+    "price": 11,
+    "tags": [
+      "space",
+      "power",
+      "venus"
+    ]
+  },
+  {
+    "name": "Dirigibles",
+    "price": 11,
+    "tags": [
+      "venus"
+    ]
+  },
+  {
+    "name": "Extractor Balloons",
+    "price": 21,
+    "tags": [
+      "venus"
+    ]
+  },
+  {
+    "name": "Extremophiles",
+    "price": 3,
+    "tags": [
+      "microbe",
+      "venus"
+    ],
+    "vp": "1/3"
+  },
+  {
+    "name": "Floating Habs",
+    "price": 5,
+    "tags": [
+      "venus"
+    ],
+    "vp": "1/2"
+  },
+  {
+    "name": "Forced Precipitation",
+    "price": 8,
+    "tags": [
+      "venus"
+    ]
+  },
+  {
+    "name": "Freyja Biodomes",
+    "price": 14,
+    "tags": [
+      "plant",
+      "venus"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "GHG Import From Venus",
+    "price": 23,
+    "tags": [
+      "event",
+      "space",
+      "venus"
+    ]
+  },
+  {
+    "name": "Giant Solar Shade",
+    "price": 27,
+    "tags": [
+      "space",
+      "venus"
+    ]
+  },
+  {
+    "name": "Gyropolis",
+    "price": 20,
+    "tags": [
+      "building",
+      "city"
+    ]
+  },
+  {
+    "name": "Hydrogen to Venus",
+    "price": 11,
+    "tags": [
+      "event",
+      "space"
+    ]
+  },
+  {
+    "name": "IO Sulphur Research",
+    "price": 17,
+    "tags": [
+      "jovian",
+      "science"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Ishtar Mining",
+    "price": 5,
+    "tags": [
+      "venus"
+    ]
+  },
+  {
+    "name": "Jet Stream Microscrappers",
+    "price": 12,
+    "tags": [
+      "venus"
+    ]
+  },
+  {
+    "name": "Local Shading",
+    "price": 4,
+    "tags": [
+      "venus"
+    ]
+  },
+  {
+    "name": "Luna Metropolis",
+    "price": 21,
+    "tags": [
+      "city",
+      "earth",
+      "space"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Luxury Foods",
+    "price": 8,
+    "tags": [],
+    "vp": 2
+  },
+  {
+    "name": "Maxwell Base",
+    "price": 18,
+    "tags": [
+      "city",
+      "venus"
+    ],
+    "vp": 3
+  },
+  {
+    "name": "Mining Quota",
+    "price": 5,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Neutralizer Factory",
+    "price": 7,
+    "tags": [
+      "venus"
+    ]
+  },
+  {
+    "name": "Omnicourt",
+    "price": 11,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Orbital Reflectors",
+    "price": 26,
+    "tags": [
+      "space",
+      "venus"
+    ]
+  },
+  {
+    "name": "Rotator Impacts",
+    "price": 6,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Sister Planet Support",
+    "price": 7,
+    "tags": [
+      "earth",
+      "venus"
+    ]
+  },
+  {
+    "name": "Solarnet",
+    "price": 7,
+    "tags": [],
+    "vp": 1
+  },
+  {
+    "name": "Spin-Inducing Asteroid",
+    "price": 16,
+    "tags": [
+      "event",
+      "space"
+    ]
+  },
+  {
+    "name": "Sponsored Academies",
+    "price": 9,
+    "tags": [
+      "earth",
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Stratopolis",
+    "price": 22,
+    "tags": [
+      "city",
+      "venus"
+    ],
+    "vp": "1/3"
+  },
+  {
+    "name": "Stratospheric Birds",
+    "price": 12,
+    "tags": [
+      "animal",
+      "venus"
+    ],
+    "vp": "1/"
+  },
+  {
+    "name": "Sulphur Exports",
+    "price": 21,
+    "tags": [
+      "space",
+      "venus"
+    ]
+  },
+  {
+    "name": "Sulphur-eating Bacteria",
+    "price": 6,
+    "tags": [
+      "microbe",
+      "venus"
+    ]
+  },
+  {
+    "name": "Terraforming Contract",
+    "price": 8,
+    "tags": [
+      "earth"
+    ]
+  },
+  {
+    "name": "Thermophiles",
+    "price": 9,
+    "tags": [
+      "microbe",
+      "venus"
+    ]
+  },
+  {
+    "name": "Water to Venus",
+    "price": 9,
+    "tags": [
+      "event",
+      "space"
+    ]
+  },
+  {
+    "name": "Venus Governor",
+    "price": 4,
+    "tags": [
+      "venus"
+    ]
+  },
+  {
+    "name": "Venus Magnetizer",
+    "price": 7,
+    "tags": [
+      "venus"
+    ]
+  },
+  {
+    "name": "Venus Soils",
+    "price": 20,
+    "tags": [
+      "plant",
+      "venus"
+    ]
+  },
+  {
+    "name": "Venus Waystation",
+    "price": 9,
+    "tags": [
+      "space",
+      "venus"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Venusian Animals",
+    "price": 15,
+    "tags": [
+      "animal",
+      "science",
+      "venus"
+    ],
+    "vp": "1/"
+  },
+  {
+    "name": "Venusian Insects",
+    "price": 5,
+    "tags": [
+      "microbe",
+      "venus"
+    ],
+    "vp": "1/2"
+  },
+  {
+    "name": "Venusian Plants",
+    "price": 13,
+    "tags": [
+      "plant",
+      "venus"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "House Printing",
+    "price": 10,
+    "tags": [
+      "building"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Lava Tube Settlement",
+    "price": 15,
+    "tags": [
+      "building",
+      "city"
+    ]
+  },
+  {
+    "name": "Martian Survey",
+    "price": 9,
+    "tags": [
+      "event",
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "PSYCHROPHILES",
+    "price": 2,
+    "tags": [
+      "microbe"
+    ]
+  },
+  {
+    "name": "RESEARCH COORDINATION",
+    "price": 4,
+    "tags": [
+      "wild"
+    ]
+  },
+  {
+    "name": "SF MEMORIAL",
+    "price": 7,
+    "tags": [
+      "building"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Space Hotels",
+    "price": 12,
+    "tags": [
+      "space",
+      "earth"
+    ]
+  },
+  {
+    "name": "Airliners",
+    "price": 11,
+    "tags": [],
+    "vp": 1
+  },
+  {
+    "name": "Air Raid",
+    "price": 0,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Atmo Collectors",
+    "price": 15,
+    "tags": []
+  },
+  {
+    "name": "Community Services",
+    "price": 13,
+    "tags": [],
+    "vp": 1
+  },
+  {
+    "name": "Conscription",
+    "price": 5,
+    "tags": [
+      "event",
+      "earth"
+    ],
+    "vp": -1
+  },
+  {
+    "name": "Corona Extractor",
+    "price": 10,
+    "tags": [
+      "space",
+      "power"
+    ]
+  },
+  {
+    "name": "Cryo Sleep",
+    "price": 10,
+    "tags": [
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Earth Elevator",
+    "price": 43,
+    "tags": [
+      "space",
+      "earth"
+    ],
+    "vp": 4
+  },
+  {
+    "name": "Ecology Research",
+    "price": 21,
+    "tags": [
+      "plant",
+      "microbe",
+      "animal",
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Floater Leasing",
+    "price": 3,
+    "tags": []
+  },
+  {
+    "name": "Floater Prototypes",
+    "price": 2,
+    "tags": [
+      "event",
+      "science"
+    ]
+  },
+  {
+    "name": "Floater Technology",
+    "price": 7,
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "name": "Galilean Waystation",
+    "price": 15,
+    "tags": [
+      "space"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Heavy Taxation",
+    "price": 3,
+    "tags": [
+      "earth"
+    ],
+    "vp": -1
+  },
+  {
+    "name": "Ice Moon Colony",
+    "price": 23,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Impactor Swarm",
+    "price": 11,
+    "tags": [
+      "event",
+      "space"
+    ]
+  },
+  {
+    "name": "Interplanetary Colony Ship",
+    "price": 12,
+    "tags": [
+      "event",
+      "space",
+      "earth"
+    ]
+  },
+  {
+    "name": "Jovian Lanterns",
+    "price": 20,
+    "tags": [
+      "jovian"
+    ],
+    "vp": "1/2"
+  },
+  {
+    "name": "Jupiter Floating Station",
+    "price": 9,
+    "tags": [
+      "jovian"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Luna Governor",
+    "price": 4,
+    "tags": [
+      "earth"
+    ]
+  },
+  {
+    "name": "Lunar Exports",
+    "price": 19,
+    "tags": [
+      "earth",
+      "space"
+    ]
+  },
+  {
+    "name": "Lunar Mining",
+    "price": 11,
+    "tags": [
+      "earth"
+    ]
+  },
+  {
+    "name": "Market Manipulation",
+    "price": 1,
+    "tags": [
+      "event",
+      "earth"
+    ]
+  },
+  {
+    "name": "Martian Zoo",
+    "price": 12,
+    "tags": [
+      "building",
+      "animal"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Mining Colony",
+    "price": 20,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Minority Refuge",
+    "price": 5,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Molecular Printing",
+    "price": 11,
+    "tags": [
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Nitrogen From Titan",
+    "price": 25,
+    "tags": [
+      "space",
+      "jovian"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Pioneer Settlement",
+    "price": 13,
+    "tags": [
+      "space"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Productive Outpost",
+    "price": 0,
+    "tags": []
+  },
+  {
+    "name": "Quantum Communications",
+    "price": 8,
+    "tags": [],
+    "vp": 1
+  },
+  {
+    "name": "Red Spot Observatory",
+    "price": 17,
+    "tags": [
+      "jovian",
+      "science"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Refugee Camps",
+    "price": 10,
+    "tags": [
+      "earth"
+    ],
+    "vp": "1/"
+  },
+  {
+    "name": "Research Colony",
+    "price": 20,
+    "tags": [
+      "space",
+      "science"
+    ]
+  },
+  {
+    "name": "Rim Freighters",
+    "price": 4,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Sky Docks",
+    "price": 18,
+    "tags": [
+      "space",
+      "earth"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Solar Probe",
+    "price": 9,
+    "tags": [
+      "event",
+      "space",
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Solar Reflectors",
+    "price": 23,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Space Port",
+    "price": 22,
+    "tags": [
+      "building",
+      "city"
+    ]
+  },
+  {
+    "name": "Space Port Colony",
+    "price": 27,
+    "tags": [
+      "space"
+    ],
+    "vp": "1/2"
+  },
+  {
+    "name": "Spin-off Department",
+    "price": 10,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Sub-Zero Salt Fish",
+    "price": 5,
+    "tags": [
+      "animal"
+    ],
+    "vp": "1/2"
+  },
+  {
+    "name": "Titan Air-scrapping",
+    "price": 21,
+    "tags": [
+      "jovian"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Titan Floating Launch-Pad",
+    "price": 18,
+    "tags": [
+      "jovian"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Titan Shuttles",
+    "price": 23,
+    "tags": [
+      "space",
+      "jovian"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Trade Envoys",
+    "price": 6,
+    "tags": []
+  },
+  {
+    "name": "Trading Colony",
+    "price": 18,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Urban Decomposers",
+    "price": 6,
+    "tags": [
+      "microbe"
+    ]
+  },
+  {
+    "name": "Warp Drive",
+    "price": 14,
+    "tags": [
+      "science"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Aerial Lenses",
+    "price": 2,
+    "tags": [],
+    "vp": -1
+  },
+  {
+    "name": "Banned Delegate",
+    "price": 0,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Cultural Metropolis",
+    "price": 20,
+    "tags": [
+      "building",
+      "city"
+    ]
+  },
+  {
+    "name": "Diaspora Movement",
+    "price": 7,
+    "tags": [
+      "jovian"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Event Analysts",
+    "price": 5,
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "name": "GMO Contract",
+    "price": 3,
+    "tags": [
+      "microbe",
+      "science"
+    ]
+  },
+  {
+    "name": "Martian Media Center",
+    "price": 7,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Parliament Hall",
+    "price": 8,
+    "tags": [
+      "building"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "PR Office",
+    "price": 7,
+    "tags": [
+      "earth"
+    ]
+  },
+  {
+    "name": "Public Celebrations",
+    "price": 8,
+    "tags": [
+      "event"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Recruitment",
+    "price": 2,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Red Tourism Wave",
+    "price": 3,
+    "tags": [
+      "event",
+      "earth"
+    ]
+  },
+  {
+    "name": "Sponsored Mohole",
+    "price": 5,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Supported Research",
+    "price": 3,
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "name": "Wildlife Dome",
+    "price": 15,
+    "tags": [
+      "building",
+      "plant",
+      "animal"
+    ]
+  },
+  {
+    "name": "Vote of no Confidence",
+    "price": 5,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Dusk Laser Mining",
+    "price": 8,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Project Inspection",
+    "price": 0,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Energy Market",
+    "price": 3,
+    "tags": [
+      "power"
+    ]
+  },
+  {
+    "name": "Hi-Tech Lab",
+    "price": 17,
+    "tags": [
+      "building",
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Interplanetary Trade",
+    "price": 27,
+    "tags": [
+      "space"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Law Suit",
+    "price": 2,
+    "tags": [
+      "event",
+      "earth"
+    ],
+    "vp": -1
+  },
+  {
+    "name": "Mercurian Alloys",
+    "price": 3,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Orbital Cleanup",
+    "price": 14,
+    "tags": [
+      "space",
+      "earth"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Political Alliance",
+    "price": 4,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Rego Plastics",
+    "price": 10,
+    "tags": [
+      "building"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Saturn Surfing",
+    "price": 13,
+    "tags": [
+      "earth",
+      "jovian"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Stanford Torus",
+    "price": 12,
+    "tags": [
+      "space",
+      "city"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Advertising",
+    "price": 4,
+    "tags": [
+      "earth"
+    ]
+  },
+  {
+    "name": "Asteroid Deflection System",
+    "price": 13,
+    "tags": [
+      "building",
+      "space",
+      "earth"
+    ],
+    "vp": "1/"
+  },
+  {
+    "name": "Asteroid Hollowing",
+    "price": 16,
+    "tags": [
+      "space"
+    ],
+    "vp": "1/2"
+  },
+  {
+    "name": "Comet Aiming",
+    "price": 17,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Crash site Cleanup",
+    "price": 4,
+    "tags": [
+      "event"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Cutting Edge Technology",
+    "price": 12,
+    "tags": [
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Directed Impactors",
+    "price": 8,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Diversity Support",
+    "price": 1,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "name": "Field-Capped City",
+    "price": 29,
+    "tags": [
+      "building",
+      "city",
+      "power"
+    ]
+  },
+  {
+    "name": "Imported Nutrients",
+    "price": 14,
+    "tags": [
+      "event",
+      "space",
+      "earth"
+    ]
+  },
+  {
+    "name": "Jovian Embassy",
+    "price": 14,
+    "tags": [
+      "building",
+      "jovian"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Magnetic Shield",
+    "price": 24,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Meat Industries",
+    "price": 5,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Meltworks",
+    "price": 4,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Mohole Lake",
+    "price": 31,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Potatoes",
+    "price": 2,
+    "tags": [
+      "plant"
+    ]
+  },
+  {
+    "name": "Sub-Crust Measurements",
+    "price": 20,
+    "tags": [
+      "building",
+      "science",
+      "earth"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Topsoil Contract",
+    "price": 8,
+    "tags": [
+      "microbe",
+      "earth"
+    ]
+  },
+  {
+    "name": "Deimos Down",
+    "price": 31,
+    "tags": [
+      "event",
+      "space"
+    ]
+  },
+  {
+    "name": "Great Dam",
+    "price": 15,
+    "tags": [
+      "building",
+      "power"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Magnetic Field Generators",
+    "price": 22,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Asteroid Rights",
+    "price": 10,
+    "tags": [
+      "space",
+      "earth"
+    ]
+  },
+  {
+    "name": "Bactoviral Research",
+    "price": 10,
+    "tags": [
+      "science",
+      "microbe"
+    ]
+  },
+  {
+    "name": "Bio Printing Facility",
+    "price": 7,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Harvest",
+    "price": 4,
+    "tags": [
+      "event",
+      "plant"
+    ]
+  },
+  {
+    "name": "Outdoor Sports",
+    "price": 8,
+    "tags": [],
+    "vp": 1
+  },
+  {
+    "name": "16 Psych",
+    "price": 31,
+    "tags": [
+      "space"
+    ],
+    "vp": 2
+  },
+  {
+    "name": "Robot Pollinators",
+    "price": 9,
+    "tags": [
+      "microbe"
+    ]
+  },
+  {
+    "name": "Supercapacitors",
+    "price": 4,
+    "tags": [
+      "building",
+      "power"
+    ]
+  },
+  {
+    "name": "Icy Impactors",
+    "price": 15,
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "name": "Directed Heat Usage",
+    "price": 1,
+    "tags": []
+  },
+  {
+    "name": "Aqueduct Systems",
+    "price": 9,
+    "tags": [
+      "building"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Astra Mechanica",
+    "price": 7,
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "name": "Carbon Nanosystems",
+    "price": 14,
+    "tags": [
+      "building",
+      "science"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Cyberia Systems",
+    "price": 17,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Hermetic Order of Mars",
+    "price": 10,
+    "tags": []
+  },
+  {
+    "name": "Homeostasis Bureau",
+    "price": 16,
+    "tags": [
+      "building"
+    ]
+  },
+  {
+    "name": "Kaguya Tech",
+    "price": 10,
+    "tags": []
+  },
+  {
+    "name": "Mars Nomads",
+    "price": 13,
+    "tags": []
+  },
+  {
+    "name": "Neptunian Power Consultants",
+    "price": 14,
+    "tags": [
+      "power"
+    ],
+    "vp": "1/"
+  },
+  {
+    "name": "Martian Lumber Corps",
+    "price": 6,
+    "tags": [
+      "plant",
+      "building"
+    ]
+  },
+  {
+    "name": "Red Ships",
+    "price": 2,
+    "tags": []
+  },
+  {
+    "name": "Solar Logistics",
+    "price": 20,
+    "tags": [
+      "space",
+      "earth"
+    ],
+    "vp": 1
+  },
+  {
+    "name": "Teslaract",
+    "price": 14,
+    "tags": [
+      "building",
+      "power"
+    ]
+  },
+  {
+    "name": "St. Joseph of Cupertino Mission",
+    "price": 7,
+    "tags": [],
+    "vp": "1/"
+  }
+]

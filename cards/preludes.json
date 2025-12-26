@@ -1,0 +1,244 @@
+[
+  {
+    "id": "P01",
+    "name": "Aquifer Turbines",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P02",
+    "name": "Biofuels",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P03",
+    "name": "Biolab",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P04",
+    "name": "Biosphere Support",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P05",
+    "name": "Business Empire",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P06",
+    "name": "Dome Farming",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P07",
+    "name": "Donation",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P08",
+    "name": "Early Settlement",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P09",
+    "name": "Ecology Experts",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P10",
+    "name": "Excentric Sponsor",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P11",
+    "name": "Experimental Forest",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P12",
+    "name": "Galilean Mining",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P13",
+    "name": "Great Aquifer",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P14",
+    "name": "Huge Asteroid",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P15",
+    "name": "Io Research Outpost",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P16",
+    "name": "Loan",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P17",
+    "name": "Martian Industries",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P18",
+    "name": "Metal-rich Asteroid",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P19",
+    "name": "Metals Company",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P20",
+    "name": "Mining Operations",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P21",
+    "name": "Mohole",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P22",
+    "name": "Mohole Excavation",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P23",
+    "name": "Nitrogen Shipment",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P24",
+    "name": "Orbital Construction Yard",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P25",
+    "name": "Polar Industries",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P26",
+    "name": "Power Generation",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P27",
+    "name": "Research Network",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P28",
+    "name": "Self-Sufficient Settlement",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P29",
+    "name": "Smelting Plant",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P30",
+    "name": "Society Support",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P31",
+    "name": "Supplier",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P32",
+    "name": "Supply Drop",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P33",
+    "name": "UNMI Contractor",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P34",
+    "name": "Acquired Space Agency",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "P35",
+    "name": "Corporate Archives",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "X39",
+    "name": "Corporate Archives",
+    "price": null,
+    "tags": [
+      "Science"
+    ]
+  },
+  {
+    "id": "X40",
+    "name": "Double Down",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "X41",
+    "name": "Merger",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "X42",
+    "name": "New Partner",
+    "price": null,
+    "tags": []
+  },
+  {
+    "id": "X43",
+    "name": "Head Start",
+    "price": null,
+    "tags": []
+  }
+]
