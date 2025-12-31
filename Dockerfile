@@ -26,6 +26,9 @@ COPY . .
 # Create directory for model if it doesn't exist
 RUN mkdir -p /app/web
 
+# Note: Model training happens automatically on startup if model.pkl doesn't exist
+# To include a pre-trained model, ensure web/model.pkl is in the repository
+
 # Expose port
 EXPOSE 8000
 

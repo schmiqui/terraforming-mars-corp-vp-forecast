@@ -17,9 +17,9 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 if __name__ == "__main__":
     import os
-    # Get port from environment variable (for cloud platforms) or default to 8000
+
     port = int(os.environ.get("PORT", 8000))
-    # Run the server
+
     uvicorn.run(
         "web.backend:app",
         host="0.0.0.0",

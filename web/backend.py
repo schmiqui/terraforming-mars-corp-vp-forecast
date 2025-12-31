@@ -25,6 +25,7 @@ import sys
 scripts_dir = str(Path(__file__).parent.parent / "scripts")
 if scripts_dir not in sys.path:
     sys.path.insert(0, scripts_dir)
+
 from tm_card_score import (
     TAG_KEYS, read_json, build_lookup, empty_parameters, 
     apply_item, to_int_or_zero
@@ -36,11 +37,7 @@ warnings.filterwarnings("ignore")
 BASE_DIR = Path(__file__).parent.parent
 CARDS_PATH = BASE_DIR / "cards" / "cards.json"
 CORPORATIONS_PATH = BASE_DIR / "cards" / "corporations.json"
-# Try multiple possible CSV paths
 CSV_PATH = BASE_DIR / "datasets" / "games.csv"
-if not CSV_PATH.exists():
-    # Fallback to scripts directory (old location)
-    CSV_PATH = BASE_DIR / "scripts" / "games.csv"
 MODEL_PATH = BASE_DIR / "web" / "model.pkl"
 
 app = FastAPI(title="Terraforming Mars VP Predictor")
@@ -64,12 +61,6 @@ corporations_data = None
 class PredictionRequest(BaseModel):
     corporation: str
     cards: List[str]
-
-
-class TrainRequest(BaseModel):
-    model_type: str = "RandomForest"
-    n_estimators: int = 600
-    random_state: int = 42
 
 
 def make_onehot_dense():
@@ -226,7 +217,7 @@ def load_model():
 
 @app.on_event("startup")
 async def startup_event():
-    """Load model and data on startup."""
+    """Load model and data on startup. Auto-train if model doesn't exist."""
     print("Starting Terraforming Mars VP Predictor API...")
     load_data()
     print(f"Loaded {len(cards_data)} cards and {len(corporations_data)} corporations.")
@@ -234,7 +225,14 @@ async def startup_event():
         print(f"Model loaded successfully from {MODEL_PATH}")
     else:
         print(f"⚠️  No saved model found at {MODEL_PATH}")
-        print("   Train a model first using the /train endpoint or the 'Retrain Model' button in the UI.")
+        print("   Training model automatically...")
+        try:
+            result = train_model()
+            print(f"✓ Model trained successfully!")
+            print(f"  Train Score: {result['train_score']:.4f}, Test Score: {result['test_score']:.4f}")
+        except Exception as e:
+            print(f"✗ Failed to auto-train model: {e}")
+            print("   Please run 'python scripts/train_model.py' locally and deploy the model.pkl file.")
 
 
 @app.get("/")
@@ -290,21 +288,6 @@ async def predict(request: PredictionRequest):
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Prediction error: {str(e)}")
-
-
-@app.post("/train")
-async def train(request: TrainRequest):
-    """Train a new model."""
-    try:
-        result = train_model(
-            model_type=request.model_type,
-            n_estimators=request.n_estimators,
-            random_state=request.random_state
-        )
-        return result
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Training error: {str(e)}")
-
 
 @app.get("/model/status")
 async def model_status():

@@ -267,24 +267,6 @@
             margin-bottom: 15px;
         }
 
-        .admin-section {
-            margin-top: 40px;
-            padding-top: 30px;
-            border-top: 2px solid #ddd;
-        }
-
-        .admin-section h2 {
-            color: #d32f2f;
-        }
-
-        .button-secondary {
-            background: #4caf50;
-            margin-top: 10px;
-        }
-
-        .button-secondary:hover {
-            box-shadow: 0 5px 15px rgba(76, 175, 80, 0.4);
-        }
     </style>
 </head>
 <body>
@@ -335,11 +317,6 @@
                 <div class="details" id="resultDetails"></div>
             </div>
 
-            <div class="admin-section">
-                <h2>Model Management</h2>
-                <button class="button button-secondary" onclick="trainModel()">Retrain Model</button>
-                <div id="trainStatus" style="margin-top: 15px;"></div>
-            </div>
         </div>
     </div>
 
@@ -361,7 +338,7 @@
                 const response = await fetch(`${API_BASE}/model/status`);
                 const data = await response.json();
                 if (!data.model_loaded) {
-                    showError('Model not loaded. Please train a model first using the "Retrain Model" button below.');
+                    showError('Model is being trained automatically. Please wait a moment and refresh the page.');
                 }
             } catch (error) {
                 console.error('Error checking model status:', error);
@@ -514,45 +491,6 @@
             const errorDiv = document.getElementById('error');
             errorDiv.textContent = message;
             errorDiv.classList.add('show');
-        }
-
-        async function trainModel() {
-            const statusDiv = document.getElementById('trainStatus');
-            statusDiv.innerHTML = '<p>Training model... This may take a while.</p>';
-            statusDiv.style.color = '#666';
-
-            try {
-                const response = await fetch(`${API_BASE}/train`, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        model_type: 'RandomForest',
-                        n_estimators: 600,
-                        random_state: 42
-                    })
-                });
-
-                if (!response.ok) {
-                    const error = await response.json();
-                    throw new Error(error.detail || 'Training failed');
-                }
-
-                const data = await response.json();
-                statusDiv.innerHTML = `
-                    <p style="color: #4caf50; font-weight: bold;">✓ Model trained successfully!</p>
-                    <p>Train Score: ${data.train_score.toFixed(4)}</p>
-                    <p>Test Score: ${data.test_score.toFixed(4)}</p>
-                    <p>Training samples: ${data.n_samples_train}</p>
-                    <p>Test samples: ${data.n_samples_test}</p>
-                `;
-                // Clear any error messages and check model status
-                document.getElementById('error').classList.remove('show');
-                await checkModelStatus();
-            } catch (error) {
-                statusDiv.innerHTML = `<p style="color: #d32f2f;">Error: ${error.message}</p>`;
-            }
         }
     </script>
 </body>

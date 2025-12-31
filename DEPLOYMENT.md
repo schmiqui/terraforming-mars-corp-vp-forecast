@@ -86,7 +86,7 @@ docker-compose up -d
 - Easy GitHub integration
 - Automatic deployments
 
-**Note:** Model file (`web/model.pkl`) will need to be regenerated on first deploy or stored in persistent storage.
+**Note:** The model will be automatically trained on first startup if `web/model.pkl` doesn't exist. To update the model, run `python scripts/train_model.py` locally, commit the model file, and redeploy.
 
 ---
 

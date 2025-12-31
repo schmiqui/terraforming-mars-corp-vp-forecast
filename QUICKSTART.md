@@ -17,13 +17,14 @@
    uvicorn web.backend:app --reload --host 0.0.0.0 --port 8000
    ```
 
-3. **Open your browser:**
-   Navigate to `http://localhost:8000`
+3. **Train the model (first time only):**
+   ```bash
+   python scripts/train_model.py
+   ```
+   This creates the model file that the web app uses.
 
-4. **Train the model (first time only):**
-   - Click the "Retrain Model" button in the web interface
-   - Wait for training to complete (this may take a minute)
-   - The model will be saved automatically
+4. **Open your browser:**
+   Navigate to `http://localhost:8000`
 
 5. **Make predictions:**
    - Select a corporation from the dropdown
@@ -35,7 +36,7 @@
 - **Card Selection**: Search and select multiple cards
 - **Corporation Selection**: Choose from available corporations
 - **VP Prediction**: Get predicted total points based on your selections
-- **Model Management**: Retrain the model with updated data or different parameters
+- **Model Management**: Train model locally via script, then deploy
 - **Beautiful UI**: Modern, responsive design
 
 ## API Endpoints
@@ -44,12 +45,11 @@
 - `GET /cards` - List all available cards
 - `GET /corporations` - List all available corporations
 - `POST /predict` - Predict VP (requires corporation and cards)
-- `POST /train` - Train/retrain the model
 - `GET /model/status` - Check if model is loaded
 
 ## Troubleshooting
 
-- **"Model not loaded" error**: Train the model first using the "Retrain Model" button
+- **"Model not loaded" error**: Run `python scripts/train_model.py` to create the model file
 - **Import errors**: Make sure all dependencies are installed (`pip install -r requirements.txt`)
 - **CSV not found**: Ensure `datasets/games.csv` exists (run `scripts/tm_card_score.py` if needed)
 
