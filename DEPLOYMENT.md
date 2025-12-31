@@ -76,7 +76,7 @@ docker-compose up -d
    - Environment: `Python 3`
 
 3. **Set Environment Variables (if needed):**
-   - `PYTHON_VERSION=3.11`
+   - `PYTHON_VERSION=3.11.9` (must be full version: major.minor.patch)
 
 4. **Deploy!**
 
