@@ -417,9 +417,9 @@
 
         function renderCards(filter = '') {
             const selector = document.getElementById('cardSelector');
-            const filtered = allCards.filter(card =>
-                card.name.toLowerCase().includes(filter.toLowerCase())
-            );
+            const filtered = allCards
+                .filter(card => card.name.toLowerCase().includes(filter.toLowerCase()))
+                .sort((a, b) => a.name.localeCompare(b.name, 'sk', { sensitivity: 'base' }));
 
             selector.innerHTML = '';
             filtered.forEach(card => {
