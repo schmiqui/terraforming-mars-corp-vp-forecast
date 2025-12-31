@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terraforming Mars VP Predictor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+            font-weight: 600;
+        }
+
+        select, input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        select:focus, input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .card-selector {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            max-height: 300px;
+            overflow-y: auto;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+
+        .card-item {
+            display: flex;
+            align-items: center;
+            padding: 8px;
+            background: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .card-item:hover {
+            background: #e8e8ff;
+            transform: translateY(-2px);
+        }
+
+        .card-item input[type="checkbox"] {
+            margin-right: 8px;
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .card-item label {
+            cursor: pointer;
+            margin: 0;
+            font-weight: normal;
+            flex: 1;
+        }
+
+        .selected-cards {
+            margin-top: 15px;
+            padding: 15px;
+            background: #f0f0f0;
+            border-radius: 8px;
+            min-height: 50px;
+        }
+
+        .selected-card {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .selected-card .remove {
+            margin-left: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .selected-card .remove:hover {
+            color: #ffcccc;
+        }
+
+        .button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .button:active {
+            transform: translateY(0);
+        }
+
+        .button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .result {
+            margin-top: 30px;
+            padding: 25px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            border-radius: 12px;
+            color: white;
+            text-align: center;
+            display: none;
+        }
+
+        .result.show {
+            display: block;
+            animation: slideIn 0.5s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .result h3 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .result .points {
+            font-size: 4em;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .result .details {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .loading.show {
+            display: block;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error {
+            background: #ff4444;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .error.show {
+            display: block;
+        }
+
+        .search-box {
+            margin-bottom: 15px;
+        }
+
+        .admin-section {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #ddd;
+        }
+
+        .admin-section h2 {
+            color: #d32f2f;
+        }
+
+        .button-secondary {
+            background: #4caf50;
+            margin-top: 10px;
+        }
+
+        .button-secondary:hover {
+            box-shadow: 0 5px 15px rgba(76, 175, 80, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌍 Terraforming Mars</h1>
+            <p>VP Predictor</p>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>Select Corporation</h2>
+                <div class="form-group">
+                    <label for="corporation">Corporation:</label>
+                    <select id="corporation">
+                        <option value="">Loading...</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Select Cards</h2>
+                <div class="form-group">
+                    <div class="search-box">
+                        <input type="text" id="cardSearch" placeholder="Search cards...">
+                    </div>
+                    <div class="card-selector" id="cardSelector">
+                        <div>Loading cards...</div>
+                    </div>
+                </div>
+                <div class="selected-cards" id="selectedCards">
+                    <div style="color: #999;">No cards selected</div>
+                </div>
+            </div>
+
+            <button class="button" id="predictBtn" onclick="predict()">Predict VP</button>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Calculating prediction...</p>
+            </div>
+
+            <div class="error" id="error"></div>
+
+            <div class="result" id="result">
+                <h3>Predicted Points</h3>
+                <div class="points" id="predictedPoints">0</div>
+                <div class="details" id="resultDetails"></div>
+            </div>
+
+            <div class="admin-section">
+                <h2>Model Management</h2>
+                <button class="button button-secondary" onclick="trainModel()">Retrain Model</button>
+                <div id="trainStatus" style="margin-top: 15px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = window.location.origin;
+        let allCards = [];
+        let allCorporations = [];
+        let selectedCardNames = new Set();
+
+        // Load data on page load
+        window.addEventListener('DOMContentLoaded', async () => {
+            await checkModelStatus();
+            await loadCorporations();
+            await loadCards();
+        });
+
+        async function checkModelStatus() {
+            try {
+                const response = await fetch(`${API_BASE}/model/status`);
+                const data = await response.json();
+                if (!data.model_loaded) {
+                    showError('Model not loaded. Please train a model first using the "Retrain Model" button below.');
+                }
+            } catch (error) {
+                console.error('Error checking model status:', error);
+            }
+        }
+
+        async function loadCorporations() {
+            try {
+                const response = await fetch(`${API_BASE}/corporations`);
+                const data = await response.json();
+                allCorporations = data.corporations;
+                
+                const select = document.getElementById('corporation');
+                select.innerHTML = '<option value="">Select a corporation...</option>';
+                allCorporations.forEach(corp => {
+                    const option = document.createElement('option');
+                    option.value = corp.name;
+                    option.textContent = corp.name;
+                    select.appendChild(option);
+                });
+            } catch (error) {
+                console.error('Error loading corporations:', error);
+                showError('Failed to load corporations');
+            }
+        }
+
+        async function loadCards() {
+            try {
+                const response = await fetch(`${API_BASE}/cards`);
+                const data = await response.json();
+                allCards = data.cards;
+                renderCards();
+            } catch (error) {
+                console.error('Error loading cards:', error);
+                showError('Failed to load cards');
+            }
+        }
+
+        function renderCards(filter = '') {
+            const selector = document.getElementById('cardSelector');
+            const filtered = allCards.filter(card => 
+                card.name.toLowerCase().includes(filter.toLowerCase())
+            );
+
+            selector.innerHTML = '';
+            filtered.forEach(card => {
+                const div = document.createElement('div');
+                div.className = 'card-item';
+                const checked = selectedCardNames.has(card.name) ? 'checked' : '';
+                div.innerHTML = `
+                    <input type="checkbox" id="card-${card.name}" ${checked} 
+                           onchange="toggleCard('${card.name.replace(/'/g, "\\'")}')">
+                    <label for="card-${card.name}">${card.name}</label>
+                `;
+                selector.appendChild(div);
+            });
+        }
+
+        function toggleCard(cardName) {
+            if (selectedCardNames.has(cardName)) {
+                selectedCardNames.delete(cardName);
+            } else {
+                selectedCardNames.add(cardName);
+            }
+            updateSelectedCardsDisplay();
+        }
+
+        function updateSelectedCardsDisplay() {
+            const container = document.getElementById('selectedCards');
+            if (selectedCardNames.size === 0) {
+                container.innerHTML = '<div style="color: #999;">No cards selected</div>';
+                return;
+            }
+
+            container.innerHTML = Array.from(selectedCardNames).map(name => `
+                <span class="selected-card">
+                    ${name}
+                    <span class="remove" onclick="removeCard('${name.replace(/'/g, "\\'")}')">×</span>
+                </span>
+            `).join('');
+        }
+
+        function removeCard(cardName) {
+            selectedCardNames.delete(cardName);
+            updateSelectedCardsDisplay();
+            // Uncheck checkbox
+            const checkbox = document.getElementById(`card-${cardName}`);
+            if (checkbox) checkbox.checked = false;
+        }
+
+        // Search functionality
+        document.getElementById('cardSearch').addEventListener('input', (e) => {
+            renderCards(e.target.value);
+        });
+
+        async function predict() {
+            const corporation = document.getElementById('corporation').value;
+            if (!corporation) {
+                showError('Please select a corporation');
+                return;
+            }
+
+            if (selectedCardNames.size === 0) {
+                showError('Please select at least one card');
+                return;
+            }
+
+            // Show loading
+            document.getElementById('loading').classList.add('show');
+            document.getElementById('error').classList.remove('show');
+            document.getElementById('result').classList.remove('show');
+            document.getElementById('predictBtn').disabled = true;
+
+            try {
+                const response = await fetch(`${API_BASE}/predict`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        corporation: corporation,
+                        cards: Array.from(selectedCardNames)
+                    })
+                });
+
+                if (!response.ok) {
+                    const error = await response.json();
+                    throw new Error(error.detail || 'Prediction failed');
+                }
+
+                const data = await response.json();
+                showResult(data);
+            } catch (error) {
+                showError(error.message);
+            } finally {
+                document.getElementById('loading').classList.remove('show');
+                document.getElementById('predictBtn').disabled = false;
+            }
+        }
+
+        function showResult(data) {
+            document.getElementById('predictedPoints').textContent = 
+                Math.round(data.predicted_points);
+            document.getElementById('resultDetails').textContent = 
+                `Corporation: ${data.corporation} | Cards: ${data.num_cards}`;
+            document.getElementById('result').classList.add('show');
+        }
+
+        function showError(message) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.textContent = message;
+            errorDiv.classList.add('show');
+        }
+
+        async function trainModel() {
+            const statusDiv = document.getElementById('trainStatus');
+            statusDiv.innerHTML = '<p>Training model... This may take a while.</p>';
+            statusDiv.style.color = '#666';
+
+            try {
+                const response = await fetch(`${API_BASE}/train`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        model_type: 'RandomForest',
+                        n_estimators: 600,
+                        random_state: 42
+                    })
+                });
+
+                if (!response.ok) {
+                    const error = await response.json();
+                    throw new Error(error.detail || 'Training failed');
+                }
+
+                const data = await response.json();
+                statusDiv.innerHTML = `
+                    <p style="color: #4caf50; font-weight: bold;">✓ Model trained successfully!</p>
+                    <p>Train Score: ${data.train_score.toFixed(4)}</p>
+                    <p>Test Score: ${data.test_score.toFixed(4)}</p>
+                    <p>Training samples: ${data.n_samples_train}</p>
+                    <p>Test samples: ${data.n_samples_test}</p>
+                `;
+                // Clear any error messages and check model status
+                document.getElementById('error').classList.remove('show');
+                await checkModelStatus();
+            } catch (error) {
+                statusDiv.innerHTML = `<p style="color: #d32f2f;">Error: ${error.message}</p>`;
+            }
+        }
+    </script>
+</body>
+</html>
+
