@@ -1,0 +1,1557 @@
+game_id,points,building,jovian,power,science,city,event,space,earth,plant,animal,microbe,totalVp,totalPrice,corporation
+Game1,100,1,0,0,0,0,0,0,0,0,0,1,0,17,united nations mars initiative
+Game2,106,3,0,0,2,1,0,0,0,1,0,0,2,54,credicor
+Game3,129,0,0,0,1,0,1,0,1,0,0,0,5,48,saturn systems
+Game4,102,0,0,1,1,0,3,3,2,0,0,0,2,101,phobolog
+Game5,109,0,1,0,1,0,0,1,0,1,0,0,2,81,phobolog
+Game6,100,2,0,0,0,1,0,0,1,1,1,0,0,46,tharsis republic
+Game7,121,0,1,0,0,0,0,1,1,1,0,1,2,52,inventrix
+Game8,116,0,0,0,1,0,0,0,1,1,0,0,0,33,helion
+Game9,100,0,0,0,2,0,2,3,1,0,0,0,4,42,credicor
+Game10,100,2,0,0,1,1,0,1,2,0,0,0,1,57,helion
+Game11,134,0,0,0,0,0,3,2,2,1,1,0,2,80,teractor
+Game12,87,1,1,0,0,0,1,1,0,0,0,0,2,29,helion
+Game13,122,2,0,0,1,0,0,1,2,0,0,0,3,49,tharsis republic
+Game14,82,0,0,0,1,0,1,1,1,0,1,1,0,50,credicor
+Game15,108,0,0,0,0,0,0,0,3,1,2,2,5,54,saturn systems
+Game16,86,2,1,1,2,0,2,1,0,0,0,0,2,40,mining guild
+Game17,106,3,2,0,0,0,2,2,1,0,0,0,4,85,saturn systems
+Game18,105,2,0,1,3,0,1,1,1,1,1,0,7,93,saturn systems
+Game19,92,0,1,0,1,0,0,1,0,1,0,0,2,52,tharsis republic
+Game20,98,2,0,0,1,1,1,1,1,0,1,0,0,56,mining guild
+Game21,112,1,0,0,2,0,3,1,2,0,0,0,1,56,credicor
+Game22,87,1,0,0,2,0,1,1,1,2,1,3,6,91,inventrix
+Game23,88,2,0,1,1,0,0,1,0,1,1,2,0,54,tharsis republic
+Game24,86,1,1,1,1,0,1,1,1,0,0,0,2,26,united nations mars initiative
+Game25,104,3,0,0,3,0,1,0,0,0,0,0,7,69,interplanetary cinematics
+Game26,141,1,0,0,2,0,1,2,0,0,0,0,0,30,helion
+Game27,87,3,0,0,1,0,3,2,1,2,0,1,1,109,credicor
+Game28,73,1,0,1,1,0,2,3,1,0,0,0,0,60,helion
+Game29,135,1,0,0,1,0,0,0,2,0,0,0,2,60,credicor
+Game30,78,1,0,0,0,0,4,4,1,0,0,0,0,105,interplanetary cinematics
+Game31,109,1,1,0,1,0,1,2,1,0,0,1,3,60,mining guild
+Game32,101,1,1,0,1,0,1,3,2,0,1,0,5,121,phobolog
+Game33,85,0,1,0,0,0,1,1,2,1,0,1,1,72,saturn systems
+Game34,91,0,1,0,0,0,3,5,3,0,0,0,2,131,helion
+Game35,100,1,1,1,2,0,3,3,1,0,0,0,8,123,credicor
+Game36,81,0,1,0,1,0,0,2,0,0,0,0,5,79,credicor
+Game37,109,0,0,0,2,0,1,2,1,0,0,0,2,59,helion
+Game38,87,3,0,1,0,0,1,0,0,0,0,0,0,55,mining guild
+Game39,104,3,2,1,1,0,1,3,0,1,0,0,2,111,thorgate
+Game40,92,1,1,1,1,0,2,3,1,0,0,1,1,86,helion
+Game41,80,1,2,1,0,1,0,3,2,0,0,0,7,105,credicor
+Game42,117,2,0,0,2,1,0,0,0,1,0,0,0,51,inventrix
+Game43,78,0,2,1,0,1,3,6,1,0,0,0,4,161,teractor
+Game44,107,1,0,0,2,0,3,4,3,0,0,1,3,66,phobolog
+Game45,104,2,0,0,2,1,2,1,1,0,0,1,0,66,tharsis republic
+Game46,117,1,1,0,3,0,3,2,0,0,0,1,2,112,interplanetary cinematics
+Game47,80,1,0,0,1,1,1,4,0,1,1,1,4,93,phobolog
+Game48,107,2,0,1,2,1,1,1,1,0,0,1,0,83,interplanetary cinematics
+Game49,85,0,1,0,1,0,2,1,0,0,0,1,1,49,mining guild
+Game50,111,3,1,3,3,0,1,3,0,0,0,0,2,94,saturn systems
+Game51,97,1,0,1,1,0,1,1,0,0,0,0,0,45,interplanetary cinematics
+Game52,92,0,1,0,2,0,0,1,0,2,0,0,7,76,teractor
+Game53,87,1,1,1,3,0,1,2,1,0,0,0,3,57,credicor
+Game54,101,2,0,1,2,1,1,0,0,1,1,3,3,62,teractor
+Game55,88,3,1,1,2,0,1,2,0,0,0,1,2,59,united nations mars initiative
+Game56,98,0,0,0,2,0,1,1,0,0,0,1,0,52,teractor
+Game57,109,2,0,0,1,1,1,1,2,2,0,0,1,62,interplanetary cinematics
+Game58,94,1,0,1,2,0,1,1,2,0,1,2,1,46,saturn systems
+Game59,84,1,1,0,2,0,2,2,2,0,0,1,1,46,united nations mars initiative
+Game60,89,1,1,0,1,0,1,2,0,1,0,0,2,72,tharsis republic
+Game61,117,1,1,0,2,0,2,1,1,0,0,0,3,36,phobolog
+Game62,83,5,0,1,0,2,1,0,1,0,0,0,0,78,credicor
+Game63,103,5,0,2,0,1,1,0,0,0,0,0,0,72,teractor
+Game64,103,0,1,0,2,0,2,2,0,0,0,0,2,102,phobolog
+Game65,73,1,1,1,1,0,2,1,0,1,0,2,3,98,saturn systems
+Game66,99,0,2,1,1,1,0,2,1,0,1,0,2,68,saturn systems
+Game67,77,3,0,0,1,0,3,2,1,0,0,0,3,111,thorgate
+Game68,100,1,0,0,0,0,2,3,0,1,0,0,3,101,phobolog
+Game69,86,3,0,0,0,0,1,3,1,0,0,0,5,106,tharsis republic
+Game70,85,1,0,1,1,1,1,1,0,0,0,0,0,45,mining guild
+Game71,152,2,2,1,1,1,1,3,2,0,0,0,3,109,credicor
+Game72,89,0,1,0,1,0,1,1,0,0,0,0,2,35,phobolog
+Game73,75,1,1,0,1,1,3,3,1,0,0,0,0,75,tharsis republic
+Game74,113,2,0,0,3,0,2,2,3,1,0,0,5,90,teractor
+Game75,93,2,0,0,0,0,0,0,1,1,1,1,1,46,saturn systems
+Game76,110,1,1,1,0,0,0,1,1,1,0,0,0,80,helion
+Game77,80,2,0,2,1,1,0,1,0,0,0,0,1,62,ecoline
+Game78,93,4,0,1,2,3,2,0,0,0,0,0,0,58,mining guild
+Game79,75,2,0,0,0,0,0,0,0,1,1,0,0,34,credicor
+Game80,102,1,0,1,0,0,5,3,2,1,0,0,2,116,teractor
+Game81,91,3,0,0,0,1,0,0,0,2,0,0,0,49,tharsis republic
+Game82,70,1,0,0,0,0,0,0,1,2,0,2,0,46,inventrix
+Game83,85,2,0,0,2,0,1,2,3,0,0,0,3,56,tharsis republic
+Game84,74,0,0,0,0,0,2,1,0,0,0,0,0,36,ecoline
+Game85,88,1,1,0,0,0,0,1,0,0,0,1,0,53,saturn systems
+Game86,89,1,0,0,2,0,0,0,0,0,0,1,0,31,saturn systems
+Game87,97,3,0,1,0,0,0,1,1,0,0,1,2,77,tharsis republic
+Game88,108,3,0,2,0,0,0,0,0,1,0,1,1,36,credicor
+Game89,86,2,0,0,1,1,1,1,0,0,0,0,1,56,ecoline
+Game90,92,2,0,0,2,1,0,0,1,0,0,0,0,47,tharsis republic
+Game91,111,1,1,1,0,0,1,2,1,0,0,0,2,64,teractor
+Game92,121,1,0,0,0,1,0,0,2,0,0,0,0,22,tharsis republic
+Game93,87,0,2,1,0,1,0,2,0,0,0,1,1,61,saturn systems
+Game94,99,1,0,0,2,1,0,0,0,0,0,0,0,27,mining guild
+Game95,89,1,1,0,1,1,0,1,1,0,0,0,0,69,helion
+Game96,100,0,1,1,2,0,0,1,1,0,0,1,1,34,saturn systems
+Game97,77,0,0,0,1,0,2,1,2,0,0,2,0,44,ecoline
+Game98,96,2,0,0,2,0,1,2,0,0,0,2,3,77,phobolog
+Game99,77,1,0,0,2,0,1,0,1,0,0,1,1,31,ecoline
+Game100,102,0,2,0,0,0,2,2,0,0,0,0,3,70,saturn systems
+Game101,106,0,0,0,0,0,0,0,0,0,0,1,0,28,united nations mars initiative
+Game102,107,0,0,0,1,0,1,1,0,0,0,0,0,32,mining guild
+Game103,122,0,1,0,0,0,0,2,2,0,0,0,1,53,saturn systems
+Game104,93,4,0,1,0,1,1,1,1,0,0,0,0,68,tharsis republic
+Game105,99,1,0,0,0,0,0,0,1,0,0,0,2,32,mining guild
+Game106,83,1,0,0,1,0,2,2,1,0,0,0,0,52,helion
+Game107,87,1,0,0,0,0,3,0,1,2,0,0,1,59,united nations mars initiative
+Game108,107,0,1,0,0,0,1,1,1,0,0,0,0,48,tharsis republic
+Game109,96,3,0,1,1,0,1,1,2,1,0,0,3,69,teractor
+Game110,80,2,0,1,2,0,2,0,1,0,0,1,1,53,interplanetary cinematics
+Game111,86,2,0,0,1,0,2,2,0,0,0,0,0,70,united nations mars initiative
+Game112,90,5,0,2,1,0,0,0,0,0,0,0,1,48,ecoline
+Game113,82,2,0,2,0,0,2,2,0,0,0,0,0,74,credicor
+Game114,86,0,0,0,0,0,2,1,0,0,1,0,0,34,ecoline
+Game115,104,1,2,0,0,0,0,2,0,0,0,0,2,80,teractor
+Game116,94,2,0,0,1,0,0,1,0,0,0,0,3,36,tharsis republic
+Game117,93,2,0,0,0,0,0,0,1,0,0,0,0,30,mining guild
+Game118,77,3,0,1,0,1,2,1,0,0,0,0,1,65,interplanetary cinematics
+Game119,105,1,1,1,0,0,0,0,1,1,0,0,1,48,tharsis republic
+Game120,85,1,0,1,1,1,0,0,1,1,0,1,0,54,tharsis republic
+Game121,77,2,0,0,1,0,1,0,2,1,0,0,1,60,teractor
+Game122,77,2,2,0,0,0,1,3,0,1,0,0,4,95,phobolog
+Game123,88,1,0,0,0,0,1,2,1,1,0,0,0,87,credicor
+Game124,80,3,1,0,2,1,1,1,0,1,0,0,1,91,mining guild
+Game125,119,0,0,1,1,0,2,3,0,0,0,1,2,94,inventrix
+Game126,123,1,0,0,0,0,0,0,1,0,0,1,0,25,mining guild
+Game127,95,2,0,0,2,0,1,0,1,0,0,1,3,60,ecoline
+Game128,81,1,0,1,0,0,0,0,0,0,0,0,0,13,tharsis republic
+Game129,94,2,0,0,0,1,3,0,1,0,0,0,0,63,interplanetary cinematics
+Game130,115,1,0,0,0,0,0,0,0,1,2,1,3,30,tharsis republic
+Game131,65,2,0,2,0,0,0,0,2,0,0,0,0,44,interplanetary cinematics
+Game132,95,2,1,1,1,1,1,3,0,0,0,0,3,91,saturn systems
+Game133,98,0,0,1,2,0,2,2,1,0,0,1,1,40,credicor
+Game134,93,0,0,0,0,0,1,1,2,0,0,1,0,44,tharsis republic
+Game135,98,3,0,0,3,0,0,1,0,1,0,1,2,53,credicor
+Game136,80,1,0,1,1,0,2,2,0,0,0,0,0,62,ecoline
+Game137,80,2,0,0,1,1,2,1,0,0,0,1,0,72,interplanetary cinematics
+Game138,93,0,0,0,1,0,0,0,1,0,0,3,0,42,inventrix
+Game139,93,0,1,0,0,0,1,2,1,1,0,0,3,117,saturn systems
+Game140,126,1,0,0,2,0,1,0,0,0,0,0,2,33,saturn systems
+Game141,130,2,0,0,2,0,0,1,1,0,0,0,4,70,phobolog
+Game142,97,3,0,2,1,0,2,0,1,0,0,0,1,60,helion
+Game143,97,3,0,1,0,1,0,0,1,1,0,0,1,79,interplanetary cinematics
+Game144,87,1,0,0,0,0,0,0,0,1,0,0,0,48,inventrix
+Game145,83,2,0,0,0,1,1,1,0,0,0,0,2,50,ecoline
+Game146,84,2,0,1,1,0,0,0,0,0,0,0,1,27,mining guild
+Game147,89,0,0,0,0,0,2,0,1,0,0,0,0,18,united nations mars initiative
+Game148,111,1,0,0,0,1,3,2,4,1,0,0,3,80,credicor
+Game149,118,2,0,0,1,0,1,1,0,0,0,0,1,53,interplanetary cinematics
+Game150,104,4,0,1,2,1,1,1,1,1,0,0,2,63,mining guild
+Game151,83,1,0,0,1,0,1,2,0,0,0,0,1,30,tharsis republic
+Game152,81,1,0,0,0,0,0,0,0,1,0,1,0,43,interplanetary cinematics
+Game153,88,3,0,1,2,1,0,0,0,0,0,1,2,63,credicor
+Game154,82,3,0,0,1,1,0,0,0,0,0,0,0,44,tharsis republic
+Game155,94,2,1,1,2,1,1,2,1,0,0,0,4,92,credicor
+Game156,73,1,0,0,0,0,3,4,2,1,0,0,2,92,ecoline
+Game157,104,1,0,0,1,1,0,1,0,0,0,0,0,53,helion
+Game158,82,1,0,1,0,0,0,0,1,0,0,1,2,43,ecoline
+Game159,99,3,0,1,1,1,0,0,0,1,0,0,2,55,tharsis republic
+Game160,94,1,1,2,1,1,0,2,0,0,0,0,1,54,saturn systems
+Game161,82,4,0,0,1,0,0,0,1,0,0,1,2,48,interplanetary cinematics
+Game162,82,1,0,1,2,0,0,0,1,0,0,2,0,56,credicor
+Game163,92,0,0,0,1,0,3,2,0,0,0,0,0,78,ecoline
+Game164,108,3,0,1,1,0,1,0,1,0,0,0,0,52,helion
+Game165,104,3,0,1,0,0,0,0,0,0,0,1,1,34,inventrix
+Game166,91,0,1,0,0,0,1,2,1,0,0,0,3,47,helion
+Game167,106,0,0,1,2,0,0,1,0,0,0,0,1,29,tharsis republic
+Game168,102,3,1,0,3,0,1,2,1,0,0,0,6,85,phobolog
+Game169,90,1,0,1,0,0,1,0,0,0,0,0,0,33,united nations mars initiative
+Game170,67,0,0,3,0,0,0,0,1,0,0,0,0,30,thorgate
+Game171,89,1,0,0,1,0,0,0,1,1,0,0,0,39,helion
+Game172,98,1,0,1,0,0,1,0,0,0,0,0,0,30,thorgate
+Game173,84,3,0,2,0,0,2,0,0,0,0,0,0,61,interplanetary cinematics
+Game174,93,2,0,1,3,0,1,0,1,0,0,0,4,74,inventrix
+Game175,95,0,1,0,0,0,2,2,0,0,0,0,1,31,united nations mars initiative
+Game176,110,3,0,0,4,1,0,0,0,1,0,0,6,89,teractor
+Game177,84,1,2,0,1,0,0,2,0,2,0,1,4,98,saturn systems
+Game178,94,2,0,1,2,0,1,2,0,0,0,1,2,46,ecoline
+Game179,109,2,2,1,0,0,2,2,0,0,1,0,2,94,saturn systems
+Game180,82,2,0,0,1,1,2,2,2,0,0,0,1,77,teractor
+Game181,80,1,1,1,1,1,0,1,2,0,0,0,0,67,inventrix
+Game182,89,3,0,0,1,0,1,2,0,1,0,0,1,51,mining guild
+Game183,103,2,0,1,4,0,3,5,1,1,0,0,3,75,saturn systems
+Game184,74,2,0,2,4,0,1,3,0,1,0,0,2,100,credicor
+Game185,83,3,0,2,0,0,0,0,2,0,0,0,0,46,ecoline
+Game186,98,2,0,1,2,2,1,2,1,0,1,0,5,101,credicor
+Game187,94,0,0,1,3,0,1,1,0,0,0,0,0,16,credicor
+Game188,114,0,0,0,1,0,3,1,2,0,2,0,5,113,credicor
+Game189,125,1,1,1,2,0,2,2,1,1,1,0,1,88,saturn systems
+Game190,111,2,0,0,1,0,2,1,1,2,0,0,7,99,credicor
+Game191,67,0,0,0,0,0,3,1,2,0,0,0,0,57,tharsis republic
+Game192,80,2,0,1,2,0,2,2,0,1,0,1,1,71,united nations mars initiative
+Game193,98,1,1,2,1,0,0,2,0,3,0,0,3,88,helion
+Game194,105,3,0,0,3,0,1,1,1,2,1,0,4,104,interplanetary cinematics
+Game195,119,1,0,0,1,0,1,2,4,1,0,0,7,104,teractor
+Game196,108,1,0,0,0,1,2,3,3,0,0,0,0,105,phobolog
+Game197,116,1,1,0,1,0,2,2,1,1,0,0,3,74,saturn systems
+Game198,112,0,1,1,0,0,2,3,0,1,0,1,0,92,inventrix
+Game199,88,1,0,1,1,0,2,1,2,1,0,1,1,84,saturn systems
+Game200,101,2,0,1,2,0,1,1,1,2,0,1,3,61,interplanetary cinematics
+Game201,99,1,0,0,2,0,0,0,0,1,1,0,1,49,credicor
+Game202,88,2,0,1,1,0,2,0,1,1,0,0,1,43,credicor
+Game203,91,3,0,1,2,0,1,1,0,1,0,0,1,43,saturn systems
+Game204,80,0,0,0,0,0,1,1,1,1,1,0,2,57,mining guild
+Game205,75,0,0,1,0,0,0,0,1,2,1,0,0,37,ecoline
+Game206,78,3,0,1,2,0,0,0,0,1,0,0,4,65,inventrix
+Game207,93,3,0,0,2,1,0,0,2,1,1,1,7,58,inventrix
+Game208,112,4,0,1,1,1,0,0,0,1,1,1,1,69,interplanetary cinematics
+Game209,87,2,0,0,1,1,0,1,0,2,0,0,1,49,ecoline
+Game210,85,1,0,0,0,0,1,0,0,3,1,0,1,44,saturn systems
+Game211,86,1,0,1,2,0,2,2,1,0,0,2,0,104,tharsis republic
+Game212,128,4,1,0,1,0,2,3,0,0,0,1,2,110,saturn systems
+Game213,71,1,0,0,0,0,3,1,4,1,1,0,1,76,credicor
+Game214,100,1,0,0,0,0,2,1,0,0,0,1,0,28,credicor
+Game215,73,1,0,0,1,1,2,0,1,0,0,0,1,50,credicor
+Game216,101,1,0,0,2,0,1,1,1,0,0,0,3,61,teractor
+Game217,92,3,0,0,2,0,1,1,0,0,0,0,5,63,phobolog
+Game218,104,1,0,1,0,0,4,2,0,0,0,0,0,94,interplanetary cinematics
+Game219,84,2,1,1,1,1,2,3,0,0,0,0,0,81,saturn systems
+Game220,78,1,0,1,1,0,1,2,1,1,2,2,3,109,thorgate
+Game221,107,3,0,1,0,1,0,0,0,3,0,0,1,77,mining guild
+Game222,94,0,0,0,2,0,1,1,2,0,1,0,5,64,tharsis republic
+Game223,105,3,1,0,0,2,1,3,0,0,0,0,2,95,credicor
+Game224,86,1,0,1,0,0,2,1,0,1,0,0,0,57,mining guild
+Game225,96,1,0,0,0,0,0,0,0,1,0,1,1,26,ecoline
+Game226,114,4,0,1,4,0,0,1,0,0,0,0,4,81,phobolog
+Game227,100,1,1,1,1,0,1,0,2,0,0,1,1,37,teractor
+Game228,101,2,0,0,2,0,3,3,2,0,1,0,2,92,helion
+Game229,86,4,0,1,1,0,0,0,1,0,0,0,1,45,ecoline
+Game230,88,4,0,3,1,0,0,1,0,0,0,0,1,74,teractor
+Game231,118,0,2,1,3,0,1,4,0,0,0,0,5,95,helion
+Game232,111,1,2,0,0,1,1,2,0,0,0,0,2,91,interplanetary cinematics
+Game233,106,2,0,0,3,2,0,0,0,1,2,1,3,77,tharsis republic
+Game234,83,0,0,0,0,0,1,1,1,0,0,0,2,46,saturn systems
+Game235,98,2,0,0,1,0,1,1,1,0,1,2,0,83,teractor
+Game236,90,1,0,0,0,0,3,3,1,0,0,0,0,82,ecoline
+Game237,90,4,2,1,0,0,2,1,1,1,0,0,3,74,mining guild
+Game238,89,1,0,1,3,0,1,2,1,1,0,0,2,78,helion
+Game239,93,2,0,0,0,0,2,2,2,1,0,0,2,86,teractor
+Game240,87,1,0,0,2,1,2,1,0,0,0,2,0,81,ecoline
+Game241,70,0,0,0,0,0,1,0,0,1,1,2,3,26,ecoline
+Game242,104,0,0,0,0,0,1,0,2,1,0,1,0,36,united nations mars initiative
+Game243,77,0,0,0,2,0,0,0,1,3,0,0,2,50,teractor
+Game244,104,3,0,2,1,1,1,1,1,0,0,0,1,76,tharsis republic
+Game245,89,0,0,1,1,0,1,0,0,1,0,1,0,48,credicor
+Game246,80,0,0,1,1,0,3,3,1,0,0,0,0,72,phobolog
+Game247,123,3,0,1,2,2,2,1,0,0,0,0,2,90,tharsis republic
+Game248,96,0,0,1,3,0,1,2,1,0,0,0,1,65,credicor
+Game249,88,1,0,0,1,1,1,2,0,0,0,0,0,28,tharsis republic
+Game250,93,2,0,1,1,0,1,1,1,0,0,1,2,81,teractor
+Game251,89,1,1,0,0,1,1,1,0,1,0,0,0,59,thorgate
+Game252,94,1,0,1,0,0,2,1,0,0,0,0,0,44,thorgate
+Game253,110,2,0,2,5,0,0,3,0,0,0,0,7,92,phobolog
+Game254,102,0,0,0,1,0,2,1,1,1,0,0,2,52,helion
+Game255,103,1,0,0,0,0,3,2,2,1,0,0,1,44,interplanetary cinematics
+Game256,96,0,0,0,0,0,2,2,2,1,0,0,1,74,teractor
+Game257,102,4,0,1,2,0,0,0,0,0,0,0,1,38,interplanetary cinematics
+Game258,123,3,1,1,1,1,0,1,0,0,0,0,3,76,credicor
+Game259,88,1,2,0,0,0,0,2,1,0,0,0,4,76,credicor
+Game260,113,1,3,0,0,1,2,4,1,0,0,0,6,117,phobolog
+Game261,98,1,0,0,1,0,3,1,1,0,0,0,0,73,tharsis republic
+Game262,89,2,0,0,2,0,0,0,1,0,0,0,0,55,saturn systems
+Game263,121,1,1,0,1,0,0,1,1,3,2,1,1,85,credicor
+Game264,124,0,1,0,2,0,2,1,0,0,0,1,4,61,inventrix
+Game265,121,1,0,1,1,0,1,2,1,0,0,0,0,50,phobolog
+Game266,116,3,0,2,4,0,1,0,1,0,0,0,4,79,interplanetary cinematics
+Game267,123,1,0,1,2,0,1,2,0,0,0,0,3,46,inventrix
+Game268,83,0,1,0,0,0,0,2,1,1,1,0,2,66,teractor
+Game269,92,0,0,0,1,0,2,2,1,0,0,2,0,78,tharsis republic
+Game270,85,1,3,1,0,1,0,3,0,0,0,0,6,120,credicor
+Game271,90,0,0,0,0,0,1,1,0,2,0,1,0,50,ecoline
+Game272,92,2,1,1,3,1,0,2,0,0,0,0,4,70,inventrix
+Game273,92,3,0,1,1,1,3,1,1,0,0,0,1,51,helion
+Game274,90,0,0,0,0,0,3,2,1,0,0,1,0,23,ecoline
+Game275,111,0,1,1,0,0,2,3,0,0,0,0,0,81,tharsis republic
+Game276,86,4,0,1,1,1,0,0,0,0,0,0,1,40,ecoline
+Game277,97,6,0,1,2,2,0,0,0,0,0,0,2,73,tharsis republic
+Game278,87,3,0,0,3,0,2,0,1,0,0,1,1,45,teractor
+Game279,79,2,0,0,1,0,0,1,0,0,0,0,1,48,teractor
+Game280,98,1,1,0,0,1,5,4,5,0,1,0,1,135,inventrix
+Game281,128,0,0,0,0,0,2,2,0,2,0,0,0,57,saturn systems
+Game282,73,2,0,1,0,0,1,0,0,0,1,0,0,42,tharsis republic
+Game283,125,5,0,1,2,1,0,0,0,0,0,1,1,82,helion
+Game284,120,1,0,0,2,0,3,2,3,0,0,0,3,77,united nations mars initiative
+Game285,75,1,1,0,0,0,1,2,1,0,0,0,2,94,phobolog
+Game286,92,1,0,1,1,1,2,2,1,0,0,1,5,73,inventrix
+Game287,95,0,2,0,0,0,1,2,2,0,1,0,2,68,credicor
+Game288,95,2,0,0,3,0,0,0,1,3,1,0,1,69,thorgate
+Game289,86,0,0,0,0,0,1,1,1,0,0,0,0,29,mining guild
+Game290,84,3,0,1,2,1,1,1,1,0,0,0,1,86,mining guild
+Game291,102,1,1,3,2,0,1,3,0,0,0,0,4,84,helion
+Game292,135,1,1,0,0,0,0,1,0,2,1,0,3,62,phobolog
+Game293,98,2,2,0,1,1,1,2,0,0,0,0,3,83,helion
+Game294,101,2,0,0,1,1,1,1,1,2,0,0,0,82,inventrix
+Game295,87,2,0,0,1,0,1,0,1,0,0,0,1,46,tharsis republic
+Game296,94,2,0,1,0,1,0,0,0,0,0,0,1,37,ecoline
+Game297,79,2,1,0,2,0,0,2,2,1,0,0,3,92,credicor
+Game298,87,1,0,0,3,0,0,1,0,0,0,0,4,32,tharsis republic
+Game299,82,3,0,1,0,0,0,2,1,0,0,0,2,74,tharsis republic
+Game300,106,3,2,1,1,2,1,3,0,0,0,0,0,106,credicor
+Game301,97,1,0,0,1,0,1,1,1,0,0,1,2,66,inventrix
+Game302,93,2,0,0,0,1,2,1,0,0,0,0,1,52,saturn systems
+Game303,108,3,2,0,0,1,3,2,1,0,0,0,5,100,tharsis republic
+Game304,77,3,0,3,0,1,0,0,0,0,0,0,0,47,thorgate
+Game305,91,1,0,1,2,0,1,1,1,0,0,0,2,65,saturn systems
+Game306,98,2,0,0,2,0,1,0,2,1,0,0,1,55,mining guild
+Game307,74,2,0,1,0,1,1,1,0,0,0,0,1,68,united nations mars initiative
+Game308,95,1,0,0,1,0,0,0,2,1,0,0,3,70,inventrix
+Game309,93,3,0,0,2,1,2,0,0,0,0,0,1,83,mining guild
+Game310,89,1,0,0,1,0,2,1,1,0,1,1,0,60,tharsis republic
+Game311,87,6,0,1,1,1,0,1,0,1,0,0,4,94,mining guild
+Game312,111,3,0,0,1,1,0,0,0,0,0,0,0,45,credicor
+Game313,110,1,0,0,3,0,1,1,2,1,1,1,1,83,ecoline
+Game314,95,4,0,2,1,1,0,1,0,0,0,0,2,84,mining guild
+Game315,72,5,0,1,1,0,1,0,0,1,0,0,1,53,united nations mars initiative
+Game316,73,1,0,0,1,0,1,0,0,0,0,1,0,16,helion
+Game317,75,2,0,0,0,1,2,2,0,1,0,1,0,104,tharsis republic
+Game318,103,2,0,0,3,1,3,2,2,0,0,0,1,94,mining guild
+Game319,101,2,0,1,2,0,3,2,1,1,0,0,3,87,inventrix
+Game320,98,3,1,1,0,0,0,1,0,1,0,0,2,64,helion
+Game321,89,2,2,0,1,0,2,4,0,1,0,0,5,136,thorgate
+Game322,87,1,0,1,2,0,1,1,0,1,0,2,0,38,credicor
+Game323,77,2,0,0,1,0,1,0,0,0,0,2,1,30,tharsis republic
+Game324,76,3,0,1,1,0,2,0,1,0,0,0,3,48,credicor
+Game325,89,1,0,0,1,0,1,1,0,1,0,1,0,54,ecoline
+Game326,117,1,0,0,1,0,1,2,1,0,0,0,0,63,credicor
+Game327,70,0,0,0,0,0,1,2,1,0,0,0,0,52,credicor
+Game328,86,3,3,0,1,1,0,3,0,0,0,0,7,100,credicor
+Game329,103,2,0,1,0,0,0,0,1,0,0,0,3,42,ecoline
+Game330,95,1,0,0,2,1,0,0,0,0,0,0,0,29,ecoline
+Game331,95,1,0,0,3,0,0,0,0,1,1,2,2,63,saturn systems
+Game332,71,4,0,2,1,0,1,2,0,0,0,0,1,93,phobolog
+Game333,88,0,1,0,0,0,1,1,0,0,0,1,2,46,ecoline
+Game334,69,2,0,2,3,0,0,2,0,1,0,0,3,48,thorgate
+Game335,94,1,1,0,0,0,3,2,1,0,0,1,3,74,united nations mars initiative
+Game336,108,2,0,0,2,0,0,0,0,0,0,0,1,41,tharsis republic
+Game337,89,1,0,0,1,0,1,1,2,0,0,1,0,44,tharsis republic
+Game338,114,2,0,0,0,0,1,1,4,0,1,0,3,60,mining guild
+Game339,101,4,0,0,1,2,0,0,0,1,0,0,0,44,ecoline
+Game340,86,0,0,0,0,0,2,3,0,0,0,0,0,57,saturn systems
+Game341,98,2,0,0,0,0,1,1,1,1,0,0,1,66,teractor
+Game342,106,0,1,0,0,1,3,5,1,0,0,0,5,92,phobolog
+Game343,73,4,1,1,2,1,0,0,0,1,0,0,4,71,interplanetary cinematics
+Game344,95,1,1,0,1,0,3,3,1,0,0,1,0,73,thorgate
+Game345,105,1,1,0,0,0,2,3,1,1,0,0,0,97,tharsis republic
+Game346,68,2,1,1,1,0,3,2,3,0,0,0,4,118,credicor
+Game347,119,2,0,0,1,1,2,0,0,0,0,0,0,61,interplanetary cinematics
+Game348,82,1,0,1,2,0,4,2,0,0,0,0,1,82,tharsis republic
+Game349,87,1,0,1,1,0,1,1,1,0,0,0,4,44,teractor
+Game350,93,0,0,0,1,0,3,1,2,0,0,0,2,94,credicor
+Game351,97,4,0,1,2,0,0,1,0,2,0,1,1,62,tharsis republic
+Game352,96,1,0,0,1,0,3,4,1,0,0,0,5,78,phobolog
+Game353,93,1,0,0,2,0,1,3,2,1,1,0,4,79,phobolog
+Game354,74,3,0,0,2,0,1,1,2,0,0,0,7,75,thorgate
+Game355,122,1,0,1,2,0,3,1,1,1,0,0,7,80,inventrix
+Game356,91,2,0,2,1,1,0,1,0,0,0,0,0,38,credicor
+Game357,100,2,0,1,1,1,1,2,1,1,0,1,2,91,tharsis republic
+Game358,99,0,0,0,1,0,2,2,0,0,0,0,2,53,teractor
+Game359,78,0,0,0,0,0,3,2,2,0,0,1,2,70,saturn systems
+Game360,81,3,0,1,2,0,0,1,0,0,0,0,0,56,inventrix
+Game361,90,1,0,0,0,0,3,3,1,0,0,1,0,103,credicor
+Game362,108,1,0,0,0,0,0,0,0,3,1,0,2,45,tharsis republic
+Game363,88,1,0,1,2,0,1,2,1,0,0,0,2,59,teractor
+Game364,83,0,0,0,1,0,3,3,2,0,0,1,0,68,credicor
+Game365,94,3,0,1,0,0,1,0,0,0,0,0,0,40,thorgate
+Game366,96,3,1,1,1,0,0,1,0,0,0,0,4,65,mining guild
+Game367,88,1,0,0,1,0,0,0,0,0,0,2,1,45,ecoline
+Game368,107,2,0,2,1,1,2,2,1,0,1,0,1,88,inventrix
+Game369,92,3,0,0,0,0,0,1,0,1,0,0,2,65,thorgate
+Game370,108,3,0,0,2,0,2,2,3,0,0,1,1,71,credicor
+Game371,91,0,1,0,2,0,1,2,1,0,0,0,3,51,phobolog
+Game372,86,1,0,0,1,1,1,0,0,2,0,0,1,59,helion
+Game373,120,1,1,1,1,0,2,4,1,1,0,0,2,89,credicor
+Game374,61,4,0,3,0,0,0,0,0,0,0,0,1,48,thorgate
+Game375,95,2,0,2,1,0,1,1,0,1,0,0,3,61,credicor
+Game376,76,3,0,1,2,0,3,0,2,1,0,0,0,63,thorgate
+Game377,122,3,0,0,1,0,2,1,1,0,0,0,2,80,interplanetary cinematics
+Game378,104,1,1,0,0,0,1,3,1,2,1,1,8,100,interplanetary cinematics
+Game379,113,3,0,2,2,1,1,0,0,1,0,0,2,54,interplanetary cinematics
+Game380,86,1,0,0,1,1,2,0,1,0,0,0,0,30,mining guild
+Game381,98,0,0,0,1,0,1,0,0,1,0,1,0,20,thorgate
+Game382,92,2,0,0,1,0,2,0,2,0,0,0,1,44,tharsis republic
+Game383,97,0,1,0,1,0,2,2,3,2,1,0,3,98,interplanetary cinematics
+Game384,112,0,1,0,3,1,1,3,0,0,0,1,3,89,teractor
+Game385,97,2,0,3,1,0,1,1,1,1,0,0,0,55,tharsis republic
+Game386,96,2,0,0,4,0,0,0,1,1,0,0,1,62,ecoline
+Game387,103,3,0,1,2,1,0,0,0,3,1,0,3,73,inventrix
+Game388,89,0,0,0,0,0,4,3,0,1,0,1,0,109,tharsis republic
+Game389,100,1,1,0,1,0,1,3,0,0,0,0,3,84,saturn systems
+Game390,115,1,2,1,1,0,1,2,0,0,0,0,3,53,teractor
+Game391,117,0,0,1,2,0,1,0,0,0,0,1,1,34,interplanetary cinematics
+Game392,80,0,0,0,0,0,1,0,1,2,0,1,0,32,tharsis republic
+Game393,109,2,1,2,1,0,0,1,1,0,0,1,1,80,phobolog
+Game394,100,3,0,0,1,0,2,0,1,0,0,0,1,69,united nations mars initiative
+Game395,76,4,0,0,0,0,1,2,0,0,0,1,1,94,interplanetary cinematics
+Game396,121,2,0,2,0,0,0,0,0,1,0,0,0,33,thorgate
+Game397,85,1,1,0,0,0,1,1,2,0,1,1,2,62,saturn systems
+Game398,117,4,0,1,2,0,1,1,1,0,0,0,2,59,thorgate
+Game399,80,1,0,0,2,0,1,0,0,0,0,0,2,47,helion
+Game400,157,1,0,0,2,0,1,0,2,0,0,1,3,71,saturn systems
+Game401,80,2,0,1,0,1,2,1,1,0,1,0,0,71,thorgate
+Game402,76,0,0,1,1,0,1,0,1,2,0,1,0,44,thorgate
+Game403,105,1,0,1,1,0,1,1,2,0,1,0,1,54,thorgate
+Game404,99,0,0,0,3,0,2,2,2,1,1,0,4,59,phobolog
+Game405,87,1,0,1,1,0,2,2,3,0,0,1,0,73,saturn systems
+Game406,76,3,1,2,0,0,0,1,0,0,0,0,2,50,teractor
+Game407,116,1,0,0,2,1,1,1,0,0,0,0,0,48,teractor
+Game408,89,2,2,0,0,0,0,2,1,1,0,0,5,94,phobolog
+Game409,89,1,0,1,1,0,0,0,0,0,0,1,0,14,united nations mars initiative
+Game410,87,1,0,0,0,0,1,0,0,1,0,0,0,23,united nations mars initiative
+Game411,125,0,1,0,2,0,0,1,1,1,0,0,5,78,credicor
+Game412,142,3,0,1,2,0,1,2,1,0,0,0,3,70,saturn systems
+Game413,98,2,0,1,1,1,1,1,0,1,0,0,0,63,inventrix
+Game414,104,2,0,2,0,0,0,1,1,0,1,0,0,49,phobolog
+Game415,92,0,0,0,1,0,3,0,1,0,0,0,0,37,saturn systems
+Game416,153,1,0,0,0,1,1,2,1,0,0,1,0,74,tharsis republic
+Game417,105,2,0,1,2,1,0,0,1,0,0,1,0,57,tharsis republic
+Game418,111,1,1,0,1,0,1,2,0,0,0,0,2,68,helion
+Game419,124,4,0,0,1,0,0,1,1,1,0,0,1,60,tharsis republic
+Game420,81,4,0,0,1,0,3,1,0,2,0,1,1,99,tharsis republic
+Game421,101,4,0,1,0,1,0,0,0,1,0,0,0,47,ecoline
+Game422,92,0,0,0,1,0,1,1,0,0,0,1,0,47,tharsis republic
+Game423,131,5,1,0,2,0,0,0,0,2,0,0,4,57,interplanetary cinematics
+Game424,101,2,1,0,1,0,0,2,0,1,0,1,1,68,phobolog
+Game425,83,4,0,1,1,0,0,0,0,1,1,0,2,41,interplanetary cinematics
+Game426,126,2,4,1,1,1,0,3,0,0,0,0,7,95,saturn systems
+Game427,89,0,1,0,2,1,1,2,0,0,0,1,8,82,credicor
+Game428,90,3,0,1,2,0,2,2,3,0,0,0,6,89,teractor
+Game429,96,1,0,0,0,0,2,1,2,1,0,1,2,71,helion
+Game430,73,0,0,0,1,0,2,1,1,1,1,0,1,82,saturn systems
+Game431,71,0,0,0,0,0,3,3,2,0,0,1,0,72,credicor
+Game432,83,1,1,1,0,0,2,2,2,0,0,1,3,95,interplanetary cinematics
+Game433,81,1,0,0,1,0,1,0,2,1,0,0,0,45,interplanetary cinematics
+Game434,72,0,0,0,1,0,1,0,1,0,0,1,2,30,ecoline
+Game435,97,3,0,0,3,0,1,2,0,1,0,0,5,78,mining guild
+Game436,77,1,0,0,2,0,3,0,0,0,0,0,0,54,teractor
+Game437,105,1,0,0,1,0,3,2,1,0,0,0,4,57,phobolog
+Game438,121,1,1,1,0,0,0,1,0,0,1,0,1,28,credicor
+Game439,86,2,0,1,1,0,0,0,0,0,0,0,1,28,helion
+Game440,86,3,0,2,0,0,2,2,1,1,0,0,4,120,credicor
+Game441,86,2,0,0,0,0,3,1,0,1,0,0,0,57,mining guild
+Game442,96,2,0,0,1,2,0,0,0,1,0,1,0,52,tharsis republic
+Game443,97,1,0,0,1,0,0,0,0,0,1,0,3,32,tharsis republic
+Game444,118,2,0,0,2,0,1,1,0,0,0,0,0,34,interplanetary cinematics
+Game445,71,3,0,0,2,0,2,1,0,1,0,0,2,57,mining guild
+Game446,99,1,0,2,3,0,0,0,1,0,0,0,2,66,teractor
+Game447,94,1,0,2,2,1,0,1,0,1,0,0,6,72,tharsis republic
+Game448,106,0,1,0,2,0,0,1,0,0,0,2,1,55,phobolog
+Game449,79,1,0,1,0,0,2,3,0,0,0,0,1,76,credicor
+Game450,87,3,0,1,2,1,1,1,1,0,0,0,2,58,tharsis republic
+Game451,83,1,0,0,2,1,1,1,0,0,0,0,0,60,tharsis republic
+Game452,76,0,0,0,0,0,1,0,1,0,0,1,0,11,ecoline
+Game453,107,2,0,0,1,1,1,1,1,1,0,1,0,44,interplanetary cinematics
+Game454,100,1,0,0,2,0,1,1,0,1,0,0,1,74,phobolog
+Game455,125,1,0,1,0,0,2,2,1,0,0,1,0,61,tharsis republic
+Game456,94,1,0,2,3,0,2,2,0,0,0,0,1,86,tharsis republic
+Game457,87,2,0,1,2,0,1,2,0,2,0,1,3,79,tharsis republic
+Game458,75,0,0,0,0,0,3,3,1,0,0,0,0,89,ecoline
+Game459,99,2,0,0,2,1,1,1,2,0,0,0,1,37,ecoline
+Game460,89,3,0,1,2,0,1,0,0,0,0,0,2,64,teractor
+Game461,90,0,0,1,0,0,2,2,2,2,1,0,0,54,helion
+Game462,105,0,0,1,0,0,2,0,4,0,0,0,2,46,helion
+Game463,81,1,0,0,1,0,1,1,1,1,0,0,3,78,saturn systems
+Game464,91,3,0,0,0,1,2,0,1,0,0,0,0,51,interplanetary cinematics
+Game465,90,2,1,0,0,0,1,2,1,0,0,0,1,68,teractor
+Game466,85,1,0,1,1,0,2,1,1,0,0,0,2,44,ecoline
+Game467,85,3,1,0,0,1,1,2,0,0,0,0,3,66,interplanetary cinematics
+Game468,94,3,0,0,1,0,1,0,1,0,0,1,2,51,tharsis republic
+Game469,109,0,0,0,1,0,2,1,0,0,0,2,0,49,phobolog
+Game470,93,0,2,0,0,0,0,1,0,0,0,0,1,54,thorgate
+Game471,103,3,0,1,1,0,2,0,0,0,0,0,1,73,interplanetary cinematics
+Game472,75,2,0,1,1,0,1,1,0,1,0,0,1,56,helion
+Game473,86,1,0,0,0,0,1,1,1,2,1,2,3,70,ecoline
+Game474,107,0,0,0,2,0,2,1,2,0,0,0,1,28,interplanetary cinematics
+Game475,82,0,0,0,1,0,1,1,0,0,0,0,0,34,mining guild
+Game476,91,1,0,0,1,0,1,1,0,2,0,0,4,69,helion
+Game477,80,0,0,0,0,0,1,1,2,1,0,0,1,50,teractor
+Game478,83,1,0,0,2,0,3,5,1,0,0,0,3,119,teractor
+Game479,96,1,0,1,0,0,2,1,1,0,0,0,0,52,teractor
+Game480,71,2,2,1,0,0,0,2,0,0,0,0,2,84,interplanetary cinematics
+Game481,100,0,0,0,0,0,1,1,1,1,1,2,5,60,credicor
+Game482,94,3,0,1,0,1,1,0,0,1,0,0,0,40,interplanetary cinematics
+Game483,104,1,2,0,1,0,2,3,0,0,0,0,4,82,phobolog
+Game484,105,0,0,0,0,0,2,1,1,0,0,1,0,27,tharsis republic
+Game485,94,0,0,0,0,0,1,0,0,2,0,0,0,36,ecoline
+Game486,81,2,0,0,2,0,0,0,1,1,0,1,1,49,credicor
+Game487,84,1,0,1,4,0,0,1,0,0,0,1,2,62,mining guild
+Game488,103,3,0,1,0,0,0,1,0,1,1,0,2,61,interplanetary cinematics
+Game489,80,2,0,1,4,1,0,2,0,1,0,0,2,58,inventrix
+Game490,78,0,0,0,2,0,1,1,0,0,0,1,0,53,credicor
+Game491,84,0,2,0,0,2,1,3,0,0,0,0,3,70,phobolog
+Game492,91,0,0,0,1,0,1,0,2,0,1,1,0,43,inventrix
+Game493,78,0,0,0,0,0,2,2,1,1,0,0,0,57,phobolog
+Game494,94,0,0,0,0,0,1,2,1,0,0,1,0,73,phobolog
+Game495,94,0,0,1,4,0,1,1,0,0,0,2,0,69,teractor
+Game496,99,1,0,0,3,0,0,0,0,0,0,0,2,36,inventrix
+Game497,90,0,1,0,1,0,2,2,1,0,0,0,2,31,teractor
+Game498,94,1,0,0,0,0,2,1,2,0,0,1,2,61,teractor
+Game499,79,0,0,0,0,0,2,2,3,0,0,0,0,47,phobolog
+Game500,87,0,1,0,1,0,2,1,0,0,0,0,1,43,teractor
+Game501,74,0,0,0,0,0,1,0,0,0,0,0,0,27,tharsis republic
+Game502,93,2,0,0,3,0,1,1,2,0,0,0,2,37,tharsis republic
+Game503,90,0,2,0,0,0,2,4,0,1,0,0,1,87,saturn systems
+Game504,90,2,0,0,1,0,1,2,2,0,0,1,0,54,mining guild
+Game505,99,1,0,0,1,0,0,0,2,1,0,1,0,37,ecoline
+Game506,87,0,0,0,3,0,1,1,0,0,0,1,3,47,interplanetary cinematics
+Game507,91,1,3,0,1,0,1,4,0,0,0,0,5,107,saturn systems
+Game508,112,3,0,0,2,0,2,1,1,0,0,0,2,57,inventrix
+Game509,95,2,0,0,1,0,3,1,1,0,0,0,1,56,tharsis republic
+Game510,110,0,1,0,1,0,0,1,1,0,0,0,6,65,saturn systems
+Game511,105,3,0,0,2,0,3,2,1,0,0,0,0,97,thorgate
+Game512,80,3,0,0,1,1,1,0,0,1,0,1,0,71,mining guild
+Game513,101,1,0,0,1,1,2,1,1,0,0,0,1,68,credicor
+Game514,102,1,2,0,1,0,1,3,0,0,0,0,3,76,saturn systems
+Game515,85,1,1,0,0,0,1,1,1,0,0,0,4,70,helion
+Game516,81,1,0,0,1,0,3,3,1,0,0,0,2,86,saturn systems
+Game517,94,2,0,0,1,0,1,1,1,0,0,0,1,65,thorgate
+Game518,87,1,0,1,1,0,1,0,1,0,0,0,1,43,inventrix
+Game519,98,2,0,2,2,0,0,1,1,0,0,1,2,73,helion
+Game520,77,1,2,1,1,0,0,1,1,0,0,1,2,51,teractor
+Game521,85,0,1,2,1,0,0,3,1,0,0,0,2,66,saturn systems
+Game522,89,2,0,0,2,0,0,0,1,1,0,0,1,71,tharsis republic
+Game523,69,2,0,1,1,0,2,1,1,0,0,1,1,64,credicor
+Game524,97,1,0,0,0,0,2,1,0,0,0,0,0,46,helion
+Game525,120,2,1,1,3,0,1,2,0,0,0,0,4,95,helion
+Game526,135,1,1,1,2,0,1,4,2,0,0,0,3,62,phobolog
+Game527,100,1,2,0,0,1,1,5,1,0,0,0,2,86,phobolog
+Game528,97,1,0,0,0,0,2,2,1,0,0,0,2,69,helion
+Game529,93,2,1,0,0,0,1,2,1,2,0,0,6,83,phobolog
+Game530,77,0,0,0,2,0,2,2,1,1,1,1,2,96,inventrix
+Game531,75,2,0,0,1,0,0,0,1,0,0,0,0,42,mining guild
+Game532,106,3,0,1,2,0,1,2,1,0,0,0,3,64,saturn systems
+Game533,101,1,1,0,1,0,1,2,0,0,0,0,2,95,mining guild
+Game534,93,3,0,1,1,0,1,0,3,0,0,0,2,41,tharsis republic
+Game535,85,0,0,0,1,0,1,2,1,0,0,0,1,46,helion
+Game536,97,1,0,0,2,0,2,1,2,0,0,0,2,67,saturn systems
+Game537,73,2,0,0,0,0,4,3,2,1,0,1,0,86,teractor
+Game538,116,1,0,0,2,0,1,1,0,0,0,1,2,57,saturn systems
+Game539,111,2,1,0,1,0,0,1,2,0,0,0,6,78,inventrix
+Game540,94,2,0,0,1,0,1,1,0,0,0,0,0,55,interplanetary cinematics
+Game541,126,0,0,0,2,0,1,2,1,0,0,1,0,71,interplanetary cinematics
+Game542,91,1,1,1,0,0,0,1,1,0,0,1,0,56,ecoline
+Game543,110,2,2,1,0,0,1,3,0,1,0,0,1,116,ecoline
+Game544,96,4,1,1,2,0,1,3,0,0,0,0,4,90,phobolog
+Game545,94,4,0,1,1,1,1,0,0,0,0,0,1,50,tharsis republic
+Game546,103,3,0,0,3,0,0,0,0,1,0,0,3,66,mining guild
+Game547,96,2,0,0,0,0,2,1,2,0,0,1,2,64,phobolog
+Game548,102,0,0,0,0,0,2,1,3,0,0,0,6,61,credicor
+Game549,75,2,0,0,0,0,1,1,0,2,0,0,1,88,interplanetary cinematics
+Game550,132,3,1,0,2,0,0,3,0,0,0,0,6,97,phobolog
+Game551,105,0,2,0,1,1,0,2,0,0,0,0,0,72,phobolog
+Game552,145,2,0,0,0,0,0,1,1,1,0,0,1,55,tharsis republic
+Game553,133,4,0,1,0,2,0,1,1,0,0,0,5,73,interplanetary cinematics
+Game554,114,3,1,2,2,0,0,1,0,1,0,0,5,70,helion
+Game555,113,1,1,0,0,0,2,2,1,0,0,0,2,63,mining guild
+Game556,103,1,0,0,0,0,3,2,2,0,0,1,2,113,teractor
+Game557,107,2,2,1,1,1,0,2,1,0,0,0,4,104,phobolog
+Game558,123,2,0,2,3,0,1,3,1,0,0,0,5,102,mining guild
+Game559,130,3,0,0,2,0,0,1,0,0,0,0,4,51,tharsis republic
+Game560,109,2,1,0,1,1,1,1,0,0,0,1,0,42,mining guild
+Game561,146,2,0,1,4,0,2,1,0,1,0,0,1,74,interplanetary cinematics
+Game562,78,0,0,0,1,0,1,2,1,0,0,0,0,67,phobolog
+Game563,103,3,0,0,2,1,0,0,1,0,0,1,0,69,tharsis republic
+Game564,82,0,1,0,0,0,2,2,0,0,0,0,0,56,saturn systems
+Game565,86,3,0,2,0,0,1,1,1,0,0,0,1,48,mining guild
+Game566,128,4,1,0,1,0,0,0,0,1,0,0,3,73,credicor
+Game567,101,2,0,0,0,1,0,1,0,1,0,0,3,57,teractor
+Game568,119,2,0,0,5,1,0,0,0,0,0,1,4,65,tharsis republic
+Game569,93,3,0,0,3,0,1,0,0,0,0,0,1,39,interplanetary cinematics
+Game570,88,1,2,0,2,0,0,2,0,0,0,3,3,79,ecoline
+Game571,104,2,0,0,0,1,1,0,1,0,0,0,0,46,tharsis republic
+Game572,108,2,1,0,2,0,0,1,1,0,0,0,1,79,mining guild
+Game573,112,2,1,2,1,0,0,0,1,0,0,0,2,53,interplanetary cinematics
+Game574,99,1,1,0,1,0,1,3,2,0,0,0,3,68,saturn systems
+Game575,91,3,0,1,1,0,2,2,3,0,0,0,1,79,tharsis republic
+Game576,91,2,1,0,0,0,1,0,1,1,0,0,2,25,mining guild
+Game577,101,1,2,1,1,0,0,2,0,0,0,1,3,83,saturn systems
+Game578,93,2,0,2,0,0,2,4,2,2,1,1,4,153,inventrix
+Game579,90,0,0,2,1,0,2,1,1,1,0,0,0,57,thorgate
+Game580,98,2,2,2,0,1,1,3,1,0,0,0,5,120,thorgate
+Game581,103,2,0,0,2,0,1,1,0,1,0,0,0,93,interplanetary cinematics
+Game582,93,1,1,0,0,0,2,4,1,1,1,0,1,120,phobolog
+Game583,149,1,0,0,3,0,1,0,2,0,0,0,7,60,credicor
+Game584,68,0,0,0,2,0,1,0,2,1,0,0,1,39,tharsis republic
+Game585,89,2,1,1,2,1,0,1,0,0,0,1,2,67,teractor
+Game586,98,1,0,0,1,0,2,1,0,1,1,1,6,91,saturn systems
+Game587,83,0,1,1,1,0,2,3,0,0,0,1,2,63,tharsis republic
+Game588,92,0,0,0,0,0,3,2,2,0,0,0,0,63,inventrix
+Game589,83,1,0,0,0,0,3,1,1,0,0,0,0,44,credicor
+Game590,113,1,0,0,2,0,0,2,0,2,0,0,1,76,teractor
+Game591,91,1,1,0,2,1,1,2,1,0,0,0,4,74,tharsis republic
+Game592,62,0,0,0,0,0,1,1,0,0,0,1,0,37,ecoline
+Game593,77,2,0,0,1,0,1,1,1,0,0,0,2,29,mining guild
+Game594,95,2,0,2,5,1,1,1,1,0,0,1,0,91,credicor
+Game595,68,3,0,0,0,0,1,0,0,2,1,0,0,62,ecoline
+Game596,72,0,1,1,0,0,0,1,0,0,1,0,1,70,ecoline
+Game597,97,3,0,1,1,1,1,1,0,1,1,0,0,83,tharsis republic
+Game598,92,0,0,0,1,0,1,1,2,1,2,2,0,86,teractor
+Game599,111,0,2,2,2,0,1,4,0,1,0,0,3,76,credicor
+Game600,140,1,1,0,0,0,1,1,1,0,0,0,4,68,thorgate
+Game601,84,0,2,0,1,0,1,4,0,0,0,0,4,78,saturn systems
+Game602,88,2,0,0,1,0,0,1,1,0,0,1,2,58,phobolog
+Game603,92,2,0,2,2,0,1,0,0,2,0,0,1,40,tharsis republic
+Game604,110,1,0,1,3,0,0,0,0,1,0,0,3,50,saturn systems
+Game605,83,2,0,2,0,2,0,1,2,1,0,0,0,52,tharsis republic
+Game606,102,1,0,1,0,0,0,0,2,1,0,0,1,49,tharsis republic
+Game607,88,1,0,0,1,0,3,1,1,1,0,0,0,48,interplanetary cinematics
+Game608,78,2,0,1,0,0,2,2,0,1,0,0,0,77,mining guild
+Game609,85,1,0,0,2,1,3,1,1,0,0,0,0,49,tharsis republic
+Game610,83,0,1,0,0,0,1,3,0,0,0,0,0,66,teractor
+Game611,97,2,0,0,2,0,0,0,2,0,0,1,1,42,teractor
+Game612,80,1,2,1,0,0,1,3,1,2,0,0,2,114,credicor
+Game613,84,2,1,0,0,1,0,1,1,0,0,1,3,69,credicor
+Game614,79,2,0,4,2,0,0,1,0,0,0,0,0,43,saturn systems
+Game615,61,1,0,1,0,0,2,2,1,1,0,0,3,104,tharsis republic
+Game616,111,1,0,0,1,0,1,1,3,0,0,0,3,79,teractor
+Game617,92,1,1,1,0,0,1,1,0,0,0,1,2,51,saturn systems
+Game618,93,1,1,0,0,0,3,3,2,0,0,0,4,122,ecoline
+Game619,93,1,0,0,0,0,0,1,0,1,0,0,1,38,ecoline
+Game620,69,0,0,0,1,0,2,3,0,0,0,0,0,109,credicor
+Game621,73,0,0,1,0,0,1,3,1,0,0,0,1,35,helion
+Game622,100,2,0,1,2,1,0,1,1,1,0,0,0,61,credicor
+Game623,103,1,0,1,1,1,0,1,1,1,0,0,1,64,credicor
+Game624,82,1,0,1,0,0,2,1,1,0,0,1,0,48,inventrix
+Game625,106,2,1,0,1,0,0,1,0,1,0,1,3,78,teractor
+Game626,80,4,1,1,2,0,1,1,2,0,0,0,5,86,mining guild
+Game627,82,3,0,0,0,0,2,2,0,2,0,0,3,81,interplanetary cinematics
+Game628,79,2,0,0,2,0,1,1,1,1,0,0,2,70,tharsis republic
+Game629,96,0,0,0,0,0,0,0,1,0,0,1,0,13,saturn systems
+Game630,107,1,0,0,1,0,1,1,1,0,0,2,2,54,interplanetary cinematics
+Game631,84,1,0,1,1,1,1,1,1,0,0,0,1,71,tharsis republic
+Game632,99,0,1,0,2,0,1,3,2,0,0,0,2,73,credicor
+Game633,119,5,0,1,3,0,0,1,1,0,0,0,4,62,tharsis republic
+Game634,98,0,0,0,1,0,2,1,2,1,1,1,0,52,teractor
+Game635,84,1,0,1,0,2,2,4,0,1,0,0,4,128,credicor
+Game636,105,1,0,0,0,0,2,2,1,0,0,0,2,66,credicor
+Game637,111,2,0,1,2,0,0,0,0,0,0,0,2,39,mining guild
+Game638,87,0,0,0,2,0,1,1,1,1,1,1,0,67,mining guild
+Game639,121,2,0,1,0,2,1,5,1,0,0,0,4,109,credicor
+Game640,116,2,0,0,1,1,2,0,1,0,0,0,0,55,interplanetary cinematics
+Game641,90,1,0,1,0,0,1,0,1,0,0,0,0,28,ecoline
+Game642,85,0,0,0,0,0,2,0,1,0,0,0,0,26,interplanetary cinematics
+Game643,111,2,1,0,1,0,0,1,0,0,0,1,4,45,teractor
+Game644,88,1,1,2,3,1,1,2,0,0,0,1,1,81,teractor
+Game645,83,3,1,1,2,0,0,1,0,1,0,1,4,92,teractor
+Game646,75,1,1,1,0,0,0,1,0,0,0,0,1,44,phobolog
+Game647,81,0,1,0,0,0,1,1,0,0,0,0,1,36,interplanetary cinematics
+Game648,107,1,1,0,2,0,1,2,3,0,0,0,4,87,phobolog
+Game649,78,5,0,1,0,1,1,0,1,2,0,1,0,87,teractor
+Game650,97,0,0,0,1,0,3,1,1,0,0,0,3,71,saturn systems
+Game651,97,0,1,0,0,0,0,1,1,1,1,0,1,66,saturn systems
+Game652,78,1,0,0,0,0,0,0,0,2,0,0,0,23,ecoline
+Game653,88,0,0,1,2,0,2,1,1,1,0,0,0,40,tharsis republic
+Game654,103,1,1,0,2,0,1,1,0,2,1,0,1,83,teractor
+Game655,90,1,1,0,1,0,1,3,1,0,0,0,3,73,phobolog
+Game656,82,2,2,1,3,0,2,2,1,0,0,0,6,73,teractor
+Game657,76,1,0,0,2,0,1,1,1,1,0,2,0,79,united nations mars initiative
+Game658,93,3,0,0,1,0,1,0,0,1,1,1,2,70,united nations mars initiative
+Game659,82,2,0,0,2,1,1,1,0,1,0,0,1,78,inventrix
+Game660,84,2,0,0,3,0,1,0,0,1,0,0,1,35,credicor
+Game661,143,0,1,0,2,0,1,1,0,0,0,1,0,62,saturn systems
+Game662,81,1,0,2,0,0,3,2,0,0,0,0,1,54,united nations mars initiative
+Game663,116,1,0,2,2,0,0,0,0,1,1,1,3,45,phobolog
+Game664,78,2,0,0,1,0,0,0,1,0,0,0,0,35,interplanetary cinematics
+Game665,125,4,1,1,1,1,0,2,1,0,0,0,3,68,tharsis republic
+Game666,87,3,2,0,1,0,0,1,0,1,0,0,4,86,teractor
+Game667,72,2,0,0,1,0,0,0,0,2,2,0,1,60,inventrix
+Game668,88,1,0,1,1,0,1,1,1,0,0,1,2,69,inventrix
+Game669,105,2,0,0,0,1,0,0,0,2,1,0,2,66,helion
+Game670,118,2,1,1,0,1,2,2,0,0,0,0,3,82,interplanetary cinematics
+Game671,99,3,1,0,2,1,1,1,1,1,0,0,3,67,tharsis republic
+Game672,145,2,0,1,2,0,3,1,1,0,0,0,0,78,interplanetary cinematics
+Game673,98,1,0,0,1,0,1,2,0,1,0,1,1,70,phobolog
+Game674,109,3,1,2,2,0,1,2,1,2,0,0,6,105,credicor
+Game675,105,0,0,2,2,0,2,4,1,0,1,0,1,80,inventrix
+Game676,88,0,1,0,1,0,2,3,2,0,1,1,2,91,credicor
+Game677,98,2,1,1,1,0,1,2,0,0,0,0,1,38,saturn systems
+Game678,80,1,0,0,1,0,0,2,0,0,1,1,3,56,tharsis republic
+Game679,93,3,0,0,2,1,2,3,1,0,0,1,4,100,thorgate
+Game680,92,1,0,0,1,0,0,0,0,1,1,1,0,54,helion
+Game681,77,2,0,0,1,0,1,1,0,0,1,0,0,48,credicor
+Game682,106,2,1,0,0,0,0,2,0,1,0,0,5,77,saturn systems
+Game683,114,1,0,1,0,0,3,2,2,1,0,0,2,100,credicor
+Game684,124,0,1,0,0,0,1,2,2,1,1,0,3,70,inventrix
+Game685,111,2,0,1,0,1,1,0,1,1,1,0,0,63,tharsis republic
+Game686,122,1,0,0,1,0,4,3,1,0,1,0,1,72,credicor
+Game687,84,4,0,1,1,1,1,0,0,0,2,0,1,58,credicor
+Game688,98,3,0,1,2,2,1,1,0,1,0,0,1,93,tharsis republic
+Game689,79,0,1,0,0,0,3,3,0,0,0,0,1,69,helion
+Game690,78,1,0,0,0,0,0,0,0,1,0,1,1,16,inventrix
+Game691,80,1,1,0,1,0,3,2,2,0,0,1,2,80,teractor
+Game692,84,3,0,1,3,1,0,0,1,1,1,0,4,85,ecoline
+Game693,100,3,0,0,0,2,3,2,2,1,1,0,2,113,thorgate
+Game694,112,1,0,0,1,0,0,0,1,1,0,1,2,56,saturn systems
+Game695,116,0,2,0,0,0,1,3,3,0,1,0,2,54,tharsis republic
+Game696,115,0,1,0,1,0,2,2,0,0,0,1,1,53,saturn systems
+Game697,84,1,0,1,2,1,2,2,0,0,0,0,0,48,saturn systems
+Game698,78,3,0,1,0,1,1,0,0,1,0,0,1,48,interplanetary cinematics
+Game699,71,3,0,0,0,1,1,1,1,1,0,1,1,105,credicor
+Game700,90,2,0,1,0,0,2,1,2,0,0,0,1,58,ecoline
+Game701,99,1,0,1,1,0,1,0,0,1,0,1,1,31,teractor
+Game702,97,1,0,1,2,0,0,0,1,1,0,0,2,46,interplanetary cinematics
+Game703,91,0,1,0,0,0,2,2,1,0,2,1,0,84,saturn systems
+Game704,99,0,2,1,1,0,1,2,1,1,1,0,2,76,teractor
+Game705,97,2,1,2,5,0,1,2,1,1,0,1,3,90,teractor
+Game706,82,4,0,1,0,1,2,1,2,0,0,0,3,88,interplanetary cinematics
+Game707,99,3,0,0,1,1,0,0,1,2,1,0,1,70,mining guild
+Game708,105,3,0,1,2,2,1,1,1,0,0,1,2,89,interplanetary cinematics
+Game709,96,3,0,1,0,1,0,1,0,0,1,0,2,60,phobolog
+Game710,115,2,0,1,3,0,1,2,1,0,0,1,1,86,interplanetary cinematics
+Game711,126,0,0,1,2,0,4,2,1,0,0,0,0,61,phobolog
+Game712,92,1,0,0,2,1,2,2,0,1,0,1,0,94,tharsis republic
+Game713,120,2,0,0,1,0,1,1,2,0,0,0,7,79,interplanetary cinematics
+Game714,79,1,0,0,0,0,1,1,1,1,0,1,0,41,united nations mars initiative
+Game715,80,1,1,0,0,0,0,1,1,1,0,0,1,61,credicor
+Game716,103,1,0,1,3,0,2,1,1,0,0,1,2,42,mining guild
+Game717,84,1,0,1,0,0,2,2,0,1,0,0,0,85,credicor
+Game718,109,3,0,0,1,0,2,1,0,2,0,0,2,91,inventrix
+Game719,156,1,1,1,3,0,0,1,0,0,1,1,3,92,credicor
+Game720,91,1,0,0,0,0,2,3,1,2,0,0,4,110,ecoline
+Game721,85,1,0,0,0,0,1,0,2,0,0,1,1,56,tharsis republic
+Game722,102,2,0,1,0,0,2,3,0,1,0,0,3,88,credicor
+Game723,108,2,0,2,2,0,1,1,0,0,0,2,4,61,mining guild
+Game724,109,3,1,1,1,0,1,1,2,0,0,0,1,56,inventrix
+Game725,91,1,0,1,1,0,0,0,1,0,0,0,0,23,ecoline
+Game726,98,3,0,1,1,0,0,0,0,2,0,0,1,61,helion
+Game727,118,1,3,1,2,1,1,3,0,0,0,1,2,119,tharsis republic
+Game728,77,3,0,2,0,1,0,0,1,0,1,0,0,57,teractor
+Game729,73,3,0,2,3,0,2,1,1,0,0,0,1,78,saturn systems
+Game730,93,2,0,1,2,0,0,2,1,1,0,1,1,79,credicor
+Game731,108,3,1,0,1,0,0,1,0,0,0,0,1,67,tharsis republic
+Game732,91,2,0,1,0,0,2,2,1,1,0,0,1,109,mining guild
+Game733,79,1,0,0,0,0,2,2,2,1,0,0,1,52,ecoline
+Game734,84,1,0,0,0,0,1,2,1,1,0,0,1,65,phobolog
+Game735,81,2,0,0,1,0,1,0,1,1,0,0,1,35,united nations mars initiative
+Game736,90,1,2,0,3,1,0,2,0,0,0,0,4,83,inventrix
+Game737,74,1,0,1,0,0,3,3,1,0,0,0,2,103,ecoline
+Game738,119,2,2,1,2,1,0,1,0,0,0,0,5,111,teractor
+Game739,101,3,0,0,3,0,2,1,3,0,0,0,1,110,thorgate
+Game740,78,1,0,1,0,0,1,1,1,0,1,0,0,55,mining guild
+Game741,104,2,1,0,2,0,0,0,1,0,0,0,3,43,inventrix
+Game742,84,2,0,0,3,0,2,2,0,0,0,0,3,78,credicor
+Game743,107,4,0,1,0,1,1,1,0,1,0,0,0,58,tharsis republic
+Game744,103,2,0,2,1,0,2,3,2,0,0,1,0,67,helion
+Game745,121,3,0,0,1,1,0,0,2,0,0,0,3,68,teractor
+Game746,121,1,1,0,2,1,1,2,1,0,0,1,1,69,tharsis republic
+Game747,103,0,0,0,1,0,2,1,2,0,0,0,0,32,interplanetary cinematics
+Game748,77,2,0,0,2,0,1,0,0,1,0,0,0,49,credicor
+Game749,73,0,1,1,0,0,1,1,1,0,0,0,0,45,mining guild
+Game750,112,1,0,0,0,0,2,2,1,0,0,0,1,37,credicor
+Game751,106,1,0,1,3,0,2,4,0,0,0,0,3,61,inventrix
+Game752,98,3,0,1,3,1,0,0,1,0,0,0,2,52,thorgate
+Game753,119,2,0,1,2,0,1,0,3,0,0,0,5,64,credicor
+Game754,86,1,0,2,3,1,1,1,0,1,0,0,0,54,ecoline
+Game755,70,1,0,1,0,0,1,0,0,0,0,0,0,13,interplanetary cinematics
+Game756,85,3,0,1,2,1,1,2,1,0,0,0,1,73,credicor
+Game757,96,2,0,1,1,0,1,2,0,0,0,0,2,60,teractor
+Game758,83,4,1,0,2,0,0,0,0,1,0,0,3,57,credicor
+Game759,79,1,0,0,1,0,0,1,0,0,0,0,2,42,inventrix
+Game760,89,1,0,0,1,1,1,0,0,0,0,1,0,46,credicor
+Game761,124,2,0,1,1,0,0,0,0,0,0,0,0,30,interplanetary cinematics
+Game762,132,2,0,0,2,0,1,1,0,0,0,0,6,59,mining guild
+Game763,95,0,1,0,1,0,0,1,1,0,0,0,1,32,helion
+Game764,75,1,1,0,1,0,0,2,0,0,0,0,1,49,teractor
+Game765,145,1,0,0,1,0,0,0,0,1,0,0,0,34,saturn systems
+Game766,99,0,1,0,0,0,1,1,0,0,0,0,1,54,inventrix
+Game767,151,1,2,1,0,0,0,1,3,0,0,0,3,66,saturn systems
+Game768,95,3,0,1,1,1,0,0,0,0,0,0,1,46,credicor
+Game769,89,0,1,0,0,0,1,1,3,0,1,0,2,54,teractor
+Game770,80,2,0,0,1,1,0,1,1,0,0,0,3,75,tharsis republic
+Game771,79,3,0,0,1,2,0,0,0,0,0,0,2,58,tharsis republic
+Game772,113,0,0,0,1,0,0,0,2,2,1,0,2,64,helion
+Game773,111,3,0,0,1,0,1,1,0,0,0,0,1,60,thorgate
+Game774,115,1,0,1,0,0,2,3,1,0,0,0,2,69,mining guild
+Game775,97,0,0,0,0,0,0,1,0,0,0,0,1,13,phobolog
+Game776,94,1,1,2,0,0,2,1,1,0,0,0,2,48,credicor
+Game777,88,3,0,0,1,0,0,1,1,0,0,0,3,41,credicor
+Game778,76,2,1,0,0,0,0,1,1,0,0,0,2,65,helion
+Game779,99,2,0,1,1,1,0,1,0,0,0,0,1,40,mining guild
+Game780,102,1,0,1,2,1,0,2,0,0,0,0,4,55,credicor
+Game781,83,0,0,1,1,0,1,1,1,0,0,0,0,46,tharsis republic
+Game782,137,1,0,0,3,1,0,0,0,0,0,0,1,38,credicor
+Game783,93,1,2,1,1,1,2,4,1,0,0,0,1,112,phobolog
+Game784,98,2,1,0,1,1,2,3,1,0,0,0,1,113,thorgate
+Game785,105,1,1,3,1,0,0,1,0,0,0,0,2,50,inventrix
+Game786,82,0,0,0,2,0,1,0,0,1,0,0,1,39,credicor
+Game787,135,0,0,1,3,0,0,0,0,0,0,0,5,38,inventrix
+Game788,96,3,0,1,1,1,2,1,1,0,0,0,0,61,interplanetary cinematics
+Game789,146,0,0,0,2,0,2,2,2,0,0,0,0,38,mining guild
+Game790,113,3,0,1,1,0,0,0,1,0,0,1,0,73,interplanetary cinematics
+Game791,105,0,0,1,2,0,0,1,1,0,0,2,3,67,saturn systems
+Game792,123,2,1,1,0,0,1,1,0,0,0,0,1,41,saturn systems
+Game793,78,2,1,2,3,1,0,1,0,0,0,0,3,77,thorgate
+Game794,116,2,0,0,1,0,3,3,0,0,0,0,0,74,tharsis republic
+Game795,86,1,0,1,1,0,1,1,2,0,0,0,2,47,thorgate
+Game796,98,3,0,2,1,1,0,1,0,0,0,0,0,54,thorgate
+Game797,122,1,0,0,2,0,0,1,2,0,1,2,2,69,teractor
+Game798,100,2,1,1,1,1,2,3,1,0,0,0,2,91,interplanetary cinematics
+Game799,93,1,0,0,0,0,0,1,1,0,0,0,1,45,phobolog
+Game800,77,1,0,0,1,0,1,2,1,0,0,0,1,49,credicor
+Game801,82,0,0,1,1,0,0,1,0,0,0,0,2,26,mining guild
+Game802,79,1,0,1,0,0,2,2,0,1,0,0,0,84,credicor
+Game803,113,1,1,1,1,2,2,3,0,0,0,0,0,82,credicor
+Game804,95,2,0,1,3,0,0,1,1,0,0,0,2,41,credicor
+Game805,92,0,0,1,2,0,0,0,0,1,1,0,2,46,inventrix
+Game806,93,1,0,0,1,0,3,2,2,0,0,0,0,42,saturn systems
+Game807,117,1,2,1,2,0,1,2,1,0,0,0,5,75,saturn systems
+Game808,112,0,2,0,2,0,1,3,0,0,0,0,5,107,saturn systems
+Game809,95,2,0,0,1,0,0,1,1,0,0,1,1,65,helion
+Game810,75,3,0,1,0,0,1,3,0,0,0,0,1,53,mining guild
+Game811,110,2,0,0,1,1,1,1,1,0,0,0,1,64,ecoline
+Game812,84,1,0,0,0,0,1,1,0,0,0,0,1,44,mining guild
+Game813,95,3,0,1,1,1,0,0,0,0,0,1,1,52,teractor
+Game814,93,3,1,0,0,2,0,1,0,0,0,0,1,49,interplanetary cinematics
+Game815,87,3,0,1,1,0,0,0,1,0,0,0,2,39,ecoline
+Game816,98,0,0,0,1,0,4,3,3,0,0,0,0,37,phobolog
+Game817,114,3,0,3,1,1,0,2,0,0,0,0,3,50,phobolog
+Game818,101,5,0,2,2,1,1,0,1,0,0,0,1,72,interplanetary cinematics
+Game819,79,1,0,1,0,0,1,3,1,1,0,0,2,100,credicor
+Game820,122,2,0,0,1,1,0,0,0,0,0,1,0,29,ecoline
+Game821,108,1,0,1,0,0,3,1,0,1,0,0,0,37,tharsis republic
+Game822,84,2,1,0,0,0,1,4,0,0,0,0,5,93,saturn systems
+Game823,94,1,0,0,2,1,0,1,0,1,0,1,1,41,ecoline
+Game824,125,1,1,0,3,0,2,3,0,0,0,1,2,68,saturn systems
+Game825,87,1,1,0,0,0,1,3,1,0,0,0,4,84,inventrix
+Game826,102,3,2,0,1,0,2,2,0,0,0,1,4,76,saturn systems
+Game827,91,3,0,1,1,0,0,2,1,0,0,0,3,57,tharsis republic
+Game828,76,2,0,0,0,0,2,1,2,0,0,0,1,56,tharsis republic
+Game829,85,1,0,0,2,0,2,0,1,1,0,0,0,40,saturn systems
+Game830,92,0,0,0,2,0,0,0,0,1,0,0,0,32,saturn systems
+Game831,98,1,0,2,1,0,0,0,0,0,0,0,0,24,inventrix
+Game832,89,2,0,0,1,0,1,0,1,0,0,0,0,45,credicor
+Game833,111,1,0,1,3,0,2,0,1,0,0,1,2,86,tharsis republic
+Game834,81,0,1,0,0,0,1,2,0,0,0,0,2,51,mining guild
+Game835,107,4,0,2,2,1,0,1,0,0,0,1,2,56,tharsis republic
+Game836,90,0,2,1,2,1,1,3,1,0,0,0,1,74,phobolog
+Game837,88,1,0,0,1,0,0,0,0,0,0,1,0,21,saturn systems
+Game838,106,2,0,0,3,1,1,2,1,1,1,1,5,61,saturn systems
+Game839,109,3,0,3,1,0,2,1,0,1,0,0,1,93,interplanetary cinematics
+Game840,90,1,0,0,1,1,1,1,0,1,1,1,0,78,tharsis republic
+Game841,125,1,0,0,0,0,1,1,1,0,0,0,0,27,interplanetary cinematics
+Game842,102,2,1,1,1,1,1,2,0,0,0,0,5,70,phobolog
+Game843,78,1,1,0,2,0,2,2,1,0,0,0,3,69,mining guild
+Game844,150,4,0,1,0,0,1,1,1,0,0,0,1,55,interplanetary cinematics
+Game845,77,2,0,0,1,0,2,2,0,0,0,0,2,56,phobolog
+Game846,119,1,0,0,1,0,2,0,0,0,0,1,1,36,saturn systems
+Game847,134,3,0,1,0,1,1,0,1,0,0,0,0,45,mining guild
+Game848,109,4,0,0,4,1,0,1,0,1,0,0,2,71,interplanetary cinematics
+Game849,122,2,0,0,1,0,1,0,0,2,0,1,0,40,interplanetary cinematics
+Game850,112,3,0,1,1,1,0,1,1,0,0,0,2,50,interplanetary cinematics
+Game851,104,0,0,1,2,0,2,2,1,1,0,1,0,66,credicor
+Game852,76,3,0,0,1,0,1,1,2,0,0,0,1,63,ecoline
+Game853,109,0,0,0,3,0,2,2,2,0,0,0,1,68,credicor
+Game854,101,1,1,0,1,0,1,2,0,1,0,0,4,93,phobolog
+Game855,83,1,1,0,1,0,1,1,0,1,0,1,2,61,helion
+Game856,107,3,0,2,1,2,1,0,0,0,0,0,1,64,interplanetary cinematics
+Game857,113,1,0,0,2,0,2,1,2,0,0,0,0,35,tharsis republic
+Game858,86,1,0,1,1,0,1,0,0,2,0,0,0,33,inventrix
+Game859,86,2,0,0,1,0,1,1,0,1,0,0,0,51,ecoline
+Game860,113,1,0,1,3,0,1,2,3,0,0,0,1,73,credicor
+Game861,97,3,0,1,2,0,0,0,0,0,0,1,2,38,saturn systems
+Game862,107,1,0,0,2,0,1,0,0,0,1,3,0,44,interplanetary cinematics
+Game863,78,0,0,0,2,0,0,1,0,2,0,0,1,31,helion
+Game864,78,0,0,2,2,0,2,4,2,0,0,0,1,91,credicor
+Game865,101,4,0,2,1,2,0,0,2,0,0,0,0,68,interplanetary cinematics
+Game866,76,1,0,0,2,0,1,2,0,1,0,1,6,98,credicor
+Game867,103,0,0,1,1,0,2,2,0,0,0,1,0,76,ecoline
+Game868,98,2,0,2,1,1,0,0,2,1,0,0,1,67,saturn systems
+Game869,102,1,0,2,3,0,0,1,0,0,0,0,2,41,mining guild
+Game870,85,2,0,1,1,0,1,0,1,1,0,0,0,43,tharsis republic
+Game871,107,2,0,2,1,0,0,1,0,0,0,0,0,56,thorgate
+Game872,84,1,0,1,0,0,0,0,2,0,0,0,0,43,mining guild
+Game873,62,1,0,0,1,0,4,1,2,0,0,0,0,58,interplanetary cinematics
+Game874,86,2,0,1,1,0,0,0,0,0,0,0,0,40,interplanetary cinematics
+Game875,95,0,1,0,1,0,2,1,3,1,0,0,1,53,teractor
+Game876,92,0,0,1,0,0,0,2,0,2,0,0,0,68,helion
+Game877,78,2,0,0,1,1,0,1,0,2,0,3,1,76,tharsis republic
+Game878,107,4,0,1,2,1,1,0,0,2,0,0,3,87,tharsis republic
+Game879,83,0,0,0,1,0,1,2,0,0,0,1,0,82,inventrix
+Game880,90,1,0,1,1,0,2,1,2,0,0,0,1,42,ecoline
+Game881,73,0,2,0,2,0,0,3,0,0,0,0,5,70,tharsis republic
+Game882,105,2,0,1,1,1,1,0,2,1,1,0,0,60,united nations mars initiative
+Game883,78,0,0,1,3,0,1,3,0,1,0,0,2,77,credicor
+Game884,99,3,0,0,1,1,2,2,2,1,0,0,2,75,interplanetary cinematics
+Game885,101,1,0,1,2,0,0,0,0,0,0,1,0,32,ecoline
+Game886,83,2,0,0,0,0,2,1,1,0,0,0,0,38,helion
+Game887,75,2,0,1,2,0,1,1,1,0,0,0,0,52,interplanetary cinematics
+Game888,95,2,0,1,3,0,0,1,1,0,0,0,1,42,phobolog
+Game889,92,1,0,1,1,1,0,0,0,0,0,0,0,42,thorgate
+Game890,117,0,0,0,1,0,2,1,1,1,0,0,3,54,inventrix
+Game891,77,0,1,0,0,0,1,2,0,1,0,0,2,66,helion
+Game892,124,0,0,1,1,0,0,1,0,1,0,1,0,37,saturn systems
+Game893,98,1,1,1,1,0,1,1,1,0,0,0,0,62,helion
+Game894,79,0,0,1,3,0,2,3,1,0,0,0,1,65,phobolog
+Game895,92,1,0,0,0,0,1,1,1,0,0,0,0,47,helion
+Game896,99,1,0,0,1,0,3,2,1,0,0,1,0,71,ecoline
+Game897,128,2,1,1,0,0,1,1,1,0,0,0,0,58,saturn systems
+Game898,89,2,0,1,2,0,1,1,0,1,0,0,2,53,interplanetary cinematics
+Game899,80,2,0,0,1,1,1,1,0,3,0,0,1,87,credicor
+Game900,93,1,0,0,0,0,2,2,2,1,0,0,0,51,interplanetary cinematics
+Game901,82,3,1,1,3,0,1,3,2,0,0,0,3,103,credicor
+Game902,84,2,1,0,0,1,0,2,1,0,0,0,0,76,credicor
+Game903,100,1,0,0,0,0,4,4,1,2,0,0,1,108,phobolog
+Game904,74,2,0,1,0,0,0,0,0,4,0,1,2,53,saturn systems
+Game905,103,1,0,0,1,1,1,1,2,0,0,1,0,28,ecoline
+Game906,96,2,0,1,1,0,1,1,0,0,0,0,0,64,mining guild
+Game907,87,2,0,0,0,1,2,2,2,0,1,0,1,78,tharsis republic
+Game908,111,1,1,1,4,0,1,3,0,0,0,0,6,77,helion
+Game909,71,2,0,1,0,1,0,0,0,1,0,0,1,32,mining guild
+Game910,98,3,0,2,2,0,0,1,1,0,0,0,3,73,mining guild
+Game911,65,2,0,1,0,0,2,2,1,2,1,0,0,102,tharsis republic
+Game912,108,2,0,0,2,0,2,1,1,0,0,0,4,71,ecoline
+Game913,85,2,1,0,2,0,1,2,0,0,0,0,2,83,phobolog
+Game914,79,2,0,0,0,0,2,2,0,1,0,0,2,86,ecoline
+Game915,135,3,0,1,1,2,2,2,2,1,0,0,2,124,credicor
+Game916,93,0,1,0,0,0,2,4,2,0,0,0,4,108,ecoline
+Game917,71,0,0,0,2,0,1,2,1,0,0,3,0,68,united nations mars initiative
+Game918,105,0,1,0,0,0,2,2,1,0,0,1,1,67,phobolog
+Game919,74,1,0,1,2,1,1,0,0,2,0,0,4,77,inventrix
+Game920,86,3,0,1,1,2,0,1,2,0,1,0,4,85,saturn systems
+Game921,91,3,0,1,1,0,2,1,0,2,0,0,1,80,saturn systems
+Game922,71,4,0,1,0,0,1,1,1,2,0,0,1,86,thorgate
+Game923,87,3,0,2,0,1,1,2,1,1,1,1,2,80,saturn systems
+Game924,77,1,0,0,0,0,3,2,2,4,0,0,1,74,ecoline
+Game925,63,2,0,3,2,0,0,0,0,0,0,0,0,61,thorgate
+Game926,100,2,0,0,2,1,1,1,1,1,1,0,2,76,mining guild
+Game927,106,0,1,0,2,0,1,2,2,1,0,0,2,82,tharsis republic
+Game928,91,1,0,0,2,0,0,0,0,0,1,2,1,42,tharsis republic
+Game929,73,1,0,0,2,0,1,2,1,0,0,0,3,58,tharsis republic
+Game930,76,4,1,2,1,1,2,1,2,0,0,0,3,72,interplanetary cinematics
+Game931,76,3,0,1,0,0,2,1,3,0,0,0,2,88,mining guild
+Game932,80,2,0,0,1,0,0,0,1,2,1,1,2,46,interplanetary cinematics
+Game933,120,3,0,0,2,1,0,0,2,0,0,0,3,70,tharsis republic
+Game934,90,2,2,0,0,1,0,2,0,2,0,0,5,115,saturn systems
+Game935,66,0,0,0,1,0,0,0,1,3,1,2,5,61,interplanetary cinematics
+Game936,82,2,0,0,1,0,3,2,0,0,0,0,1,84,united nations mars initiative
+Game937,75,3,0,0,0,0,2,0,1,1,0,0,0,67,mining guild
+Game938,79,0,0,0,0,0,3,2,0,1,0,0,1,72,interplanetary cinematics
+Game939,70,0,0,0,2,0,2,1,1,1,0,0,1,44,saturn systems
+Game940,81,1,0,0,1,0,0,1,0,1,0,0,1,48,ecoline
+Game941,88,3,0,0,3,0,0,0,2,1,0,0,2,53,interplanetary cinematics
+Game942,103,4,0,0,3,1,1,0,2,0,0,0,2,69,tharsis republic
+Game943,110,2,0,0,1,1,2,1,1,0,0,1,2,104,mining guild
+Game944,101,1,0,0,1,0,0,0,0,1,0,1,1,33,mining guild
+Game945,76,4,0,1,1,1,1,1,0,1,0,0,2,80,interplanetary cinematics
+Game946,92,1,1,0,2,0,1,2,2,1,0,0,3,94,credicor
+Game947,92,2,0,0,1,0,2,1,2,1,0,0,1,78,helion
+Game948,101,0,0,0,1,0,0,1,1,0,0,1,1,53,helion
+Game949,94,0,0,0,1,0,2,2,3,1,1,1,0,80,interplanetary cinematics
+Game950,95,3,1,0,1,1,1,1,1,0,0,0,4,70,saturn systems
+Game951,98,3,0,1,0,1,1,0,1,1,1,1,5,59,ecoline
+Game952,90,0,1,0,1,0,2,3,2,1,0,1,3,111,saturn systems
+Game953,86,2,1,1,1,0,1,2,1,0,0,0,3,112,interplanetary cinematics
+Game954,107,0,0,1,2,0,1,2,1,0,0,0,2,31,saturn systems
+Game955,119,0,0,0,1,0,1,2,0,0,0,1,1,40,tharsis republic
+Game956,93,1,1,0,2,0,0,2,0,2,1,0,3,49,teractor
+Game957,85,0,1,0,0,0,0,1,1,1,1,0,1,30,phobolog
+Game958,93,1,1,1,0,1,0,3,0,0,0,0,5,86,phobolog
+Game959,98,1,0,2,2,0,0,1,2,0,0,0,0,37,saturn systems
+Game960,115,2,2,0,1,0,0,3,0,0,0,0,5,82,phobolog
+Game961,91,1,0,1,0,0,2,2,0,0,0,0,0,68,phobolog
+Game962,93,2,0,0,2,0,2,2,1,0,0,1,2,106,saturn systems
+Game963,82,3,0,0,1,2,0,0,0,1,0,0,0,59,ecoline
+Game964,94,5,1,1,2,1,1,2,0,0,0,0,4,71,inventrix
+Game965,91,0,1,1,1,0,0,2,1,1,0,0,5,81,tharsis republic
+Game966,92,1,3,1,1,0,2,4,1,0,0,1,3,145,credicor
+Game967,117,3,0,0,2,0,1,1,0,0,0,0,1,80,saturn systems
+Game968,92,0,0,1,1,0,0,0,0,1,0,0,1,30,teractor
+Game969,88,1,0,1,0,1,0,2,1,0,0,0,0,56,teractor
+Game970,92,1,2,0,0,0,1,2,0,1,0,0,2,65,saturn systems
+Game971,95,0,1,0,1,0,1,2,0,0,1,0,2,63,credicor
+Game972,101,1,0,0,0,0,1,0,0,1,0,0,0,22,inventrix
+Game973,88,1,1,2,2,0,1,1,0,0,0,0,2,47,inventrix
+Game974,105,0,2,0,2,1,1,2,2,0,0,0,1,75,teractor
+Game975,90,5,0,1,0,1,0,0,0,1,0,0,2,58,thorgate
+Game976,87,1,2,1,1,1,1,2,1,1,1,0,2,100,credicor
+Game977,90,2,0,1,1,0,1,1,0,0,0,0,0,54,helion
+Game978,95,1,1,0,1,0,2,3,2,0,1,2,2,104,teractor
+Game979,105,0,2,0,1,0,2,3,1,0,0,0,3,100,saturn systems
+Game980,65,1,0,0,0,0,0,0,2,4,0,0,2,50,helion
+Game981,94,0,0,0,3,0,2,2,1,1,0,0,0,64,interplanetary cinematics
+Game982,87,2,0,1,1,0,2,1,1,0,1,1,1,69,credicor
+Game983,81,3,0,0,1,0,1,0,0,1,0,0,1,51,ecoline
+Game984,89,1,0,2,1,0,1,1,1,0,0,1,1,61,ecoline
+Game985,75,2,0,1,1,1,0,1,0,0,0,0,6,70,tharsis republic
+Game986,91,1,1,0,0,0,0,1,1,1,0,1,2,64,saturn systems
+Game987,120,3,0,1,0,0,1,0,0,2,1,2,3,49,credicor
+Game988,86,1,0,0,1,0,2,0,1,0,0,2,0,37,ecoline
+Game989,100,3,0,1,2,0,1,1,0,2,0,0,5,96,credicor
+Game990,90,0,0,0,2,0,3,2,3,0,0,0,2,51,thorgate
+Game991,122,5,0,1,3,1,1,1,0,0,0,0,2,70,tharsis republic
+Game992,92,1,0,0,1,0,3,2,1,1,0,0,2,108,credicor
+Game993,105,2,0,1,2,0,1,1,1,1,0,0,1,62,credicor
+Game994,116,1,0,0,1,0,1,1,1,1,0,2,2,69,interplanetary cinematics
+Game995,88,2,0,0,4,1,1,1,0,1,0,0,3,71,interplanetary cinematics
+Game996,90,0,0,0,0,0,2,2,1,1,1,0,0,57,ecoline
+Game997,97,0,1,1,0,0,2,2,2,1,0,0,4,76,interplanetary cinematics
+Game998,93,4,0,1,1,0,0,0,0,0,0,0,3,42,inventrix
+Game999,124,2,2,1,1,0,1,4,0,1,0,0,5,115,helion
+Game1000,79,0,0,0,1,0,1,1,0,1,0,0,0,44,helion
+Game1001,108,1,1,2,2,0,0,1,1,0,0,1,2,51,saturn systems
+Game1002,92,2,0,3,4,0,0,1,0,0,1,0,1,59,tharsis republic
+Game1003,86,0,1,0,0,0,4,4,2,0,0,0,5,108,saturn systems
+Game1004,86,1,1,1,0,0,3,5,1,0,0,1,1,125,saturn systems
+Game1005,108,2,0,1,2,0,2,2,1,0,0,0,1,75,teractor
+Game1006,101,1,0,0,2,0,2,2,1,0,0,1,3,67,credicor
+Game1007,79,2,0,4,1,0,2,1,1,0,0,1,0,63,credicor
+Game1008,60,2,0,1,0,1,2,1,1,0,0,0,0,54,teractor
+Game1009,91,2,0,2,2,0,2,3,1,2,0,0,1,88,teractor
+Game1010,100,2,0,1,1,0,1,0,1,1,2,1,3,49,tharsis republic
+Game1011,87,5,0,1,1,0,1,1,0,0,0,0,1,81,teractor
+Game1012,82,1,0,0,1,0,1,1,1,1,0,0,1,57,inventrix
+Game1013,87,3,0,4,3,0,0,0,0,0,0,0,1,60,interplanetary cinematics
+Game1014,88,1,0,2,1,0,1,2,0,2,2,1,3,85,thorgate
+Game1015,92,0,4,1,0,0,1,4,1,0,0,0,6,146,phobolog
+Game1016,98,1,0,0,0,1,0,0,0,2,0,0,1,35,saturn systems
+Game1017,111,2,0,1,2,0,1,0,0,2,0,0,3,69,interplanetary cinematics
+Game1018,94,2,0,1,1,0,2,4,1,1,0,0,1,107,teractor
+Game1019,68,1,0,0,0,1,1,0,0,1,0,0,1,50,ecoline
+Game1020,88,3,0,2,1,0,0,0,0,0,0,0,1,45,tharsis republic
+Game1021,98,3,0,1,0,0,1,2,0,0,0,0,2,82,interplanetary cinematics
+Game1022,89,2,0,0,1,0,1,1,2,1,1,0,3,61,helion
+Game1023,76,2,1,1,1,0,1,2,1,0,0,0,3,98,saturn systems
+Game1024,126,2,1,0,1,1,1,2,1,0,0,0,4,71,mining guild
+Game1025,92,2,3,0,1,1,0,3,0,0,0,0,1,102,saturn systems
+Game1026,94,2,0,0,1,1,3,3,1,0,0,1,2,98,interplanetary cinematics
+Game1027,111,0,0,0,0,0,2,1,1,0,0,1,0,25,united nations mars initiative
+Game1028,103,2,1,2,0,0,0,1,1,0,1,0,1,66,saturn systems
+Game1029,93,0,1,0,2,0,1,1,0,1,0,0,3,55,saturn systems
+Game1030,79,2,0,1,0,0,2,1,1,0,0,0,2,69,mining guild
+Game1031,66,3,0,0,2,0,2,0,0,1,0,0,2,59,interplanetary cinematics
+Game1032,94,4,0,1,1,1,0,0,1,0,0,0,1,64,interplanetary cinematics
+Game1033,85,0,0,1,1,0,2,2,1,1,0,0,0,46,united nations mars initiative
+Game1034,112,2,0,0,1,0,1,1,0,1,0,0,1,58,united nations mars initiative
+Game1035,83,0,0,0,0,0,2,1,1,1,0,1,2,48,helion
+Game1036,77,3,0,0,1,0,2,2,1,1,0,0,2,113,thorgate
+Game1037,76,2,0,0,1,0,1,1,0,0,0,0,2,53,thorgate
+Game1038,96,0,0,0,1,0,1,1,3,0,0,0,2,69,inventrix
+Game1039,85,4,0,0,0,2,1,1,0,0,0,0,0,85,mining guild
+Game1040,81,1,0,0,2,1,1,0,1,0,0,0,0,28,inventrix
+Game1041,100,1,0,1,2,0,0,1,0,2,0,0,1,46,interplanetary cinematics
+Game1042,67,0,0,0,0,0,0,1,0,0,1,0,0,44,ecoline
+Game1043,83,0,0,0,0,0,1,1,0,3,0,0,0,59,credicor
+Game1044,89,1,0,1,0,1,1,2,0,0,0,1,1,84,tharsis republic
+Game1045,109,2,1,0,2,2,1,2,1,1,0,0,5,114,saturn systems
+Game1046,91,0,0,0,0,0,2,2,2,0,0,0,0,39,inventrix
+Game1047,79,3,0,0,1,1,1,1,0,1,0,0,1,69,mining guild
+Game1048,98,3,0,0,0,1,1,0,0,0,0,0,1,57,tharsis republic
+Game1049,112,1,0,0,1,0,3,2,0,1,0,0,0,79,united nations mars initiative
+Game1050,113,4,1,0,3,0,0,2,1,1,0,0,4,92,interplanetary cinematics
+Game1051,97,0,1,1,0,0,1,2,0,0,0,0,1,64,saturn systems
+Game1052,84,0,0,0,0,0,2,2,1,0,0,0,0,45,credicor
+Game1053,87,0,0,0,0,0,1,0,1,0,1,0,0,14,interplanetary cinematics
+Game1054,86,2,0,0,1,1,1,1,2,0,1,1,2,73,saturn systems
+Game1055,73,0,0,0,2,0,1,2,0,0,0,1,1,65,credicor
+Game1056,86,0,0,0,1,0,0,0,0,3,0,0,1,44,saturn systems
+Game1057,77,1,0,0,0,0,1,1,1,2,1,0,1,55,credicor
+Game1058,86,3,0,1,1,0,3,3,1,0,0,0,2,111,credicor
+Game1059,113,4,3,0,2,1,1,4,0,0,0,0,5,157,helion
+Game1060,78,2,0,2,1,0,2,2,3,0,0,0,0,50,helion
+Game1061,112,1,0,0,0,0,1,2,2,0,0,0,0,53,credicor
+Game1062,110,1,0,1,0,1,0,1,0,3,1,1,3,56,teractor
+Game1063,90,2,1,0,2,1,1,2,1,0,0,0,1,75,teractor
+Game1064,91,0,0,0,0,0,1,1,1,0,1,0,0,72,credicor
+Game1065,79,1,0,0,3,0,1,0,0,0,0,2,0,36,interplanetary cinematics
+Game1066,98,1,0,0,1,0,1,0,0,1,1,0,1,46,ecoline
+Game1067,111,2,0,0,0,1,0,0,0,1,0,0,0,27,tharsis republic
+Game1068,82,0,0,0,0,0,0,0,0,2,2,1,3,31,ecoline
+Game1069,97,3,0,1,0,0,1,0,1,0,0,1,0,39,united nations mars initiative
+Game1070,83,0,0,0,0,0,1,2,0,1,0,0,0,53,ecoline
+Game1071,71,0,0,0,0,0,0,0,0,1,1,0,1,29,ecoline
+Game1072,116,2,0,2,2,0,0,0,0,0,0,0,1,33,interplanetary cinematics
+Game1073,90,0,0,0,0,0,3,3,0,0,0,0,0,85,credicor
+Game1074,97,0,0,0,0,0,6,2,2,1,0,1,0,76,interplanetary cinematics
+Game1075,81,1,0,0,2,0,0,0,1,0,0,0,1,27,ecoline
+Game1076,80,1,0,0,0,1,1,1,0,0,0,1,0,56,interplanetary cinematics
+Game1077,100,2,0,0,3,1,0,0,0,1,1,0,2,49,ecoline
+Game1078,118,1,3,0,0,1,1,3,1,1,0,0,5,108,thorgate
+Game1079,115,1,1,0,2,0,1,4,1,1,0,0,4,66,phobolog
+Game1080,83,1,1,0,0,0,2,2,2,0,0,0,0,59,helion
+Game1081,101,2,0,0,1,0,0,1,0,0,0,0,1,48,tharsis republic
+Game1082,83,1,0,0,2,0,1,1,0,0,0,1,1,57,ecoline
+Game1083,91,0,0,0,0,0,2,2,1,2,1,1,3,47,teractor
+Game1084,127,4,0,1,0,0,0,0,0,1,0,0,2,51,teractor
+Game1085,94,2,1,0,1,2,0,1,1,0,0,0,2,71,credicor
+Game1086,96,2,0,1,2,0,2,3,0,1,0,0,2,89,interplanetary cinematics
+Game1087,97,2,0,1,0,1,0,0,1,1,0,0,0,23,tharsis republic
+Game1088,110,1,0,1,1,0,0,0,1,2,1,0,0,48,tharsis republic
+Game1089,102,1,0,0,2,0,1,1,1,0,0,1,1,59,interplanetary cinematics
+Game1090,91,1,0,0,0,1,2,2,1,0,0,0,1,67,teractor
+Game1091,92,2,1,1,0,0,1,3,1,0,0,1,5,95,credicor
+Game1092,84,0,0,1,3,0,2,2,0,1,0,0,2,57,credicor
+Game1093,81,1,0,0,0,0,0,0,0,2,0,1,1,29,saturn systems
+Game1094,95,3,0,1,1,0,0,0,2,2,1,0,2,75,credicor
+Game1095,87,2,0,1,1,0,2,1,2,0,0,0,5,40,inventrix
+Game1096,85,1,1,1,2,0,4,3,0,0,0,0,4,94,saturn systems
+Game1097,84,0,0,0,0,0,1,1,3,0,0,1,0,27,ecoline
+Game1098,69,1,0,0,2,1,1,2,1,2,1,0,3,82,credicor
+Game1099,78,0,0,0,0,0,3,1,0,1,0,0,0,53,tharsis republic
+Game1100,88,2,0,1,1,1,0,0,1,1,0,0,0,47,tharsis republic
+Game1101,82,2,1,0,2,1,2,2,1,0,0,0,2,80,interplanetary cinematics
+Game1102,119,6,0,2,3,1,0,0,0,0,0,0,2,77,thorgate
+Game1103,86,5,0,1,2,1,1,2,2,1,0,1,2,81,interplanetary cinematics
+Game1104,112,2,3,0,0,1,1,3,0,1,0,1,4,113,mining guild
+Game1105,108,0,0,0,0,0,1,0,1,2,0,0,1,35,tharsis republic
+Game1106,118,1,1,1,0,2,0,2,3,0,0,0,5,90,mining guild
+Game1107,89,1,1,1,0,1,3,5,0,0,0,0,5,123,helion
+Game1108,76,1,0,0,1,1,2,1,2,1,0,1,0,75,tharsis republic
+Game1109,93,4,1,1,0,2,1,0,1,0,0,0,2,68,mining guild
+Game1110,84,0,0,0,2,0,0,2,1,0,0,0,3,60,saturn systems
+Game1111,93,0,2,0,0,0,1,3,2,0,0,0,2,112,credicor
+Game1112,78,5,0,2,1,1,2,1,0,0,0,0,0,79,interplanetary cinematics
+Game1113,98,1,0,0,0,1,0,0,0,1,0,0,0,24,ecoline
+Game1114,96,5,0,0,2,1,0,1,0,0,0,1,1,72,phobolog
+Game1115,119,2,0,1,2,0,3,2,1,0,0,0,2,69,phobolog
+Game1116,79,2,1,1,3,1,0,2,1,0,0,0,1,88,interplanetary cinematics
+Game1117,75,1,0,0,2,0,0,0,0,2,0,1,0,49,mining guild
+Game1118,124,2,0,0,1,0,0,2,0,0,0,0,2,38,phobolog
+Game1119,102,2,1,0,0,0,1,2,3,0,0,0,1,119,credicor
+Game1120,115,2,3,0,2,1,0,3,0,0,0,0,7,129,helion
+Game1121,85,2,0,0,3,0,1,0,0,0,0,0,2,58,interplanetary cinematics
+Game1122,79,0,0,0,0,0,3,1,2,1,0,0,1,51,united nations mars initiative
+Game1123,91,1,0,0,1,0,1,1,1,2,1,1,3,74,tharsis republic
+Game1124,112,0,0,1,2,0,0,1,1,0,0,1,3,62,phobolog
+Game1125,89,2,0,1,0,0,1,1,0,0,0,0,0,43,mining guild
+Game1126,85,3,0,4,1,0,0,0,1,1,1,1,1,95,teractor
+Game1127,71,1,0,0,1,0,1,1,0,1,0,0,0,29,mining guild
+Game1128,108,2,1,0,1,0,1,2,0,0,0,0,1,68,saturn systems
+Game1129,84,0,0,0,0,0,1,1,0,1,0,0,0,48,phobolog
+Game1130,104,2,0,0,0,0,0,0,1,3,0,0,0,69,tharsis republic
+Game1131,108,2,0,0,1,1,0,0,1,1,0,1,1,53,tharsis republic
+Game1132,87,0,0,0,0,0,0,0,1,2,0,0,0,38,mining guild
+Game1133,108,2,0,0,3,0,2,1,0,0,0,0,2,33,tharsis republic
+Game1134,70,2,0,1,0,0,0,1,0,0,0,0,0,48,phobolog
+Game1135,95,0,1,0,3,0,2,2,0,0,0,0,3,62,saturn systems
+Game1136,90,0,1,0,0,0,0,2,3,0,0,0,2,66,saturn systems
+Game1137,96,2,0,0,2,0,2,1,0,0,0,1,1,41,credicor
+Game1138,78,1,1,0,1,1,1,4,1,0,0,0,3,76,phobolog
+Game1139,80,2,0,1,0,0,1,0,2,1,0,0,0,58,interplanetary cinematics
+Game1140,77,1,0,0,1,0,2,1,1,0,0,0,0,44,thorgate
+Game1141,75,2,0,1,0,0,1,1,1,2,0,1,0,42,inventrix
+Game1142,84,3,0,1,1,1,0,0,1,0,0,1,2,54,teractor
+Game1143,159,2,0,1,4,0,1,2,0,0,0,0,3,56,helion
+Game1144,92,1,0,0,2,0,1,0,1,0,0,0,3,56,mining guild
+Game1145,78,3,1,1,0,0,0,0,0,0,0,0,1,39,tharsis republic
+Game1146,100,3,0,1,1,0,4,2,2,0,0,0,1,64,helion
+Game1147,117,3,1,1,0,0,2,1,2,0,0,0,2,60,interplanetary cinematics
+Game1148,94,3,0,0,2,1,1,0,0,1,0,0,1,77,ecoline
+Game1149,87,1,2,1,0,0,1,2,0,0,0,0,1,74,phobolog
+Game1150,92,1,0,0,1,0,3,0,1,0,0,0,0,43,interplanetary cinematics
+Game1151,100,3,0,2,0,0,1,1,1,1,0,0,0,47,credicor
+Game1152,107,3,0,0,2,1,1,2,2,0,0,1,2,82,teractor
+Game1153,90,1,0,0,3,1,1,1,0,1,1,2,5,82,helion
+Game1154,89,2,0,1,0,0,0,0,1,0,0,2,2,64,saturn systems
+Game1155,110,2,0,1,0,1,0,0,1,0,0,0,0,29,tharsis republic
+Game1156,94,3,0,0,1,1,1,2,1,0,0,0,2,99,thorgate
+Game1157,99,2,0,1,0,0,0,0,0,0,0,0,0,18,thorgate
+Game1158,119,0,0,0,1,0,1,1,1,0,0,0,0,36,united nations mars initiative
+Game1159,108,1,0,1,1,1,1,1,0,3,1,0,0,67,ecoline
+Game1160,86,2,0,1,0,1,0,1,0,0,0,0,0,53,inventrix
+Game1161,97,5,0,2,0,1,2,1,0,0,0,0,1,95,thorgate
+Game1162,92,1,2,1,0,0,1,2,2,0,0,0,2,61,saturn systems
+Game1163,113,1,0,0,2,0,1,2,3,0,0,1,1,92,credicor
+Game1164,92,2,1,1,0,0,1,1,1,0,0,1,2,71,interplanetary cinematics
+Game1165,106,1,1,0,1,0,0,1,1,1,0,0,1,52,mining guild
+Game1166,96,2,0,0,3,1,3,1,1,0,0,0,1,53,thorgate
+Game1167,106,2,1,0,3,0,0,1,0,0,0,0,6,73,credicor
+Game1168,88,0,1,1,0,0,2,3,1,0,0,0,2,76,phobolog
+Game1169,90,5,0,1,3,1,0,1,1,0,0,0,5,106,interplanetary cinematics
+Game1170,118,0,0,0,0,0,2,1,0,0,0,0,0,29,tharsis republic
+Game1171,84,2,0,1,1,0,1,1,0,0,0,0,4,58,interplanetary cinematics
+Game1172,90,1,0,1,1,0,1,2,1,0,0,0,0,36,united nations mars initiative
+Game1173,114,4,0,0,3,0,1,1,2,0,0,0,2,63,mining guild
+Game1174,77,0,2,0,0,0,1,1,0,1,0,0,1,50,phobolog
+Game1175,86,1,0,1,0,0,2,2,0,2,0,0,0,78,teractor
+Game1176,118,2,0,0,2,0,2,1,2,0,0,0,2,57,teractor
+Game1177,107,3,0,1,1,1,1,2,0,0,0,0,2,77,interplanetary cinematics
+Game1178,96,0,0,0,1,0,1,0,0,0,0,2,1,40,helion
+Game1179,86,3,0,1,1,2,2,1,0,0,0,0,0,83,mining guild
+Game1180,96,2,1,1,0,0,1,1,1,0,0,0,1,60,saturn systems
+Game1181,89,1,0,0,0,1,2,1,1,0,1,0,2,92,helion
+Game1182,105,2,0,1,0,0,1,0,1,0,0,0,0,35,tharsis republic
+Game1183,89,0,0,0,0,0,1,2,2,2,1,2,5,98,tharsis republic
+Game1184,75,2,0,0,0,1,1,1,0,0,0,0,0,74,teractor
+Game1185,94,0,0,1,4,0,2,1,0,0,0,0,2,53,saturn systems
+Game1186,143,2,0,2,5,0,1,1,1,0,0,0,4,83,inventrix
+Game1187,84,0,0,0,1,0,2,1,2,1,0,0,2,83,teractor
+Game1188,77,2,0,0,0,1,1,1,2,0,0,0,0,32,tharsis republic
+Game1189,93,0,2,0,0,2,2,4,2,0,0,0,5,97,phobolog
+Game1190,75,0,0,0,1,0,2,1,2,0,0,1,1,40,helion
+Game1191,90,1,0,0,0,0,2,1,2,0,0,0,0,34,teractor
+Game1192,115,0,2,0,0,1,3,3,2,0,0,0,2,77,credicor
+Game1193,101,1,0,0,1,0,2,1,0,0,0,0,1,64,teractor
+Game1194,87,3,0,0,0,1,2,2,0,1,0,0,2,115,teractor
+Game1195,84,1,0,1,1,0,2,0,1,0,0,0,0,17,inventrix
+Game1196,75,3,1,1,1,1,0,1,0,0,0,0,1,49,inventrix
+Game1197,86,3,0,0,1,2,1,0,2,0,1,0,1,43,credicor
+Game1198,89,0,0,0,0,0,2,2,0,0,0,0,0,96,credicor
+Game1199,105,2,0,0,2,1,0,0,1,0,0,0,0,51,teractor
+Game1200,95,1,0,1,1,0,1,1,1,0,0,0,1,40,tharsis republic
+Game1201,91,0,1,1,0,0,1,1,1,0,0,0,0,43,saturn systems
+Game1202,76,1,0,1,0,0,2,2,2,0,0,0,1,51,teractor
+Game1203,82,1,2,0,1,1,3,3,0,0,0,0,4,118,interplanetary cinematics
+Game1204,98,2,0,0,0,1,2,3,1,1,0,0,3,120,credicor
+Game1205,109,2,1,0,1,0,0,3,0,1,1,2,5,79,teractor
+Game1206,118,2,1,1,1,0,0,2,0,1,0,0,2,66,inventrix
+Game1207,76,2,1,0,0,0,2,2,1,1,0,1,3,96,tharsis republic
+Game1208,95,2,0,0,1,0,2,3,1,1,0,0,1,78,tharsis republic
+Game1209,65,2,0,0,1,0,0,0,2,1,0,1,1,61,thorgate
+Game1210,106,3,0,1,1,1,0,0,0,0,0,1,0,67,ecoline
+Game1211,136,3,1,1,2,0,0,0,0,0,0,0,4,63,mining guild
+Game1212,101,2,0,1,0,0,1,1,3,1,1,2,3,57,tharsis republic
+Game1213,90,2,0,1,2,0,2,2,2,0,0,0,3,111,teractor
+Game1214,140,3,0,0,0,2,2,0,0,2,1,1,3,69,tharsis republic
+Game1215,88,4,0,1,1,0,0,0,0,0,0,1,1,45,tharsis republic
+Game1216,105,3,1,1,1,1,0,2,2,0,0,0,4,100,interplanetary cinematics
+Game1217,82,4,0,0,0,0,1,2,0,1,0,0,3,80,inventrix
+Game1218,92,1,2,1,0,0,1,2,1,1,2,1,3,80,credicor
+Game1219,106,1,0,0,3,0,3,3,1,1,0,2,3,92,saturn systems
+Game1220,136,2,1,0,1,1,0,1,0,1,0,0,3,63,inventrix
+Game1221,91,1,1,1,3,0,1,1,0,0,1,0,0,75,teractor
+Game1222,83,1,1,1,2,0,1,0,1,0,0,1,2,58,interplanetary cinematics
+Game1223,122,3,2,1,2,0,1,2,2,0,0,0,4,92,inventrix
+Game1224,84,1,0,0,1,0,1,1,1,1,0,1,0,72,saturn systems
+Game1225,106,2,1,1,2,0,1,2,1,0,0,1,2,75,interplanetary cinematics
+Game1226,129,1,2,0,1,1,1,3,1,0,0,0,9,98,credicor
+Game1227,100,1,1,1,1,0,0,2,0,0,1,2,2,78,credicor
+Game1228,87,0,1,0,1,0,2,1,2,0,0,0,1,67,mining guild
+Game1229,93,2,0,0,1,2,1,2,1,0,0,1,5,110,credicor
+Game1230,103,1,1,1,0,0,1,1,0,2,0,0,1,74,tharsis republic
+Game1231,99,3,0,1,4,0,1,1,0,0,1,0,3,106,mining guild
+Game1232,73,4,0,0,1,1,2,4,2,0,1,0,9,139,mining guild
+Game1233,101,2,2,1,1,1,1,3,1,0,0,0,3,94,saturn systems
+Game1234,122,1,0,1,3,0,1,1,2,1,0,1,8,87,tharsis republic
+Game1235,82,1,0,1,2,0,2,2,1,0,0,1,3,77,interplanetary cinematics
+Game1236,97,1,0,0,1,0,1,0,3,0,0,1,3,52,credicor
+Game1237,101,3,0,0,1,0,0,0,1,0,1,0,1,48,thorgate
+Game1238,109,5,2,1,1,0,0,4,0,2,0,0,8,151,credicor
+Game1239,95,4,0,0,2,1,1,1,1,2,0,0,4,83,mining guild
+Game1240,88,2,0,0,1,0,1,1,2,1,0,0,5,90,teractor
+Game1241,83,1,0,0,2,0,2,2,2,0,0,0,3,59,inventrix
+Game1242,82,4,0,2,0,0,3,2,1,1,0,0,2,105,interplanetary cinematics
+Game1243,95,0,0,1,0,0,1,1,0,1,1,0,1,34,inventrix
+Game1244,105,2,0,1,2,0,2,1,1,0,0,1,1,52,ecoline
+Game1245,112,0,1,0,3,1,2,3,0,0,1,0,0,73,credicor
+Game1246,108,4,1,1,1,1,0,1,0,2,1,1,3,85,credicor
+Game1247,99,1,0,0,1,0,3,2,0,0,0,0,0,75,tharsis republic
+Game1248,84,4,0,1,1,0,1,0,0,0,1,0,2,42,credicor
+Game1249,100,2,0,0,2,1,1,2,0,3,0,0,4,87,tharsis republic
+Game1250,110,3,0,1,3,1,1,1,0,1,1,1,1,63,mining guild
+Game1251,72,1,0,0,2,0,2,1,0,2,0,2,3,102,mining guild
+Game1252,101,4,0,2,0,0,0,0,1,0,0,1,0,67,helion
+Game1253,82,0,0,0,3,0,4,2,1,0,0,0,1,42,inventrix
+Game1254,94,3,0,1,2,1,1,0,0,0,0,0,0,60,interplanetary cinematics
+Game1255,89,4,0,0,1,1,1,1,0,1,0,0,0,92,tharsis republic
+Game1256,116,1,0,1,2,0,1,0,0,0,0,0,3,30,interplanetary cinematics
+Game1257,88,1,0,0,2,0,0,0,1,1,0,0,4,43,credicor
+Game1258,99,2,0,0,2,1,2,0,0,1,0,1,1,73,tharsis republic
+Game1259,75,1,2,0,0,0,0,3,0,0,0,0,5,77,saturn systems
+Game1260,84,1,1,1,2,0,2,1,0,1,1,0,2,67,saturn systems
+Game1261,94,2,0,0,3,0,0,0,0,1,0,0,2,40,ecoline
+Game1262,83,0,0,0,1,0,2,0,0,0,0,0,0,20,interplanetary cinematics
+Game1263,80,3,0,1,1,0,2,2,1,0,0,0,0,89,credicor
+Game1264,105,1,0,0,1,0,1,1,1,0,0,0,0,53,mining guild
+Game1265,93,4,0,3,1,0,0,0,0,1,0,1,2,55,thorgate
+Game1266,80,1,0,1,0,1,1,1,3,1,1,0,3,103,ecoline
+Game1267,78,2,0,1,2,0,2,1,0,0,0,1,3,60,credicor
+Game1268,104,2,0,1,0,0,2,1,2,1,0,0,2,54,united nations mars initiative
+Game1269,87,0,3,0,0,0,1,3,1,1,0,1,6,127,teractor
+Game1270,103,2,0,0,3,1,1,0,1,0,0,0,2,76,interplanetary cinematics
+Game1271,94,0,2,1,2,1,1,2,1,3,0,0,5,109,teractor
+Game1272,70,1,1,0,1,0,3,3,4,0,1,0,2,65,interplanetary cinematics
+Game1273,105,1,1,0,0,0,1,1,2,2,1,0,4,94,credicor
+Game1274,110,0,0,0,1,0,1,1,0,1,0,0,4,57,inventrix
+Game1275,70,1,0,0,3,0,1,1,1,1,1,2,1,103,credicor
+Game1276,147,2,1,0,2,0,3,1,1,1,0,0,2,78,tharsis republic
+Game1277,94,2,1,2,4,0,1,1,0,1,0,0,2,98,saturn systems
+Game1278,160,4,0,1,2,0,0,0,0,2,0,0,2,77,credicor
+Game1279,104,3,1,0,2,2,1,1,2,0,0,0,6,117,credicor
+Game1280,69,2,0,1,1,0,2,3,1,0,0,1,2,111,credicor
+Game1281,93,0,0,0,1,0,2,2,2,0,0,1,1,43,mining guild
+Game1282,74,3,0,1,1,0,1,1,0,2,0,0,3,38,ecoline
+Game1283,86,0,0,0,1,0,3,1,2,0,0,0,2,75,saturn systems
+Game1284,104,3,0,1,4,0,1,0,2,0,0,1,1,70,teractor
+Game1285,91,2,2,0,3,0,0,2,0,1,0,0,2,101,credicor
+Game1286,106,1,0,0,0,0,1,1,2,0,2,0,0,82,saturn systems
+Game1287,86,2,0,0,2,1,4,1,1,1,0,1,1,79,helion
+Game1288,90,0,1,0,2,0,1,4,1,2,0,1,4,99,teractor
+Game1289,74,3,0,1,1,1,3,1,1,1,1,1,3,64,interplanetary cinematics
+Game1290,157,2,0,0,0,2,3,3,3,2,0,0,0,110,saturn systems
+Game1291,88,3,2,0,0,1,0,1,0,1,0,1,2,93,teractor
+Game1292,83,1,0,1,1,0,4,2,1,0,0,0,0,69,ecoline
+Game1293,101,2,0,1,1,0,1,1,1,2,3,0,1,97,teractor
+Game1294,85,2,1,0,4,0,1,1,1,0,0,1,3,74,inventrix
+Game1295,104,1,0,0,1,0,2,3,2,1,0,0,2,108,credicor
+Game1296,88,4,0,1,0,1,1,0,1,0,0,0,3,78,thorgate
+Game1297,95,1,0,0,2,0,2,0,0,2,1,2,4,69,saturn systems
+Game1298,114,1,0,0,1,0,1,0,2,1,1,0,1,31,interplanetary cinematics
+Game1299,101,0,0,1,1,0,4,4,1,0,0,0,0,56,helion
+Game1300,117,0,0,0,3,0,2,2,0,1,1,2,2,109,teractor
+Game1301,75,2,0,0,3,1,1,1,2,0,0,0,0,59,ecoline
+Game1302,75,1,0,1,1,0,2,2,0,1,0,0,0,62,tharsis republic
+Game1303,92,1,0,1,1,0,1,0,0,0,1,0,0,33,interplanetary cinematics
+Game1304,90,1,0,1,1,0,0,0,2,1,1,0,1,55,interplanetary cinematics
+Game1305,102,0,0,0,0,0,0,0,1,4,0,0,2,64,tharsis republic
+Game1306,78,2,0,0,1,0,2,1,1,2,0,0,4,73,saturn systems
+Game1307,115,0,1,0,1,0,2,4,0,0,0,0,3,57,saturn systems
+Game1308,104,2,0,0,2,0,2,2,2,1,0,0,1,113,mining guild
+Game1309,108,1,1,1,1,1,2,4,0,0,0,1,1,121,tharsis republic
+Game1310,66,3,0,0,0,0,1,2,2,0,1,0,0,91,helion
+Game1311,77,1,0,1,2,0,1,2,1,0,0,0,1,72,mining guild
+Game1312,113,1,1,0,0,1,0,2,0,0,0,0,3,70,helion
+Game1313,82,3,0,0,1,1,0,0,0,0,0,0,3,55,mining guild
+Game1314,94,1,0,1,1,0,2,2,2,0,0,0,0,63,tharsis republic
+Game1315,92,1,1,1,0,0,3,3,2,0,1,0,1,66,teractor
+Game1316,87,1,3,0,1,0,0,2,0,0,0,0,6,76,credicor
+Game1317,80,0,1,0,0,2,2,2,0,0,0,0,3,68,phobolog
+Game1318,86,1,0,0,3,1,0,1,0,0,0,0,6,63,credicor
+Game1319,73,1,0,0,3,0,1,1,0,1,1,0,3,90,inventrix
+Game1320,82,2,0,1,0,1,2,1,0,0,0,1,1,72,tharsis republic
+Game1321,74,1,0,0,0,0,1,0,0,1,0,0,0,41,mining guild
+Game1322,80,0,0,0,1,0,1,0,1,2,0,3,1,48,teractor
+Game1323,101,0,1,1,1,0,2,4,1,0,0,0,2,101,credicor
+Game1324,95,3,0,1,0,0,1,1,0,0,0,0,0,57,mining guild
+Game1325,98,1,1,0,0,0,1,1,3,0,0,0,1,38,teractor
+Game1326,89,4,0,1,1,1,1,1,0,1,0,0,0,69,ecoline
+Game1327,68,2,2,1,0,0,0,1,1,1,0,1,5,72,teractor
+Game1328,99,2,0,0,2,0,0,0,1,0,0,0,2,47,ecoline
+Game1329,80,3,0,2,2,0,2,1,0,0,0,0,1,78,saturn systems
+Game1330,78,2,1,1,1,0,0,0,1,0,0,1,1,49,credicor
+Game1331,105,1,0,0,2,0,1,2,1,1,0,0,5,81,saturn systems
+Game1332,86,0,0,0,0,0,4,3,1,1,1,0,0,105,credicor
+Game1333,91,3,0,1,1,0,0,0,1,0,0,1,1,53,teractor
+Game1334,87,2,0,0,0,0,1,2,1,1,0,0,0,86,credicor
+Game1335,96,1,0,1,2,0,1,1,1,0,0,1,0,65,teractor
+Game1336,99,1,1,0,0,0,1,1,2,0,0,0,2,54,mining guild
+Game1337,90,2,0,0,0,0,1,2,1,0,0,1,0,76,tharsis republic
+Game1338,92,1,0,0,0,1,1,0,0,0,0,1,0,41,helion
+Game1339,104,1,0,0,2,1,1,0,0,0,0,1,0,31,mining guild
+Game1340,75,4,1,0,1,0,1,1,1,0,0,2,4,84,credicor
+Game1341,79,1,0,1,1,0,4,0,1,0,0,0,0,32,helion
+Game1342,98,4,1,0,4,1,0,0,1,1,0,1,4,69,credicor
+Game1343,89,0,1,0,1,0,3,3,0,1,0,1,0,90,teractor
+Game1344,87,1,0,0,0,1,2,1,2,1,0,0,0,64,teractor
+Game1345,65,0,0,0,1,0,4,3,2,0,0,1,0,72,tharsis republic
+Game1346,97,1,1,0,0,0,2,1,0,0,0,0,2,55,saturn systems
+Game1347,110,5,0,0,2,2,0,0,1,0,0,0,2,69,interplanetary cinematics
+Game1348,88,2,1,1,0,0,0,1,1,0,0,0,2,47,tharsis republic
+Game1349,81,1,1,0,1,1,0,2,0,0,0,0,3,72,credicor
+Game1350,90,2,0,1,0,0,0,0,0,1,0,0,1,39,credicor
+Game1351,96,2,0,1,2,1,0,3,1,0,0,0,4,91,phobolog
+Game1352,127,5,0,1,2,2,1,0,1,2,0,1,1,93,mining guild
+Game1353,89,3,0,1,1,0,0,0,0,1,0,0,1,28,teractor
+Game1354,82,2,0,1,1,1,4,3,2,0,0,0,0,77,ecoline
+Game1355,127,2,2,0,1,0,1,3,1,1,0,1,2,155,phobolog
+Game1356,82,2,2,0,1,1,1,2,1,2,1,1,5,77,teractor
+Game1357,78,1,0,1,0,0,0,0,1,2,0,0,0,28,phobolog
+Game1358,80,1,1,0,2,0,0,1,0,0,1,0,4,55,interplanetary cinematics
+Game1359,93,2,0,0,1,1,2,1,1,0,1,0,0,61,teractor
+Game1360,91,1,0,0,2,0,1,0,0,0,0,1,0,18,ecoline
+Game1361,93,0,1,1,2,0,2,4,1,1,0,1,2,104,phobolog
+Game1362,126,1,3,0,1,1,1,3,0,1,0,1,5,124,mining guild
+Game1363,75,1,0,1,3,0,0,2,1,0,0,0,2,67,teractor
+Game1364,86,3,0,0,3,1,0,0,0,2,0,0,4,95,interplanetary cinematics
+Game1365,93,0,1,1,1,0,1,3,1,1,0,0,0,87,ecoline
+Game1366,89,1,0,2,2,0,0,0,0,2,0,0,3,62,inventrix
+Game1367,84,4,0,1,0,1,0,0,1,1,0,1,1,82,interplanetary cinematics
+Game1368,113,2,0,1,0,1,0,0,0,2,0,2,0,52,helion
+Game1369,93,1,0,1,1,1,0,1,1,1,0,0,0,77,tharsis republic
+Game1370,108,1,0,0,1,1,1,2,0,0,0,0,3,63,inventrix
+Game1371,97,4,1,2,0,1,0,1,0,0,1,1,1,73,teractor
+Game1372,91,3,0,0,1,2,0,1,0,2,2,1,7,91,credicor
+Game1373,87,1,0,1,0,0,2,1,0,0,0,1,1,55,tharsis republic
+Game1374,74,3,0,2,1,0,0,0,1,2,0,0,1,59,tharsis republic
+Game1375,86,3,0,1,1,0,2,2,2,0,1,0,2,71,helion
+Game1376,104,3,0,1,0,1,0,1,0,0,0,0,1,85,interplanetary cinematics
+Game1377,85,3,0,1,2,0,1,1,1,0,0,0,3,56,credicor
+Game1378,82,1,0,0,1,0,1,0,1,0,2,0,1,56,inventrix
+Game1379,108,1,1,1,2,0,1,2,0,1,1,1,4,99,credicor
+Game1380,95,3,0,1,0,0,1,1,1,1,0,0,2,88,inventrix
+Game1381,108,0,0,0,0,0,1,2,0,0,0,0,0,66,helion
+Game1382,84,3,0,0,3,1,1,1,1,0,0,0,2,62,mining guild
+Game1383,83,2,0,0,0,0,1,0,0,2,0,0,0,51,united nations mars initiative
+Game1384,71,5,0,1,1,0,1,1,1,0,0,1,0,54,united nations mars initiative
+Game1385,110,3,0,2,2,0,1,1,0,0,0,0,3,89,interplanetary cinematics
+Game1386,83,2,0,1,0,1,1,1,2,1,0,0,2,87,ecoline
+Game1387,120,2,1,0,3,0,2,4,2,2,0,0,3,113,teractor
+Game1388,123,1,0,0,1,0,3,2,0,1,1,0,3,72,teractor
+Game1389,103,1,1,0,0,1,1,3,0,0,0,0,6,94,saturn systems
+Game1390,121,1,0,0,0,0,2,2,1,2,0,0,0,79,credicor
+Game1391,110,3,0,2,2,0,1,1,0,0,0,1,1,62,tharsis republic
+Game1392,103,2,0,2,2,0,2,1,0,0,0,0,0,76,credicor
+Game1393,87,0,1,0,0,0,1,2,3,0,0,0,2,81,credicor
+Game1394,102,2,0,3,3,0,1,1,1,3,1,1,6,97,tharsis republic
+Game1395,87,3,0,1,2,0,1,0,1,0,0,0,3,46,teractor
+Game1396,94,2,0,0,0,0,2,1,0,2,0,0,2,95,ecoline
+Game1397,93,2,1,0,0,1,2,2,0,0,0,0,2,89,phobolog
+Game1398,111,1,0,1,0,0,1,0,1,0,0,0,0,35,mining guild
+Game1399,94,1,0,0,0,0,0,0,1,2,1,0,1,72,credicor
+Game1400,123,2,1,0,0,1,1,1,0,0,0,0,1,82,saturn systems
+Game1401,119,3,0,1,3,0,0,2,0,0,0,1,5,75,interplanetary cinematics
+Game1402,81,3,0,1,2,0,0,1,2,0,0,0,2,46,credicor
+Game1403,84,2,1,1,1,0,0,1,0,1,0,0,2,42,credicor
+Game1404,94,0,0,0,1,0,0,0,3,0,1,2,0,36,tharsis republic
+Game1405,73,1,0,0,0,0,1,1,0,3,1,0,0,86,credicor
+Game1406,104,1,0,0,2,0,2,1,0,0,0,0,1,62,mining guild
+Game1407,113,1,1,0,0,0,1,2,0,0,0,0,2,56,interplanetary cinematics
+Game1408,76,0,1,0,0,1,0,1,2,0,0,0,4,56,credicor
+Game1409,86,0,0,0,0,0,0,0,3,1,1,0,2,49,tharsis republic
+Game1410,81,2,0,1,2,0,1,2,0,0,0,0,1,59,mining guild
+Game1411,61,3,0,0,1,0,0,0,1,1,1,0,1,43,credicor
+Game1412,71,1,2,0,1,1,1,3,0,1,0,1,0,99,credicor
+Game1413,97,1,0,0,0,0,1,1,1,4,2,1,4,69,teractor
+Game1414,108,2,0,1,1,1,2,0,0,0,0,0,0,42,tharsis republic
+Game1415,66,2,0,0,0,2,1,1,0,1,1,0,1,88,ecoline
+Game1416,94,2,0,1,0,1,1,1,1,1,0,1,0,55,ecoline
+Game1417,85,1,2,0,0,0,0,2,0,0,0,0,2,75,saturn systems
+Game1418,81,2,2,0,0,0,0,0,1,0,0,0,4,44,interplanetary cinematics
+Game1419,77,1,0,2,1,1,0,0,1,0,0,0,2,52,ecoline
+Game1420,99,1,2,1,1,0,0,2,0,0,0,1,2,92,tharsis republic
+Game1421,90,4,1,2,0,0,0,1,0,0,0,0,2,58,thorgate
+Game1422,94,1,1,0,0,0,1,2,1,0,0,0,2,48,ecoline
+Game1423,82,1,2,1,2,0,1,4,0,1,0,0,1,75,credicor
+Game1424,93,0,1,0,0,0,0,3,0,0,0,0,3,50,saturn systems
+Game1425,83,1,0,0,0,0,0,0,0,0,0,0,0,20,tharsis republic
+Game1426,81,0,0,0,0,0,0,1,1,0,0,0,0,31,saturn systems
+Game1427,79,0,0,1,2,0,0,0,0,2,0,0,1,60,ecoline
+Game1428,111,1,0,0,0,0,1,1,0,0,0,0,0,31,interplanetary cinematics
+Game1429,106,1,0,0,2,0,2,0,0,0,0,0,1,36,saturn systems
+Game1430,89,1,2,0,1,1,1,3,1,0,0,0,4,97,mining guild
+Game1431,90,0,2,1,2,0,0,2,1,1,0,0,2,101,phobolog
+Game1432,103,2,1,0,0,0,1,2,0,0,0,2,2,78,helion
+Game1433,108,1,1,0,0,0,1,2,0,1,0,0,4,56,saturn systems
+Game1434,81,0,2,1,0,0,1,3,0,0,0,0,1,100,phobolog
+Game1435,89,2,0,2,2,0,2,1,0,0,0,0,1,56,interplanetary cinematics
+Game1436,117,1,0,0,0,0,1,1,0,0,0,0,0,22,saturn systems
+Game1437,87,0,0,1,3,0,1,1,0,1,0,1,3,73,inventrix
+Game1438,106,1,1,0,2,1,0,1,0,0,0,0,4,47,teractor
+Game1439,86,0,0,0,0,0,2,1,2,1,0,0,0,57,teractor
+Game1440,90,0,0,0,0,0,3,0,2,0,1,0,0,21,interplanetary cinematics
+Game1441,93,0,0,0,1,0,0,0,0,0,1,0,3,20,inventrix
+Game1442,83,1,0,1,0,1,0,1,2,0,0,0,4,80,phobolog
+Game1443,93,0,1,0,1,0,1,2,0,0,0,0,2,75,inventrix
+Game1444,89,0,1,1,2,1,1,2,0,1,0,0,0,61,credicor
+Game1445,79,0,0,0,0,0,1,0,1,1,0,0,0,15,interplanetary cinematics
+Game1446,92,0,1,0,1,0,0,1,1,0,0,0,0,60,teractor
+Game1447,80,3,1,0,1,1,0,0,0,0,0,1,1,66,interplanetary cinematics
+Game1448,97,1,0,0,4,0,0,0,0,0,0,0,4,42,mining guild
+Game1449,87,2,0,0,1,0,0,0,0,1,0,0,2,37,mining guild
+Game1450,84,3,0,2,4,0,0,0,0,0,0,0,0,49,thorgate
+Game1451,96,3,1,0,1,1,0,1,0,3,0,0,2,76,credicor
+Game1452,101,1,1,0,0,1,1,2,2,0,0,0,1,85,mining guild
+Game1453,94,4,0,0,3,2,0,0,0,1,1,1,1,88,tharsis republic
+Game1454,83,3,0,1,0,0,0,1,0,2,2,0,2,105,helion
+Game1455,142,3,0,0,0,0,1,0,2,0,1,1,0,51,mining guild
+Game1456,108,0,0,0,0,0,4,1,2,0,0,0,0,47,teractor
+Game1457,93,0,0,0,0,0,2,0,0,1,2,0,0,54,tharsis republic
+Game1458,87,0,0,0,1,0,4,2,1,0,0,0,0,42,ecoline
+Game1459,82,1,0,1,0,0,0,0,1,0,1,0,0,20,credicor
+Game1460,89,1,0,1,0,0,2,1,0,2,1,0,3,74,saturn systems
+Game1461,87,2,2,1,1,0,0,2,0,0,1,0,2,72,phobolog
+Game1462,104,2,0,0,1,1,3,3,1,1,0,1,2,100,credicor
+Game1463,86,0,0,0,3,0,1,1,1,0,1,0,4,42,inventrix
+Game1464,90,0,0,1,0,0,0,1,0,0,1,1,0,72,helion
+Game1465,120,1,0,0,2,0,1,1,2,0,0,0,2,38,credicor
+Game1466,118,1,2,1,2,0,0,1,0,0,0,0,1,59,inventrix
+Game1467,118,1,0,0,4,0,3,4,2,0,0,0,4,116,credicor
+Game1468,91,1,0,0,1,0,0,0,0,3,2,0,1,54,phobolog
+Game1469,81,0,2,1,2,0,1,2,0,2,0,0,5,87,interplanetary cinematics
+Game1470,75,3,0,1,0,0,3,2,0,1,0,0,0,84,interplanetary cinematics
+Game1471,90,1,0,0,1,0,2,1,0,2,0,1,0,60,ecoline
+Game1472,93,3,0,0,0,1,0,0,1,0,0,0,1,51,tharsis republic
+Game1473,96,6,0,1,1,0,0,0,0,1,0,0,5,81,mining guild
+Game1474,112,0,1,0,0,0,0,1,0,2,0,0,2,42,credicor
+Game1475,80,3,0,0,1,0,1,1,0,2,0,0,1,81,saturn systems
+Game1476,119,2,0,0,2,0,2,1,1,0,2,1,2,78,teractor
+Game1477,100,2,0,0,0,0,0,0,2,0,1,0,1,49,ecoline
+Game1478,159,3,2,0,0,1,2,4,0,1,0,0,2,130,phobolog
+Game1479,99,3,0,1,1,0,2,1,0,2,0,0,1,87,teractor
+Game1480,117,5,0,1,0,2,1,1,1,0,0,0,3,93,mining guild
+Game1481,103,1,0,0,3,0,3,2,2,0,1,1,1,96,credicor
+Game1482,84,2,1,0,1,0,0,1,1,0,0,0,2,77,tharsis republic
+Game1483,104,1,0,0,0,0,3,1,2,1,0,0,1,58,ecoline
+Game1484,116,3,0,0,1,0,1,1,1,2,0,0,5,88,tharsis republic
+Game1485,127,1,0,0,1,0,2,2,1,0,0,1,1,44,helion
+Game1486,102,1,0,0,1,0,1,0,0,1,1,0,0,57,interplanetary cinematics
+Game1487,104,1,0,0,0,0,1,2,1,2,1,1,2,80,ecoline
+Game1488,111,1,0,0,1,0,1,0,0,0,0,1,0,38,ecoline
+Game1489,122,2,0,0,2,1,1,0,1,2,0,0,2,56,mining guild
+Game1490,86,2,1,2,0,0,0,1,1,1,1,0,2,69,credicor
+Game1491,105,3,0,0,1,1,1,1,1,0,0,0,1,55,teractor
+Game1492,83,1,0,1,0,0,2,4,1,0,0,1,1,66,helion
+Game1493,107,3,0,0,1,1,0,0,0,1,1,1,0,68,ecoline
+Game1494,99,1,1,0,2,0,3,2,0,0,0,0,4,88,saturn systems
+Game1495,95,1,0,0,2,0,0,0,0,4,1,1,5,58,helion
+Game1496,96,4,0,1,1,0,0,0,0,0,0,0,2,58,interplanetary cinematics
+Game1497,87,4,0,1,1,2,1,1,0,1,0,0,1,73,credicor
+Game1498,89,1,0,0,1,1,1,1,1,0,0,0,2,83,united nations mars initiative
+Game1499,113,1,0,0,4,0,0,0,2,0,0,1,4,55,ecoline
+Game1500,104,1,0,0,0,0,1,1,1,2,1,0,1,47,credicor
+Game1501,99,0,0,0,0,0,3,2,2,0,0,0,0,60,interplanetary cinematics
+Game1502,120,0,0,1,3,0,2,0,0,0,0,1,0,37,interplanetary cinematics
+Game1503,128,3,0,3,0,0,0,0,1,1,0,0,2,50,mining guild
+Game1504,95,3,0,1,1,0,2,0,2,1,0,1,0,91,interplanetary cinematics
+Game1505,109,1,0,1,1,0,1,0,1,2,0,1,2,70,ecoline
+Game1506,81,2,0,1,0,1,1,1,0,1,1,1,3,65,teractor
+Game1507,96,3,0,3,3,0,2,1,1,2,3,1,5,110,interplanetary cinematics
+Game1508,116,5,0,0,1,0,0,0,1,0,0,1,1,66,interplanetary cinematics
+Game1509,80,1,1,0,0,0,0,1,0,4,0,0,2,77,mining guild
+Game1510,93,1,0,0,0,0,3,1,0,1,0,1,0,58,interplanetary cinematics
+Game1511,84,5,0,0,2,1,1,1,0,0,0,0,2,108,mining guild
+Game1512,147,1,1,0,1,0,2,2,1,0,0,0,2,83,credicor
+Game1513,91,3,0,2,3,0,2,1,2,0,0,0,1,81,teractor
+Game1514,108,1,0,0,2,0,2,1,1,1,0,0,0,54,tharsis republic
+Game1515,85,1,0,0,0,1,0,0,0,1,0,0,1,41,tharsis republic
+Game1516,105,3,1,1,2,0,0,2,0,0,0,1,2,110,saturn systems
+Game1517,89,1,0,2,3,0,3,2,1,0,0,0,1,69,interplanetary cinematics
+Game1518,99,2,0,0,1,0,2,2,2,1,1,0,1,109,interplanetary cinematics
+Game1519,91,0,0,0,1,0,3,2,1,1,0,0,1,59,credicor
+Game1520,83,3,0,0,0,0,2,2,1,2,1,1,7,87,credicor
+Game1521,82,1,0,1,0,0,3,1,1,0,0,0,1,46,interplanetary cinematics
+Game1522,108,0,0,1,2,0,2,1,0,3,1,1,2,94,inventrix
+Game1523,91,2,0,1,3,0,1,1,1,0,0,0,4,80,inventrix
+Game1524,110,2,1,0,0,0,1,0,1,0,0,0,3,44,interplanetary cinematics
+Game1525,96,2,0,1,0,0,3,2,2,0,0,0,0,96,interplanetary cinematics
+Game1526,90,1,0,0,2,0,2,0,2,1,0,0,1,66,inventrix
+Game1527,92,1,0,0,1,0,2,1,3,1,0,0,5,73,saturn systems
+Game1528,91,1,0,0,2,0,2,2,2,1,0,1,5,140,credicor
+Game1529,118,1,0,0,0,0,2,2,3,0,1,1,2,91,phobolog
+Game1530,83,1,0,0,1,0,1,1,1,0,1,0,1,45,ecoline
+Game1531,106,1,1,2,0,0,2,2,1,0,0,0,1,85,helion
+Game1532,112,1,0,0,1,0,1,1,1,0,1,1,0,51,tharsis republic
+Game1533,88,2,0,1,5,0,2,0,0,0,0,0,3,54,inventrix
+Game1534,83,1,1,0,1,0,1,1,1,2,1,0,1,72,teractor
+Game1535,101,1,0,1,1,0,2,3,1,0,0,0,2,80,interplanetary cinematics
+Game1536,130,1,0,0,1,1,1,3,1,0,0,0,5,64,phobolog
+Game1537,108,2,0,0,0,0,0,0,3,0,0,0,3,59,tharsis republic
+Game1538,105,1,1,0,2,0,1,2,0,0,0,1,1,72,phobolog
+Game1539,101,1,0,0,0,0,2,3,3,0,0,0,2,57,interplanetary cinematics
+Game1540,70,3,0,1,3,0,1,2,1,0,0,0,3,58,teractor
+Game1541,91,3,0,0,1,1,2,2,2,1,0,0,1,95,phobolog
+Game1542,84,2,0,0,1,1,1,1,0,0,0,0,4,67,credicor
+Game1543,77,1,0,0,1,0,5,1,2,0,1,1,0,51,teractor
+Game1544,75,4,0,2,2,0,0,0,2,0,0,2,0,81,tharsis republic
+Game1545,101,0,0,0,3,0,0,1,1,1,0,0,4,46,tharsis republic
+Game1546,108,3,0,0,0,1,2,0,0,2,0,1,1,75,interplanetary cinematics
+Game1547,87,1,1,0,0,1,0,1,1,2,1,0,1,59,mining guild
+Game1548,85,0,0,0,2,0,0,1,1,0,1,1,0,43,phobolog
+Game1549,92,0,0,0,1,1,2,1,1,0,0,0,3,76,tharsis republic
+Game1550,79,2,0,0,1,1,1,0,0,1,0,1,0,59,mining guild
+Game1551,69,1,0,0,1,0,2,2,0,0,0,0,2,82,credicor
+Game1552,115,1,0,0,1,0,2,1,2,1,0,1,1,45,interplanetary cinematics
+Game1553,113,0,0,1,2,0,0,0,0,1,1,1,0,36,tharsis republic
+Game1554,78,0,0,0,1,0,1,1,0,0,0,2,0,46,helion
+Game1555,103,0,0,0,1,0,0,0,0,3,0,0,0,41,tharsis republic
+Game1556,137,1,0,0,3,1,0,1,1,2,1,2,0,94,tharsis republic

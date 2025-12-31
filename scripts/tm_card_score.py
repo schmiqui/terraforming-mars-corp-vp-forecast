@@ -57,14 +57,14 @@ def add_card_attributes_to_games(games, cards, corporations):
         for card_name in game.get("cards", []):
             apply_item(params, card_by_name.get(card_name.strip().lower()))
 
-        apply_item(params, corp_by_name.get(game.get("corporation", "").strip().lower()))
+        params["corporation"] = game.get("corporation", "").strip().lower()
 
         game["parameters"] = params
 
 
 def export_games_csv(games, out_path="games.csv"):
     tag_keys = TAG_KEYS  # fixed known tags; stable column order
-    fieldnames = ["game_id", "points"] + tag_keys + ["totalVp", "totalPrice"]
+    fieldnames = ["game_id", "points"] + tag_keys + ["totalVp", "totalPrice", "corporation"]
 
     with open(out_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
@@ -80,6 +80,7 @@ def export_games_csv(games, out_path="games.csv"):
                 **{k: tags.get(k, 0) for k in tag_keys},
                 "totalVp": params.get("totalVp", 0),
                 "totalPrice": params.get("totalPrice", 0),
+                "corporation": params.get("corporation", ""),
             })
 
 
