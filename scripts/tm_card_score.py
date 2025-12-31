@@ -15,7 +15,6 @@ def read_json(path: str | Path):
 
 
 def to_int_or_zero(value) -> int:
-    # accepts int/str; invalid like "1/" -> 0
     try:
         s = str(value).strip()
         return int(s) if s.isdigit() else 0
@@ -32,7 +31,6 @@ def empty_parameters():
 
 
 def build_lookup(items):
-    # case-insensitive name -> item
     return {item["name"].strip().lower(): item for item in items}
 
 
@@ -63,7 +61,7 @@ def add_card_attributes_to_games(games, cards, corporations):
 
 
 def export_games_csv(games, out_path="games.csv"):
-    tag_keys = TAG_KEYS  # fixed known tags; stable column order
+    tag_keys = TAG_KEYS
     fieldnames = ["game_id", "points"] + tag_keys + ["totalVp", "totalPrice", "corporation"]
 
     with open(out_path, "w", newline="", encoding="utf-8") as f:
@@ -83,6 +81,39 @@ def export_games_csv(games, out_path="games.csv"):
                 "corporation": params.get("corporation", ""),
             })
 
+# todo - what if two cards has same name?
+def export_games_card_names_csv(games, cards, out_path="games_names.csv"):
+    card_names = []
+    for item in cards:
+        name = item["name"].strip().lower()
+        card_names.append(name)
+
+    fieldnames = ["game_id", "points"] + card_names + ["corporation"]
+
+    with open(out_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+
+        for game in games:
+            row = {}
+
+            row["game_id"] = game.get("game_id", "")
+            row["points"] = game.get("points", 0)
+
+            for name in card_names:
+                row[name] = 0
+
+            game_cards = game.get("cards", [])
+
+            normalized_game_cards = []
+            for c in game_cards:
+                normalized_game_cards.append(str(c).strip().lower())
+            for c in normalized_game_cards:
+                if c in row:
+                    row[c] = 1
+
+            row["corporation"] = game.get("corporation", "").strip().lower()
+            writer.writerow(row)
 
 if __name__ == "__main__":
     base = Path("/Users/jakubsmihula/PycharmProjects/ML/Project/terraforming-mars-corp-vp-forecast")
@@ -90,6 +121,8 @@ if __name__ == "__main__":
     cards = read_json(base / "cards/cards.json")
     corporations = read_json(base / "cards/corporations.json")
     games = read_json(base / "datasets/parsed_dataset.json")
+
+    export_games_card_names_csv(games, cards, base / "datasets/games_names.csv")
 
     add_card_attributes_to_games(games, cards, corporations)
     export_games_csv(games, "games.csv")

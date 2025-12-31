@@ -13,7 +13,8 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #1a0d0d 0%, #3d1a1a 50%, #5c2a2a 100%);
+            background-attachment: fixed;
             min-height: 100vh;
             padding: 20px;
         }
@@ -21,17 +22,22 @@
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            background: white;
+            background: linear-gradient(135deg, #2a1a1a 0%, #3d2a2a 100%);
             border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 20px 60px rgba(220, 20, 60, 0.4), 0 0 40px rgba(139, 69, 19, 0.3);
             overflow: hidden;
+            border: 2px solid rgba(205, 92, 92, 0.3);
         }
 
         .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+            background: linear-gradient(135deg, #8B4513 0%, #CD5C5C 50%, #DC143C 100%);
+            background-image: 
+                radial-gradient(circle at 20% 50%, rgba(255, 140, 0, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(220, 20, 60, 0.3) 0%, transparent 50%);
+            color: #FFE4B5;
             padding: 30px;
             text-align: center;
+            box-shadow: 0 4px 20px rgba(220, 20, 60, 0.4);
         }
 
         .header h1 {
@@ -53,11 +59,12 @@
         }
 
         .section h2 {
-            color: #333;
+            color: #FF6B6B;
             margin-bottom: 15px;
             font-size: 1.5em;
-            border-bottom: 2px solid #667eea;
+            border-bottom: 2px solid #CD5C5C;
             padding-bottom: 10px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
         }
 
         .form-group {
@@ -67,22 +74,31 @@
         label {
             display: block;
             margin-bottom: 8px;
-            color: #555;
+            color: #FFB6C1;
             font-weight: 600;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
         }
 
         select, input[type="text"] {
             width: 100%;
             padding: 12px;
-            border: 2px solid #ddd;
+            border: 2px solid #8B4513;
             border-radius: 8px;
             font-size: 16px;
             transition: border-color 0.3s;
+            background: #3d2a2a;
+            color: #FFE4B5;
+        }
+
+        select option {
+            background: #3d2a2a;
+            color: #FFE4B5;
         }
 
         select:focus, input[type="text"]:focus {
             outline: none;
-            border-color: #667eea;
+            border-color: #CD5C5C;
+            box-shadow: 0 0 8px rgba(205, 92, 92, 0.5);
         }
 
         .card-selector {
@@ -92,24 +108,29 @@
             max-height: 300px;
             overflow-y: auto;
             padding: 10px;
-            border: 2px solid #ddd;
+            border: 2px solid #8B4513;
             border-radius: 8px;
-            background: #f9f9f9;
+            background: linear-gradient(135deg, #2a1a1a 0%, #3d2a2a 100%);
+            box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.3);
         }
 
         .card-item {
             display: flex;
             align-items: center;
             padding: 8px;
-            background: white;
+            background: #3d2a2a;
+            color: #FFE4B5;
             border-radius: 5px;
             cursor: pointer;
             transition: all 0.2s;
+            border: 1px solid transparent;
         }
 
         .card-item:hover {
-            background: #e8e8ff;
+            background: #5a0d01;
+            border: 1px solid #CD5C5C;
             transform: translateY(-2px);
+            box-shadow: 0 2px 8px rgba(205, 92, 92, 0.3);
         }
 
         .card-item input[type="checkbox"] {
@@ -124,24 +145,28 @@
             margin: 0;
             font-weight: normal;
             flex: 1;
+            color: #FFE4B5;
         }
 
         .selected-cards {
             margin-top: 15px;
             padding: 15px;
-            background: #f0f0f0;
+            background: linear-gradient(135deg, #2a1a1a 0%, #3d2a2a 100%);
+            border: 1px solid #8B4513;
             border-radius: 8px;
             min-height: 50px;
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
         }
 
         .selected-card {
             display: inline-block;
-            background: #667eea;
-            color: white;
+            background: linear-gradient(135deg, #CD5C5C 0%, #DC143C 100%);
+            color: #FFE4B5;
             padding: 5px 12px;
             margin: 5px;
             border-radius: 20px;
             font-size: 14px;
+            box-shadow: 0 2px 4px rgba(220, 20, 60, 0.3);
         }
 
         .selected-card .remove {
@@ -155,8 +180,8 @@
         }
 
         .button {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+            background: linear-gradient(135deg, #CD5C5C 0%, #DC143C 100%);
+            color: #FFE4B5;
             padding: 15px 30px;
             border: none;
             border-radius: 8px;
@@ -166,11 +191,14 @@
             transition: transform 0.2s, box-shadow 0.2s;
             width: 100%;
             margin-top: 20px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 10px rgba(220, 20, 60, 0.4);
         }
 
         .button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 6px 20px rgba(220, 20, 60, 0.6);
+            background: linear-gradient(135deg, #DC143C 0%, #FF4500 100%);
         }
 
         .button:active {
@@ -186,11 +214,15 @@
         .result {
             margin-top: 30px;
             padding: 25px;
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            background: linear-gradient(135deg, #8B4513 0%, #CD5C5C 50%, #DC143C 100%);
+            background-image: 
+                radial-gradient(circle at 30% 30%, rgba(255, 140, 0, 0.2) 0%, transparent 50%);
             border-radius: 12px;
-            color: white;
+            color: #FFE4B5;
             text-align: center;
             display: none;
+            box-shadow: 0 8px 25px rgba(220, 20, 60, 0.5);
+            border: 2px solid rgba(255, 140, 0, 0.3);
         }
 
         .result.show {
@@ -229,15 +261,21 @@
             display: none;
             text-align: center;
             padding: 20px;
+            color: #FFE4B5;
         }
 
         .loading.show {
             display: block;
         }
 
+        .loading p {
+            color: #FFB6C1;
+            margin-top: 10px;
+        }
+
         .spinner {
-            border: 4px solid #f3f3f3;
-            border-top: 4px solid #667eea;
+            border: 4px solid #3d1a1a;
+            border-top: 4px solid #CD5C5C;
             border-radius: 50%;
             width: 40px;
             height: 40px;
@@ -272,7 +310,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🌍 Terraforming Mars</h1>
+            <h1>Terraforming Mars</h1>
             <p>VP Predictor</p>
         </div>
 
@@ -298,7 +336,7 @@
                     </div>
                 </div>
                 <div class="selected-cards" id="selectedCards">
-                    <div style="color: #999;">No cards selected</div>
+                    <div style="color: #8B7355;">No cards selected</div>
                 </div>
             </div>
 
@@ -350,7 +388,7 @@
                 const response = await fetch(`${API_BASE}/corporations`);
                 const data = await response.json();
                 allCorporations = data.corporations;
-                
+
                 const select = document.getElementById('corporation');
                 select.innerHTML = '<option value="">Select a corporation...</option>';
                 allCorporations.forEach(corp => {
@@ -379,7 +417,7 @@
 
         function renderCards(filter = '') {
             const selector = document.getElementById('cardSelector');
-            const filtered = allCards.filter(card => 
+            const filtered = allCards.filter(card =>
                 card.name.toLowerCase().includes(filter.toLowerCase())
             );
 
@@ -389,7 +427,7 @@
                 div.className = 'card-item';
                 const checked = selectedCardNames.has(card.name) ? 'checked' : '';
                 div.innerHTML = `
-                    <input type="checkbox" id="card-${card.name}" ${checked} 
+                    <input type="checkbox" id="card-${card.name}" ${checked}
                            onchange="toggleCard('${card.name.replace(/'/g, "\\'")}')">
                     <label for="card-${card.name}">${card.name}</label>
                 `;
@@ -409,7 +447,7 @@
         function updateSelectedCardsDisplay() {
             const container = document.getElementById('selectedCards');
             if (selectedCardNames.size === 0) {
-                container.innerHTML = '<div style="color: #999;">No cards selected</div>';
+                container.innerHTML = '<div style="color: #8B7355;">No cards selected</div>';
                 return;
             }
 
@@ -480,9 +518,9 @@
         }
 
         function showResult(data) {
-            document.getElementById('predictedPoints').textContent = 
+            document.getElementById('predictedPoints').textContent =
                 Math.round(data.predicted_points);
-            document.getElementById('resultDetails').textContent = 
+            document.getElementById('resultDetails').textContent =
                 `Corporation: ${data.corporation} | Cards: ${data.num_cards}`;
             document.getElementById('result').classList.add('show');
         }
