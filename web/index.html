@@ -305,6 +305,119 @@
             margin-bottom: 15px;
         }
 
+        .navigation {
+            display: flex;
+            gap: 10px;
+            padding: 15px 30px;
+            background: rgba(61, 42, 42, 0.5);
+            border-bottom: 1px solid #8B4513;
+        }
+
+        .nav-button {
+            background: transparent;
+            border: 2px solid #CD5C5C;
+            color: #FFE4B5;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .nav-button:hover {
+            background: #CD5C5C;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(205, 92, 92, 0.4);
+        }
+
+        .nav-button.active {
+            background: linear-gradient(135deg, #CD5C5C 0%, #DC143C 100%);
+            border-color: #DC143C;
+        }
+
+        .page {
+            display: none;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        .info-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(61, 42, 42, 0.3);
+            border-radius: 12px;
+            border-left: 4px solid #CD5C5C;
+        }
+
+        .info-section h3 {
+            color: #FF6B6B;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            border-bottom: 2px solid #CD5C5C;
+            padding-bottom: 10px;
+        }
+
+        .info-section p {
+            color: #FFE4B5;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .info-section ul, .info-section ol {
+            color: #FFE4B5;
+            margin-left: 30px;
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+
+        .info-section li {
+            margin-bottom: 8px;
+        }
+
+        .info-section code {
+            background: rgba(139, 69, 19, 0.3);
+            padding: 2px 8px;
+            border-radius: 4px;
+            color: #FFB6C1;
+            font-family: 'Courier New', monospace;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .metric-card {
+            background: linear-gradient(135deg, #3d2a2a 0%, #5a3a3a 100%);
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #8B4513;
+            text-align: center;
+        }
+
+        .metric-card h4 {
+            color: #FF6B6B;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .metric-card .value {
+            color: #FFE4B5;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .metric-card .label {
+            color: #FFB6C1;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
     </style>
 </head>
 <body>
@@ -314,7 +427,14 @@
             <p>VP Predictor</p>
         </div>
 
+        <div class="navigation">
+            <button class="nav-button active" onclick="showPage('predictor')">Predictor</button>
+            <button class="nav-button" onclick="showPage('about')">About Project</button>
+        </div>
+
         <div class="content">
+            <!-- Predictor Page -->
+            <div id="predictor-page" class="page active">
             <div class="section">
                 <h2>Select Corporation</h2>
                 <div class="form-group">
@@ -354,7 +474,199 @@
                 <div class="points" id="predictedPoints">0</div>
                 <div class="details" id="resultDetails"></div>
             </div>
+            </div>
 
+            <!-- About Page -->
+            <div id="about-page" class="page">
+                <div class="info-section">
+                    <h3>Project Overview</h3>
+                    <p>
+                        This interactive web application uses machine learning to predict Victory Points (VP) in the
+                        board game Terraforming Mars based on the corporation a player chooses and the cards they start
+                        with. Players select their corporation and initial cards, and the app estimates their final
+                        score using historical game data. The goal is to help players decide which corporation best
+                        fits their opening hand, while also analyzing how strongly corporation choice and early card
+                        selection influence the total score.
+                    </p>
+                    <p>
+                        The prediction model was trained on real game data, analyzing patterns between card combinations, 
+                        corporation choices, and final victory point totals to help players make more informed decisions 
+                        during gameplay.
+                    </p>
+                </div>
+
+                <div class="info-section">
+                    <h3>Methods & Machine Learning Approach</h3>
+                    <h4 style="color: #FFB6C1; margin-top: 15px; margin-bottom: 10px;">Feature Engineering</h4>
+                    <p>
+                        The model uses the following features extracted from selected cards and corporation:
+                    </p>
+                    <ul>
+                        <li><strong>Card Tags:</strong> Building, Jovian, Power, Science, City, Event, Space, Earth, Plant, Animal, Microbe</li>
+                        <li><strong>Total VP from Cards:</strong> Sum of victory points provided by selected cards</li>
+                        <li><strong>Total Price:</strong> Combined cost of all selected cards</li>
+                        <li><strong>Corporation:</strong> One-hot encoded corporation selection</li>
+                    </ul>
+
+                    <h4 style="color: #FFB6C1; margin-top: 15px; margin-bottom: 10px;">Model Architecture</h4>
+                    <p>
+                        The application uses a <strong>Linear Regression</strong> model with the following preprocessing pipeline:
+                    </p>
+                    <ul>
+                        <li><strong>Numerical Features:</strong> Median imputation + StandardScaler normalization</li>
+                        <li><strong>Categorical Features (Corporation):</strong> Most frequent imputation + OneHotEncoder</li>
+                        <li><strong>Data Splitting:</strong> GroupShuffleSplit (80/20) to preserve game groups, preventing data leakage</li>
+                    </ul>
+
+                    <h4 style="color: #FFB6C1; margin-top: 15px; margin-bottom: 10px;">Model Training</h4>
+                    <p>
+                        The model is trained using scikit-learn's LinearRegression with default parameters. 
+                        The training process:
+                    </p>
+                    <ol>
+                        <li>Loads game data from CSV format</li>
+                        <li>Extracts features from card tags, VP, price, and corporation</li>
+                        <li>Splits data into training (80%) and test (20%) sets using GroupShuffleSplit</li>
+                        <li>Applies preprocessing pipeline (imputation, scaling, encoding)</li>
+                        <li>Trains the linear regression model</li>
+                        <li>Evaluates performance using R² score, MAE, and RMSE metrics</li>
+                    </ol>
+                </div>
+
+                <div class="info-section">
+                    <h3>Results & Performance</h3>
+                    <p>
+                        The model performance is evaluated using standard regression metrics:
+                    </p>
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <h4>R² Score</h4>
+                            <div class="value">0.0660</div>
+                            <div class="label">Coefficient of Determination</div>
+                        </div>
+                        <div class="metric-card">
+                            <h4>MAE</h4>
+                            <div class="value">12.4691</div>
+                            <div class="label">Mean Absolute Error</div>
+                        </div>
+                        <div class="metric-card">
+                            <h4>RMSE</h4>
+                            <div class="value">16.4147</div>
+                            <div class="label">Root Mean Squared Error</div>
+                        </div>
+                    </div>
+                    <p style="margin-top: 20px;">
+                        <em>Note: Actual metrics are calculated during model training. The model is trained locally 
+                        and deployed with the application.</em>
+                    </p>
+                    <h4 style="color: #FFB6C1; margin-top: 15px; margin-bottom: 10px;">Explanation</h4>
+                   <p>
+                        We evaluated several regression models (including Lasso and related approaches), but their performance was very similar.
+                        This outcome suggests that the corporation choice and the initial card set are only weak predictors of the final Victory Points.
+                        In practice, much stronger predictors would include information that becomes available later in the game—such as awards and milestones,
+                        the number of generations, and the amount of cities, greenery, and other board development. However, the goal of this project was to support
+                        decision-making at the very start of the game, when these attributes are still unknown. This also highlights the complexity of
+                        <strong>Terraforming Mars</strong>, where many mid- and late-game decisions significantly influence the final score.
+                        Another limiting factor was data availability: our dataset contained approximately 1500 records, which is relatively small compared to the large
+                        number of unique cards in the game. For this reason, we represented cards using aggregated tag counts rather than relying only on individual card names.
+                    </p>
+                    <h4 style="color: #FFB6C1; margin-top: 15px; margin-bottom: 10px;">Future</h4>
+                        <p>
+                            - In the future, we would like to implement an algorithm that computes the best combination of corporation and starting cards (by running multiple prediction calls).<br>
+                            - We would like to add more in-game features (e.g., milestones/awards, number of generations, cities, greenery, plants, and other board metrics) to improve prediction accuracy.<br>
+                            - We would like to expand the dataset with more recorded games to make the model more robust and reliable.
+                        </p>
+                </div>
+
+                <div class="info-section">
+                    <h3>Dataset Creation</h3>
+                    <p>
+                        The dataset was created through a multi-step process:
+                    </p>
+
+                    <h4 style="color: #FFB6C1; margin-top: 15px; margin-bottom: 10px;">Step 1: Raw Data Collection</h4>
+                    <p>
+                        Game data was collected from actual Terraforming Mars game sessions, stored in JSON format 
+                        containing:
+                    </p>
+                    <ul>
+                        <li><strong>Game Dictionary (gamedict):</strong> Contains final victory point totals for each game</li>
+                        <li><strong>Log Dictionary (logdict):</strong> Contains game logs with corporation selections and card purchases</li>
+                    </ul>
+                    <p style="margin-top: 20px;">
+                        <em>Note: Available at: <a style="color: #cccccc;" href="https://github.com/RuneDK93/terraforming-mars-dataset.git">https://github.com/RuneDK93/terraforming-mars-dataset.git</a></em>
+                    </p>
+
+                    <h4 style="color: #FFB6C1; margin-top: 15px; margin-bottom: 10px;">Step 2: Data Parsing</h4>
+                    <p>
+                        The <code>parse_dataset.py</code> script processes the raw JSON data:
+                    </p>
+                    <ul>
+                        <li><strong>VP Extraction:</strong> Parses the game dictionary to extract final VP totals for each game</li>
+                        <li><strong>Corporation Extraction:</strong> Parses log text to find lines starting with "You choose corporation"</li>
+                        <li><strong>Card Extraction:</strong> Parses log text to find all lines starting with "You buy" (card purchases)</li>
+                        <li><strong>Merging:</strong> Combines VP totals with corporation and card data by matching game_id</li>
+                    </ul>
+
+                    <h4 style="color: #FFB6C1; margin-top: 15px; margin-bottom: 10px;">Step 3: Feature Extraction</h4>
+                    <p>
+                        The <code>tm_card_score.py</code> script processes the parsed games:
+                    </p>
+                    <ul>
+                        <li><strong>Card Lookup:</strong> Matches card names from games to card definitions in <code>cards.json</code></li>
+                        <li><strong>Tag Counting:</strong> Counts occurrences of each tag type (building, space, science, etc.)</li>
+                        <li><strong>VP Summation:</strong> Calculates total VP from all selected cards</li>
+                        <li><strong>Price Summation:</strong> Calculates total cost of all selected cards</li>
+                        <li><strong>Corporation Normalization:</strong> Normalizes corporation names to lowercase</li>
+                    </ul>
+
+                    <h4 style="color: #FFB6C1; margin-top: 15px; margin-bottom: 10px;">Step 4: CSV Export</h4>
+                    <p>
+                        The processed data is exported to CSV format with columns:
+                    </p>
+                    <ul>
+                        <li><code>game_id</code> - Unique game identifier</li>
+                        <li><code>points</code> - Final victory points (target variable)</li>
+                        <li><code>building, jovian, power, science, city, event, space, earth, plant, animal, microbe</code> - Tag counts</li>
+                        <li><code>totalVp</code> - Sum of VP from cards</li>
+                        <li><code>totalPrice</code> - Sum of card costs</li>
+                        <li><code>corporation</code> - Selected corporation name</li>
+                    </ul>
+
+                    <h4 style="color: #FFB6C1; margin-top: 15px; margin-bottom: 10px;">Data Sources</h4>
+                    <p>
+                        The dataset includes:
+                    </p>
+                    <ul>
+                        <li><strong>Card Definitions:</strong> <code>cards/cards.json</code> - Complete card database with tags, VP, and prices</li>
+                        <li><strong>Corporation Definitions:</strong> <code>cards/corporations.json</code> - All available corporations</li>
+                        <li><strong>Game Data:</strong> <code>datasets/games.json</code> - Raw game logs and results</li>
+                        <li><strong>Processed Data:</strong> <code>datasets/parsed_dataset.json</code> - Parsed game data</li>
+                        <li><strong>Training Data:</strong> <code>datasets/games.csv</code> - Final CSV for model training</li>
+                    </ul>
+                </div>
+
+                <div class="info-section">
+                    <h3>Technology Stack</h3>
+                    <ul>
+                        <li><strong>Backend:</strong> FastAPI (Python web framework)</li>
+                        <li><strong>Frontend:</strong> HTML, CSS, JavaScript (vanilla)</li>
+                        <li><strong>Machine Learning:</strong> scikit-learn (LinearRegression, preprocessing pipelines)</li>
+                        <li><strong>Data Processing:</strong> pandas, numpy</li>
+                        <li><strong>Model Persistence:</strong> joblib</li>
+                    </ul>
+                </div>
+                <div class="info-section">
+                    <h3>Using AI</h3>
+                    <p>AI was used in this project for the following purposes:</p>
+                    <ul>
+                        <li><strong>Frontend:</strong> Generating the website layout and styling using Cursor</li>
+                        <li><strong>Backend:</strong> Recommending suitable technologies and architectural choices</li>
+                        <li><strong>Machine Learning:</strong> Refactoring and cleaning the ML-related code in the web application</li>
+                        <li><strong>Spell check</strong></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -364,7 +676,19 @@
         let allCorporations = [];
         let selectedCardNames = new Set();
 
-        // Load data on page load
+        function showPage(pageId) {
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+            
+            document.getElementById(pageId + '-page').classList.add('active');
+
+            document.querySelectorAll('.nav-button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+
         window.addEventListener('DOMContentLoaded', async () => {
             await checkModelStatus();
             await loadCorporations();
@@ -380,6 +704,18 @@
                 }
             } catch (error) {
                 console.error('Error checking model status:', error);
+            }
+        }
+
+        async function loadModelInfo() {
+            try {
+                const response = await fetch(`${API_BASE}/model/info`);
+                const data = await response.json();
+                if (data.model_type) {
+                    const metricCards = document.querySelectorAll('.metric-card .value');
+                }
+            } catch (error) {
+                console.error('Error loading model info:', error);
             }
         }
 
@@ -467,7 +803,6 @@
             if (checkbox) checkbox.checked = false;
         }
 
-        // Search functionality
         document.getElementById('cardSearch').addEventListener('input', (e) => {
             renderCards(e.target.value);
         });
@@ -484,7 +819,6 @@
                 return;
             }
 
-            // Show loading
             document.getElementById('loading').classList.add('show');
             document.getElementById('error').classList.remove('show');
             document.getElementById('result').classList.remove('show');

@@ -196,3 +196,21 @@ async def model_status():
         "model_exists": MODEL_PATH.exists()
     }
 
+
+@app.get("/model/info")
+async def model_info():
+    """Get model information and metrics if available."""
+    info = {
+        "model_loaded": model_pipeline is not None,
+        "model_path": str(MODEL_PATH),
+        "model_exists": MODEL_PATH.exists()
+    }
+    
+    # Try to load model info if available (could be stored separately)
+    # For now, return basic info
+    if model_pipeline is not None:
+        info["model_type"] = type(model_pipeline.named_steps['model']).__name__
+        info["has_preprocessing"] = 'prep' in model_pipeline.named_steps
+    
+    return info
+

@@ -8,6 +8,10 @@ from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LinearRegression, Ridge, HuberRegressor
 from sklearn.ensemble import RandomForestRegressor
 
+from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
+import numpy as np
+
+
 
 def make_onehot_dense():
     try:
@@ -15,6 +19,16 @@ def make_onehot_dense():
     except TypeError:
         return OneHotEncoder(handle_unknown="ignore", sparse=False)
 
+def _print_metrics(y_true, y_pred, label="TEST"):
+    r2 = r2_score(y_true, y_pred)
+    mae = mean_absolute_error(y_true, y_pred)
+    rmse = np.sqrt(mean_squared_error(y_true, y_pred))
+
+    print(f"\n{label} metrics")
+    print("-" * (len(label) + 8))
+    print(f"R² Score: {r2:.4f}")
+    print(f"MAE:      {mae:.4f}")
+    print(f"RMSE:     {rmse:.4f}")
 
 # todo tune
 
@@ -94,8 +108,14 @@ def train_pipeline(df, model_type="LinearRegression", n_estimators=800, random_s
 
     pipe.fit(X_train, y_train)
 
+    y_pred_train = pipe.predict(X_train)
+    y_pred_test = pipe.predict(X_test)
+
     train_score = pipe.score(X_train, y_train)
     test_score = pipe.score(X_test, y_test)
+
+    _print_metrics(y_train, y_pred_train, label="TRAIN")
+    _print_metrics(y_test, y_pred_test, label="TEST")
 
     info = {
         "model_type": model_type,
